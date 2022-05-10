@@ -1,6 +1,4 @@
-# WiFi #
-
-## Connecting to a WiFi network ##
+# Connecting to a WiFi network #
 
 We suggest using the `nmtui` command to connect to WiFi networks.
 
