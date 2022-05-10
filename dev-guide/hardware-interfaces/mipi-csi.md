@@ -9,3 +9,5 @@ Pin 1 (P1) on the Google Coral Camera should be connected to the pin with the ar
 
 ![Red box shows pin 1 on the camera.](../../.gitbook/assets/coral_camera_pins.jpg)
 ![Red box shows pin 1 on the MIPI-CSI connector.](../../.gitbook/assets/mipi_csi_pins.jpg)
+
+![Image shows the Google Coral Camera connected to the NavQ+.](../../.gitbook/assets/coral_camera_orientation.jpg)
