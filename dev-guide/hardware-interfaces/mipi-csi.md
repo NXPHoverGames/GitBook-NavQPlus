@@ -6,6 +6,6 @@ BEWARE! If the Google Coral Camera is connected backwards, it will cause a short
 
 
 Pin 1 (P1) on the Google Coral Camera should be connected to the pin with the arrow on the MIPI-CSI port. Please see the images below. The sides with the red box should line up. You should see the blue on the flex cable when connecting to the MIPI-CSI port.
-![Red box shows pin 1 on the camera.](../../.gitbook/assets/coral_camera_pins.jpg)
 
+![Red box shows pin 1 on the camera.](../../.gitbook/assets/coral_camera_pins.jpg)
 ![Red box shows pin 1 on the MIPI-CSI connector.](../../.gitbook/assets/mipi_csi_pins.jpg)
