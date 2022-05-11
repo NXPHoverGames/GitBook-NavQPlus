@@ -13,7 +13,7 @@ Also take a look at some of our other Gitbooks:
 This gitbook is under construction.
 {% endhint %}
 
-{IMAGE OF NAVQ+}
+![](.gitbook/assets/navqplus_image.jpg)
 
 The 8MPNavQ is a small purpose built experimental Linux computer based on the [NXP i.MX 8M Plus SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS). It is focused on the common needs of Mobile Robotics systems.
 
