@@ -21,7 +21,17 @@ Run chmod a+x on this script and run it on your machine. This will install ROS2 
 
 ## Second step: Creating a ROS2 workspace and building sim_ignition_bringup
 
-It is recommended that you create a ROS2 workspace at ~/git/ros2/, but you are free to create it wherever you want. In this gude, we will use that location. To once you create that path, create a new folder at ~/git/ros2/src, and change directories to it. Inside ~/git/ros2/src, run: `git clone https://github.com/rudislabs/sim_ignition_bringup.git -b RoverGamesDemo`. Once that is cloned, go up one folder to ~/git/ros2, and run: `colcon build --symlink-install`. Once this is done, run: `echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc` to add the sourcing script to your bashrc. Run `source ~/.bashrc` now to source everything, and run `ros2 launch sim_ignition_bringup sim_ignition_bringup.launch.py` to run the simulation. Now your simulation should launch and you should see the MR-Buggy3 in simulation with a track and an elderly lady crossing the road to her ambulance.
+It is recommended that you create a ROS2 workspace at ~/git/ros2/, but you are free to create it wherever you want. In this gude, we will use that location. Follow the steps below.
+
+```
+$ mkdir -p ~/git/ros2/src
+$ cd ~/git/ros2/src
+$ git clone https://github.com/rudislabs/sim_ignition_bringup.git -b RoverGamesDemo
+$ cd ..
+$ colcon build --symlink-install
+$ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
 
 # Setting up the NavQ+
 
@@ -31,7 +41,17 @@ Follow the steps used above for your laptop to set up ROS2 on your NavQ+.
 
 ## Second step:
 
-You'll want to also create a ROS2 workspace on your NavQ+. This step is similar to the step for setting up the laptop, but instead of cloning sim_ignition_bringup, you'll want to clone ros2_orchestrator. Follow the steps above, but replace sim_ignition_bringup with ros2_orchestrator. Do not run `ros2 launch` for this step.
+You'll want to also create a ROS2 workspace on your NavQ+. This step is similar to the step for setting up the laptop, but instead of cloning sim_ignition_bringup, you'll want to clone ros2_orchestrator. Follow the steps below.
+
+```
+$ mkdir -p ~/git/ros2/src
+$ cd ~/git/ros2/src
+$ git clone https://github.com/rudislabs/ros2_orchestrator.git -b NavQPlusPX4Demo
+$ cd ..
+$ colcon build --symlink-install
+$ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
 
 # Running the simulation
 
