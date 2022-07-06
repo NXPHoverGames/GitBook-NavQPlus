@@ -37,6 +37,6 @@
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
 
-## MR-Buggy3 Demo Guide
+## MR-Buggy3 Demo
 
-* [mr-buggy3-demo](mr-buggy3-demo/mr-buggy3-demo-guide.md)
+* [MR-Buggy3 Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
