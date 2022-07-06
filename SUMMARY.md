@@ -36,3 +36,7 @@
   * [eIQ](dev-guide/software/eiq.md)
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
+
+## MR-Buggy3 Demo Guide
+
+* [mr-buggy3-demo](mr-buggy3-demo/mr-buggy3-demo-guide.md)
