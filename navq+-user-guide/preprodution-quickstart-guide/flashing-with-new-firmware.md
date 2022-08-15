@@ -8,7 +8,7 @@ See below for instructions on how to flash the SD card or eMMC on NavQ+.
 The NavQ+ comes with a 32GB SD card that you can flash with the pre-built Ubuntu 20.04 image. See below for instructions to flash your SD card on each platform.
 
 {% hint style="info" %}
-    **You must have an SD card reader available on your system to perform these instructions.**
+    You must have an SD card reader available on your system to perform these instructions.
 {% endhint %}
 
 ### Windows
@@ -19,7 +19,7 @@ Once you have downloaded Win32DiskImager, insert your SD card into your computer
 Next, select your SD card under Device.
 
 {% hint style="warning" %}
-    **Be careful and make sure that your Device selection is the drive letter for your SD card. Don't erase your hard drive!**
+    Be careful and make sure that your Device selection is the drive letter for your SD card. Don't erase your hard drive!
 {% endhint %}
 
 Finally, click Write.
@@ -34,7 +34,7 @@ To do this, open a terminal and navigate to the folder that you downloaded the `
 Once you are there, insert your SD card, and find the device path for it. Typically, it will be something like `/dev/sdX` on Linux or `/dev/diskX` on Mac.
 
 {% hint style="warning" %}
-    **Be careful that you select the correct drive path when using `dd` to flash your SD card. You can confirm with the "Disks" app on Ubuntu or the "Disk Utility" app on Mac.**
+    Be careful that you select the correct drive path when using `dd` to flash your SD card. You can confirm with the "Disks" app on Ubuntu or the "Disk Utility" app on Mac.
 {% endhint %}
 
 Once you have found your device path, run the following command in your terminal to flash the SD card:
@@ -62,7 +62,7 @@ Then, connect NavQ+ to your computer using the centermost USB-C® port. Run the 
 $ ./uuu[.exe] -lsusb
 ```
 
-**TODO: Add iamge**
+**TODO: Add image**
 
 You should see that there is a device detected. If so, you can continue flashing. To flash your board, use the command below:
 
