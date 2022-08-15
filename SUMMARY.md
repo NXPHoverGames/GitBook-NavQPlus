@@ -33,7 +33,7 @@
   * [LVDS](dev-guide/hardware-interfaces/lvds.md)
 * [Software](dev-guide/software/README.md)
   * [ROS2](dev-guide/software/ros2.md)
-  * [eIQ](dev-guide/software/eiq.md)
+  * [Machine Learning](dev-guide/software/machine-learning.md)
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
 

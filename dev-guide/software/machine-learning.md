@@ -1,4 +1,4 @@
-# eIQ
+# Machine Learning
 
 ## Inference examples
 
