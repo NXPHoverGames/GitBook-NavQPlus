@@ -1,4 +1,4 @@
-# Machine Learning
+# AI/ML
 
 ## Inference examples
 
