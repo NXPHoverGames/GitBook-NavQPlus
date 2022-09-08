@@ -77,3 +77,4 @@ The intent of the 8MPNavQ in HoverGames is to enable participants with a solutio
 * And more!
 
 The 8MPNavQ runs linux with a package manager, so you should be able to install the packages that you need to complete your projects successfully and efficiently.
+![NXP_logo_RGB_ppt_00](https://user-images.githubusercontent.com/10509054/189196701-a09b0ce9-6989-43ff-a5d0-3805a7ca0a19.jpg)
