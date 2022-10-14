@@ -22,7 +22,11 @@ Image reference of how the camera should be connected to the NavQ+. Please note 
 
 ## Camera Mount&#x20;
 
-Depending on your kit, there may be a tall or short camera mount included. The short version typically ships with the NavQPlus itself![](../../.gitbook/assets/image.png),
+Depending on your kit, there may be a tall or short camera mount included. The short version typically ships with the NavQPlus itself, while a tall version may come with an MR-Buggy3 development kit. Please refer to the image below for information on how to assemble.&#x20;
+
+The camera mount is provided unassembled.
+
+<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">,
 
 \
 

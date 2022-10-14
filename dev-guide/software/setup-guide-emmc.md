@@ -34,7 +34,7 @@ Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20
 ./uuu[.exe] -lsusb 
 ```
 
-``<img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">``
+``<img src="../../.gitbook/assets/image.png" alt="" data-size="original">``
 
 You should see that there is a device detected. If so, you can continue flashing. To flash your board, use the command below:&#x20;
 
