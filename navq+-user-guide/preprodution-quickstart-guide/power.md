@@ -1,6 +1,6 @@
 # Power
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 There are currently two ways to power NavQ+. You can power it through the PWR IN port or through the USB-C port in the middle
 

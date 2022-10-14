@@ -36,6 +36,7 @@
   * [AI/ML](dev-guide/software/ai.md)
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
+  * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
 
 ## MR-Buggy3 Demo
 

@@ -39,7 +39,7 @@ PDF of Camera Mount assembly
 
 
 
-![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1).png>)
+![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1) (2).png>)
 
 \
 &#x20;
