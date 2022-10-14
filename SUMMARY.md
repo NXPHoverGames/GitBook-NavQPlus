@@ -21,7 +21,7 @@
 * [Hardware interfaces](dev-guide/hardware-interfaces/README.md)
   * [CAN Bus](dev-guide/hardware-interfaces/can-bus.md)
   * [IX Industrial Ethernet](dev-guide/hardware-interfaces/ix-industrial-ethernet.md)
-  * [MIPI CSI](dev-guide/hardware-interfaces/mipi-csi.md)
+  * [MIPI CSI (Camera)](dev-guide/hardware-interfaces/mipi-csi.md)
   * [T1 2-wire Automotive Ethernet](dev-guide/hardware-interfaces/t1-2-wire-automotive-ethernet.md)
   * [WiFi](dev-guide/hardware-interfaces/wifi.md)
   * [I2C](dev-guide/hardware-interfaces/i2c.md)
