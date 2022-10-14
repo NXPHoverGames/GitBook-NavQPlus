@@ -23,12 +23,19 @@ Image reference of how the camera should be connected to the NavQ+. Please note 
 ## Camera Mount&#x20;
 
 Depending on your kit, there may be a tall or short camera mount included. Refer to the image below for information on how to assemble.\
-Note that there are three scews (item 10) and nuts (item 8) that connect the inner case (item3) to the camera adapter (item 2)\
+Note that there are three scews (item 10) and nuts (item 8) that connect the inner case (item3) to the camera adapter (item 2)
 
+{% hint style="success" %}
+Note that the camera mount base is designed to be compatible with other off the shelf action cameras.
+{% endhint %}
 
 {% file src="../../.gitbook/assets/ASY Camera mount for Drone.pdf" %}
 PDF of Camera Mount assembly
 {% endfile %}
 
-![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1).png>)\
-&#x20;&#x20;
+
+
+![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1).png>)
+
+\
+&#x20;
