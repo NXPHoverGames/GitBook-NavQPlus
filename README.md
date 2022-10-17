@@ -20,7 +20,7 @@ The 8MPNavQ is a small purpose built experimental Linux computer based on the [N
 The system is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.\
 This is a brand new set of boards and software enablement will undergo several iterations. Our intent is to provide a "friendly Linux" with typical packages and additional tools included rather than the typical highly optimized and stripped down Linux found in deeply embedded products.
 
-The 8MMNavQ features:
+The 8MPNavQ features:
 
 1. NXP i.MX 8M Plus SOM with LPDDR4 DRAM and eMMC Flash.
    1. 4x Arm Cortex-A53
@@ -43,8 +43,6 @@ The 8MMNavQ features:
 
 The NavQ+ is suitable for many purposes, including generic robots, various vision systems, and AI/ML applications.
 
-The NavQ is suitable for many purposes, including generic robots and various vision systems.
-
 * Drones, QuadCopters, Unmanned Aircraft, VTOL
 * Rovers
 * Road going Delivery Vehicles
@@ -60,7 +58,7 @@ The NavQ is suitable for many purposes, including generic robots and various vis
 * Vision systems in other applications
   * e.g a hospital bed monitor that detects if a patient is sitting up or at risk of falling out of bed.
 
-Two specific complete developer tool examples are the [NXP HoverGames Drone](https://nxp.gitbook.io/hovergames), and the NXP-CUP car.
+Two specific complete developer tool examples are the [NXP HoverGames Drone](https://nxp.gitbook.io/hovergames), and the [NXP-CUP car](https://nxp.gitbook.io/nxp-cup).
 
 ## Software
 
