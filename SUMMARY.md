@@ -40,4 +40,4 @@
 
 ## MR-Buggy3 Demo
 
-* [MR-Buggy3 Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
+* [NavQ+MR-Buggy3 Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
