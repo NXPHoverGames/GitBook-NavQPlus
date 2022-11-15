@@ -1,3 +1,7 @@
+---
+description: An i.MX 8M Plus companion computer for robotics
+---
+
 # NavQPlus
 
 {% hint style="success" %}
@@ -13,9 +17,9 @@ Also take a look at some of our other Gitbooks:
 This gitbook is under construction.
 {% endhint %}
 
-![](.gitbook/assets/navqplus_image.jpg)
+![](.gitbook/assets/navqplus\_image.jpg)
 
-The 8MPNavQ is a small purpose built experimental Linux computer based on the [NXP i.MX 8M Plus SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS). It is focused on the common needs of Mobile Robotics systems.
+The 8MPNAVQ AKA NavQPlus is a small purpose built experimental Linux computer based on the [NXP i.MX 8M Plus SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS). It is focused on the common needs of Mobile Robotics systems.
 
 The system is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.\
 This is a brand new set of boards and software enablement will undergo several iterations. Our intent is to provide a "friendly Linux" with typical packages and additional tools included rather than the typical highly optimized and stripped down Linux found in deeply embedded products.
@@ -41,9 +45,9 @@ The 8MMNavQ features:
 
 ## Applications
 
-The NavQ+ is suitable for many purposes, including generic robots, various vision systems, and AI/ML applications.
+The NavQPlus is suitable for many purposes, including generic robots, various vision systems, and AI/ML applications.
 
-The NavQ is suitable for many purposes, including generic robots and various vision systems.
+The NavQPlus is suitable for many purposes, including generic robots and various vision systems.
 
 * Drones, QuadCopters, Unmanned Aircraft, VTOL
 * Rovers
@@ -77,4 +81,3 @@ The intent of the 8MPNavQ in HoverGames is to enable participants with a solutio
 * And more!
 
 The 8MPNavQ runs linux with a package manager, so you should be able to install the packages that you need to complete your projects successfully and efficiently.
-

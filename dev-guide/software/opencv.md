@@ -1,5 +1,9 @@
 # OpenCV
 
+{% hint style="info" %}
+If using an downloaded image, check first that these packages are not already installed.
+{% endhint %}
+
 ## Accessing the cameras using OpenCV in Python
 
 ### Getting started

@@ -1,16 +1,16 @@
-# NavQ+MR-Buggy3 Demo Guide
+# NavQPlus\_MR-Buggy3 Tradeshow Demo Guide
 
 ## Description
 
 {% hint style="info" %}
-This section documents a tradeshow demo using both the NavQ+ and The NXP MR-Buggy3 platform. Please note that this demo is subject to ongoing changes and updates and may at some point be "broken". The information here may be useful for similar types of demonstrators.
+This section documents a tradeshow demo using both the NavQPlus and The NXP MR-Buggy3 platform. Please note that this demo is subject to ongoing changes and updates and may at some point be "broken". The information here may be useful for similar types of demonstrators.
 {% endhint %}
 
-The NavQ+MR-Buggy3 demo is a demonstration of the capabilities of the NavQ+, the MR-Buggy3 platform, and NXP's CAN Bus hardware and software support for ROS2. This guide will walk you through setting up the MR-Buggy3 demo on both your laptop and the NavQ+. This demo consists of:
+The NavQPlus\_MR-Buggy3 demo is a demonstration of the capabilities of the NavQPlus, the MR-Buggy3 platform, and NXP's CAN Bus hardware and software support for ROS2. This guide will walk you through setting up the MR-Buggy3 demo on both your laptop and the NavQPlus. This demo consists of:
 
 * A Gazebo Ignition simulation environment with the MR-Buggy3 model running
 * Connection to the actual Buggy3 hardware meaning HITL (hardware in the loop) control of the real life MR-Buggy3
-* A showcase of the NPU (neural accelerator) on the NavQ+ running inference on the real world camera data **as well as** a virtual camera from the simulation environment
+* A showcase of the NPU (neural accelerator) on the NavQPlus running inference on the real world camera data **as well as** a virtual camera from the simulation environment
 * ROS2 <-> Cyphal\* <-> uORB transport (\*transport layer only)
 * CAN communications from NavQ+ to the UCANS32K146 CAN-FD node driving a PWM and LED
 * PWM control in PX4 using the PCA9685
@@ -21,7 +21,7 @@ To run this demo, you must have an Ubuntu 20.04 or 22.04 machine. It is recommen
 
 ### First step: Running the NXP install script
 
-Download the nxp\_install.sh script using a webbrowser to your local linux machine.(Currently this) is located at&#x20;
+Download the nxp\_install.sh script using a webbrowser to your local Linux machine.(Currently this) is located at&#x20;
 
 `https://github.com/rudislabs/nxp_install.git`
 
@@ -34,7 +34,7 @@ on this script and run it on your machine.&#x20;
 This will install ROS2 and all required dependencies.
 
 {% hint style="info" %}
-On systems where you may have upgraded from Ubuntu 20.04 to 22.04 occasionally an error is encounterd.\
+On systems where you have upgraded from Ubuntu 20.04 to 22.04 occasionally an error is encountered.\
 If there is an error with the install.sh script, the first remedy to try is repeating the ROS2 sources install steps as outlined here:\
 [https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources)\
 
@@ -62,7 +62,7 @@ Follow the steps used above for your laptop to set up ROS2 on your NavQ+.
 
 ### Second step:
 
-You'll want to also create a ROS2 workspace on your NavQ+. This step is similar to the step for setting up the laptop, but instead of cloning sim\_ignition\_bringup, you'll want to clone ros2\_orchestrator. Follow the steps below.
+You'll want to also create a ROS2 workspace on your NavQPlus. This step is similar to the step for setting up the laptop, but instead of cloning sim\_ignition\_bringup, you'll want to clone ros2\_orchestrator. Follow the steps below.
 
 ```
 $ mkdir -p ~/git/ros2/src

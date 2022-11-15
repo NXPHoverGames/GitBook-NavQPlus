@@ -4,11 +4,11 @@ description: This is work in progress - derived from Gerald's notes
 
 # Setup guide - eMMC
 
-
+<\<ToDO - compare also with this [pre-existing link](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)   [https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)>>
 
 ## Install ubuntu image &#x20;
 
-The NavQplus firmware is preferrably installed on eMMC for reliability reasons. \
+The NavQplus firmware is preferably installed on eMMC for reliability reasons specifically when flying a drone. There is some potential for an SDCard to vibrate it's physical connections. However it may be convenient during development to use the SDCard \
 \
 Follow [https://iroboteducation.github.io/create3\_docs/setup/navqplus/](https://iroboteducation.github.io/create3\_docs/setup/navqplus/) \
 (TODO: copy these instructions here.)
