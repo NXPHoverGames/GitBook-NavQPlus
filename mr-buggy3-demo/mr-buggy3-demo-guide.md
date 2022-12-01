@@ -34,7 +34,9 @@ on this script and run it on your machine.&#x20;
 This will install ROS2 and all required dependencies.
 
 {% hint style="info" %}
-On systems where you have upgraded from Ubuntu 20.04 to 22.04 occasionally an error is encountered.\
+On systems where you have upgraded from Ubuntu 20.04 to 22.04 errors may be  encountered. This can become somewhat complex to resolve. A clean install is always best. Alternatively, try completely removing the old ROS directories (save any personal work) and any repository references to ROS Foxy vs Humble.\
+\
+The base thing to try first:\
 If there is an error with the install.sh script, the first remedy to try is repeating the ROS2 sources install steps as outlined here:\
 [https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources)\
 
