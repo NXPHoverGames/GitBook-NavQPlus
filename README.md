@@ -43,6 +43,10 @@ The 8MMNavQ features:
    8. 1Gb IX Ethernet
    9. JTAG BOOT
 
+### Block Diagram
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>NavQPlus Block Diagram</p></figcaption></figure>
+
 ## Applications
 
 The NavQPlus is suitable for many purposes, including generic robots, various vision systems, and AI/ML applications.

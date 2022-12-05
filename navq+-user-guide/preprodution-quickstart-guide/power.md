@@ -1,6 +1,6 @@
 # Power
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 There are two ways to power NavQPlus. You can power it through the PWR\_IN port or through the USB-C port in the middle.\
 It is preferred to power the board from PWR_IN connection for highest reliability._\
