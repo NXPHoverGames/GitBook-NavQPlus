@@ -19,6 +19,8 @@ This gitbook is under construction.
 
 ![](.gitbook/assets/navqplus\_image.jpg)
 
+## Introduction
+
 The 8MPNAVQ or "NavQPlus" is a small purpose built Linux computer EVK based on the [NXP i.MX 8M Plus SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS). It is focused on the common needs of Mobile Robotics systems.
 
 The entire design is available for companies building their own similar hardware. NavQPlus is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.
@@ -30,24 +32,24 @@ Because NavQPlus is experimental and a new set of boards and peripherals, please
 \
 It should be noted that Ubuntu POC is NOT supported by Canonical. They are however available on a contractual bases to provide commercial support for Ubuntu on NXP processors.
 
-The 8MMNavQ features:
+## Features
 
-1. NXP i.MX 8M Plus SOM with LPDDR4 DRAM and eMMC Flash.
-   1. 4x Arm Cortex-A53
-   2. 1x Arm Cortex-M7
-   3. 1x Neural Processing Unit (2.3 TOPS)
-   4. 1080p60 H.265/H.264 encoder
-   5. Dual Camera Image Signal Processor (HDR, Dewarp)
+1. NXP i.MX 8M Plus SOC on a SOM with LPDDR4 DRAM and eMMC Flash.
+   * 4x Arm Cortex-A53
+   * 1x Arm Cortex-M7
+   * 1x Neural Processing Unit (2.3 TOPS)
+   * 1080p60 H.265/H.264 encoder
+   * Dual Camera Image Signal Processor (HDR, Dewarp)
 2. A secondary board with hardware interfaces such as:
-   1. Dual MIPI-CSI and single MIPI-DSI
-   2. Two CAN-FD interfaces
-   3. I2C, SPI, UART, GPIO
-   4. SD Card slot
-   5. 2.4/5GHz WiFi and Bluetooth 5.0 using NXP 88W8987 based [Murata Type 1ZM module](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm)&#x20;
-   6. Micro HDMI
-   7. USB-C PWR in/out
-   8. 1Gb IX Ethernet
-   9. JTAG BOOT
+   * Dual MIPI-CSI camera interfaces
+   * Two CAN-FD interfaces
+   * I2C, SPI, UART, GPIO
+   * SD Card slot
+   * 2.4/5GHz WiFi and Bluetooth 5.0 using NXP 88W8987 based [Murata Type 1ZM module](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm)&#x20;
+   * Micro HDMI, MIPI-DSI, LVDS for displays
+   * USB-C PWR in/out
+   * 1Gb IX industrial Ethernet
+   * JTAG BOOT
 
 ### Block Diagram
 
@@ -59,7 +61,7 @@ The NavQPlus is suitable for many purposes, including generic robots, various vi
 
 The NavQPlus is suitable for many purposes, including generic robots and various vision systems.
 
-* Drones, QuadCopters, Unmanned Aircraft, VTOL
+* Drones, Multicopters, Unmanned Aircraft, VTOL
 * Rovers
 * Road going Delivery Vehicles
 * Robotic Lawnmowers
