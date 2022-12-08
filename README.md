@@ -43,7 +43,7 @@ The 8MMNavQ features:
    2. Two CAN-FD interfaces
    3. I2C, SPI, UART, GPIO
    4. SD Card slot
-   5. 2.4/5GHz WiFi and Bluetooth 5.0
+   5. 2.4/5GHz WiFi and Bluetooth 5.0 using NXP 88W8987 based [Murata Type 1ZM module](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm)&#x20;
    6. Micro HDMI
    7. USB-C PWR in/out
    8. 1Gb IX Ethernet
