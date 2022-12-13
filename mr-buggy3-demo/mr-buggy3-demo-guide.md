@@ -44,7 +44,7 @@ If there is an error with the install.sh script, the first remedy to try is repe
 
 ### Second step: Creating a ROS2 workspace and building sim\_ignition\_bringup
 
-It is recommended that you create a ROS2 workspace at \~/git/ros2/, but you are free to create it wherever you want. In this gude, we will use that location. Follow the steps below.
+It is recommended that you create a ROS2 workspace at \~/git/ros2/, but you are free to create it wherever you want. In this guide, we will use that location. Follow the steps below.
 
 ```
 $ mkdir -p ~/git/ros2/src
