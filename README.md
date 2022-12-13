@@ -59,8 +59,6 @@ It should be noted that Ubuntu POC is NOT supported by Canonical. They are howev
 
 The NavQPlus is suitable for many purposes, including generic robots, various vision systems, and AI/ML applications.
 
-The NavQPlus is suitable for many purposes, including generic robots and various vision systems.
-
 * Drones, Multicopters, Unmanned Aircraft, VTOL
 * Rovers
 * Road going Delivery Vehicles
@@ -76,7 +74,7 @@ The NavQPlus is suitable for many purposes, including generic robots and various
 * Vision systems in other applications
   * e.g a hospital bed monitor that detects if a patient is sitting up or at risk of falling out of bed.
 
-Two specific complete developer tool examples are the [NXP HoverGames Drone](https://nxp.gitbook.io/hovergames), and the NXP-CUP car.
+Two specific complete developer tool examples are the [NXP HoverGames Drone](https://nxp.gitbook.io/hovergames), and the [NXP-CUP car](https://nxp.gitbook.io/nxp-cup).
 
 ## Software
 
