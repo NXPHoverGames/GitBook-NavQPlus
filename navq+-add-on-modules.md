@@ -1,2 +1,0 @@
-# NavQ+ add on modules
-

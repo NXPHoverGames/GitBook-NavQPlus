@@ -3,19 +3,19 @@
 * [NavQPlus](README.md)
 * [Disclaimers](disclaimers.md)
 * [Revisions and Errata](revisions-and-errata.md)
-* [NavQ+ add on modules](navq+-add-on-modules.md)
+* [NavQPlus add on modules](navqplus-add-on-modules.md)
 * [Ordering Info](ordering-info.md)
 
-## NavQ+ User Guide
+## NavQPlus User Guide
 
-* [Quick Start guide](navq+-user-guide/preprodution-quickstart-guide/README.md)
-  * [Power](navq+-user-guide/preprodution-quickstart-guide/power.md)
-  * [Boot](navq+-user-guide/preprodution-quickstart-guide/boot.md)
-  * [Serial Console](navq+-user-guide/preprodution-quickstart-guide/serial-console.md)
-  * [Ethernet over USBC Gadget mode](navq+-user-guide/preprodution-quickstart-guide/ethernet-over-usbc-gadget-mode.md)
-  * [Flashing new firmware](navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware.md)
-  * [Take an image using the camera](navq+-user-guide/preprodution-quickstart-guide/taking-an-image-from-the-camera.md)
-  * [Communication](navq+-user-guide/preprodution-quickstart-guide/communication.md)
+* [Quick Start guide](navqplus-user-guide/quickstart/README.md)
+  * [Power](navqplus-user-guide/quickstart/power.md)
+  * [Boot](navqplus-user-guide/quickstart/boot.md)
+  * [Serial Console](navqplus-user-guide/quickstart/serial-console.md)
+  * [Ethernet over USBC Gadget mode](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
+  * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware.md)
+  * [Take an image using the camera](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
+  * [Communication](navqplus-user-guide/quickstart/communication.md)
 
 ## NavQ+ Developer Guide <a href="#dev-guide" id="dev-guide"></a>
 
