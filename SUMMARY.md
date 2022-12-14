@@ -13,7 +13,7 @@
   * [Boot](navq+-user-guide/preprodution-quickstart-guide/boot.md)
   * [Serial Console](navq+-user-guide/preprodution-quickstart-guide/serial-console.md)
   * [Ethernet over USBC Gadget mode](navq+-user-guide/preprodution-quickstart-guide/ethernet-over-usbc-gadget-mode.md)
-  * [Flashing with new firmware](navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware.md)
+  * [Flashing new firmware](navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware.md)
   * [Take an image using the camera](navq+-user-guide/preprodution-quickstart-guide/taking-an-image-from-the-camera.md)
   * [Communication](navq+-user-guide/preprodution-quickstart-guide/communication.md)
 
