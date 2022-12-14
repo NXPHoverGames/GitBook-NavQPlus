@@ -76,13 +76,26 @@ $ ./uuu[.exe] -lsusb
 
 **TODO: Add image**
 
-You should see that there is a device detected. If so, you can continue flashing. To flash your board, use the command below:
+You should see that there is a device detected. If so, you can continue flashing. To flash your board, use one of the commands below depending on how the image was supplied:\
+
+
+#### IF the EMMC image is supplied in .zip format then:
 
 ```
-$ ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin-flash_evk navqplus-image-{vX.X}.wic
+sudo ./uuu navqplus-image-{vX.X}_.zip
 ```
 
-Once this process has finished, make sure that the flash was successfull by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md#boot-switches) to boot from eMMC.
+#### Otherwise if you have a .bin and  .wic file then:
+
+```
+sudo ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin -flash_evk navqplus-image-{vX.X}.wic
+```
+
+{% hint style="warning" %}
+The SDCARD image also has a .wic file extension, so be sure you are using the correct file!
+{% endhint %}
+
+Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md#boot-switches) to boot from eMMC.
 
 **TODO: Add image**
 
