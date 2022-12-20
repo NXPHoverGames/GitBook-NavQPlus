@@ -1,6 +1,6 @@
 # NavQPlus\_MR-Buggy3 Tradeshow Demo Guide
 
-## Description
+## escription
 
 {% hint style="info" %}
 This section documents a tradeshow demo using both the NavQPlus and The NXP MR-Buggy3 platform. Please note that this demo is subject to ongoing changes and updates and may at some point be "broken". The information here may be useful for similar types of demonstrators.
@@ -86,9 +86,7 @@ $ source ~/.bashrc
 
 Once you have connected everything according to the block diagram shown below, you will be ready to run the demo.
 
-
-
-![](../.gitbook/assets/mr-buggy3-demo-block-diagram.pdf)
+![](<../.gitbook/assets/ROVERDEMO (1).png>)
 
 To run the demo, open 4 terminal windows. Start with the battery plugged in and powering everything over the PDB, and make sure that the ESC is turned OFF.
 
