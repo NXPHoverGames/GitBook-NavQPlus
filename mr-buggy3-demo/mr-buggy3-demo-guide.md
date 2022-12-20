@@ -21,25 +21,31 @@ To run this demo, you must have an Ubuntu 20.04 or 22.04 machine. It is recommen
 
 ### First step: Running the NXP install script
 
-Download the nxp\_install.sh script using a webbrowser to your local Linux machine.(Currently this) is located at&#x20;
+This install script first checks itself against the repo to ensure it is the latest version, then installs the packages needed for a baseline setting for the NXP mobile robotics team development environment on either a laptop, VM, or the NavQPlus targets.\
+Download the nxp\_install.sh script using a webbrowser to your local Linux machine.(Currently this) is located at
 
-`https://github.com/rudislabs/nxp_install.git`
+{% embed url="https://github.com/NXPHoverGames/nxp_install" %}
 
-Run&#x20;
+```
+https://github.com/NXPHoverGames/nxp_install
+```
+
+
+
+Run
 
 `chmod a+x install.sh`
 
-on this script and run it on your machine.&#x20;
+on this script and run it on your machine.
 
 This will install ROS2 and all required dependencies.
 
 {% hint style="info" %}
-On systems where you have upgraded from Ubuntu 20.04 to 22.04 errors may be  encountered. This can become somewhat complex to resolve. A clean install is always best. Alternatively, try completely removing the old ROS directories (save any personal work) and any repository references to ROS Foxy vs Humble.\
+On systems where you have upgraded from Ubuntu 20.04 to 22.04 errors may be encountered. This can become somewhat complex to resolve. A clean install is always best. Alternatively, try completely removing the old ROS directories (save any personal work) and any repository references to ROS Foxy vs Humble.\
 \
 The base thing to try first:\
 If there is an error with the install.sh script, the first remedy to try is repeating the ROS2 sources install steps as outlined here:\
-[https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources)\
-
+[https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources)\\
 {% endhint %}
 
 ### Second step: Creating a ROS2 workspace and building sim\_ignition\_bringup
@@ -49,7 +55,7 @@ It is recommended that you create a ROS2 workspace at \~/git/ros2/, but you are 
 ```
 $ mkdir -p ~/git/ros2/src
 $ cd ~/git/ros2/src
-$ git clone https://github.com/rudislabs/sim_ignition_bringup.git -b RoverGamesDemo
+$ git clone https://github.com/NXPHoverGames/sim_ignition_bringup.git -b RoverGamesDemo
 $ cd ..
 $ colcon build --symlink-install
 $ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
@@ -69,7 +75,7 @@ You'll want to also create a ROS2 workspace on your NavQPlus. This step is simil
 ```
 $ mkdir -p ~/git/ros2/src
 $ cd ~/git/ros2/src
-$ git clone https://github.com/rudislabs/ros2_orchestrator.git -b NavQPlusPX4Demo
+$ git clone https://github.com/NXPHoverGames/ros2_orchestrator.git -b NavQPlusPX4Demo
 $ cd ..
 $ colcon build --symlink-install
 $ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
@@ -79,6 +85,8 @@ $ source ~/.bashrc
 ## Running the simulation
 
 Once you have connected everything according to the block diagram shown below, you will be ready to run the demo.
+
+
 
 ![](../.gitbook/assets/mr-buggy3-demo-block-diagram.pdf)
 
