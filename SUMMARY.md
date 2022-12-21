@@ -16,6 +16,7 @@
   * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware.md)
   * [Take an image using the camera](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
   * [Communication](navqplus-user-guide/quickstart/communication.md)
+* [TurtleBot4 - iRobot Create3](navqplus-user-guide/turtlebot4-irobot-create3.md)
 
 ## NavQ+ Developer Guide <a href="#dev-guide" id="dev-guide"></a>
 
@@ -39,6 +40,7 @@
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
   * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
+* [Simulation](dev-guide/simulation.md)
 
 ## MR-Buggy3 Demo
 
