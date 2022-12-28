@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/image (2).png
+coverY: 47.78317621464829
+---
+
 # Introduction to Tips-and-Tricks
 
 This section contains assorted notes, tips, tricks and links that may be helpful when working with the NavQPlus.&#x20;
