@@ -42,6 +42,15 @@
   * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
 * [Simulation](dev-guide/simulation.md)
 
+## tips and tricks
+
+* [Introduction to Tips-and-Tricks](tips-and-tricks/introduction-to-tips-and-tricks.md)
+* [YouTube Links](tips-and-tricks/youtube-links.md)
+* [3D Printer Files](tips-and-tricks/3d-printer-files.md)
+* [AI/ML Links](tips-and-tricks/ai-ml-links.md)
+* [Lightweight GUI](tips-and-tricks/lightweight-gui.md)
+* [Ethernet](tips-and-tricks/ethernet.md)
+
 ## MR-Buggy3 Demo
 
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
