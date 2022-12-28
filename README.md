@@ -1,5 +1,7 @@
 ---
 description: An i.MX 8M Plus companion computer for robotics
+cover: .gitbook/assets/NavQPlus 20210930_162135.jpg
+coverY: 0
 ---
 
 # NavQPlus
@@ -25,7 +27,7 @@ The 8MPNAVQ or "NavQPlus" is a small purpose built Linux computer EVK based on t
 
 The entire design is available for companies building their own similar hardware. NavQPlus is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.
 
-Note that the SOM is almost identical to the larger [NXP EVK for i.MX8M Plus](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) with the exception of the IO voltages being changed to 3.3V. This makes NavQPlus an excellent stepping stone or bridge from the large EVK to a system that can be duplicated for testing in-situ, or even copied directly for your application.&#x20;
+Note that the SOM is almost identical to the larger [NXP EVK for i.MX8M Plus](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) with the exception of the IO voltages being changed to 3.3V. This makes NavQPlus an excellent stepping stone or bridge from the large EVK to a system that can be duplicated for testing in-situ, or even copied directly for your application.
 
 \
 Because NavQPlus is experimental and a new set of boards and peripherals, please expect and plan for software enablement to undergo several iterations. Our intent is to provide an Ubuntu POC (Proof of Concept) "friendly Linux" with typical packages and additional tools included rather than the traditional Yocto only distribution that is typical of highly optimized and stripped down Linux in deeply embedded products. Since this Ubuntu POC is built on top of Yocto it is still able to be reduced and optimized for full commercial deployment as well.\
@@ -45,7 +47,7 @@ It should be noted that Ubuntu POC is NOT supported by Canonical. They are howev
    * Two CAN-FD interfaces
    * I2C, SPI, UART, GPIO
    * SD Card slot
-   * 2.4/5GHz WiFi and Bluetooth 5.0 using NXP 88W8987 based [Murata Type 1ZM module](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm)&#x20;
+   * 2.4/5GHz WiFi and Bluetooth 5.0 using NXP 88W8987 based [Murata Type 1ZM module](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm)
    * Micro HDMI, MIPI-DSI, LVDS for displays
    * USB-C PWR in/out
    * 1Gb IX industrial Ethernet
