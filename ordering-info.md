@@ -8,7 +8,7 @@ Please refer to NXP landing page for NavQPlus for availability, pricing, availab
 
 NOTE: NAVQPLUS is an **open** design, and source schematics, gerbers and BOM files are available for download from NXP. You are welcome to refer to, modify, and build these on your own at any Contract Manufacturer of your choosing.
 
-The following companies are able to provide commercial support for NavQPlus, including volume manufacturing of the SOM or carrier board:
+Presently the following 3rd party companies are able to provide commercial support for NavQPlus, including software support, prototyping derivatives, and volume manufacturing of the SOM or carrier board:
 
 * Emcraft.com
 * Voxelbotics.com
