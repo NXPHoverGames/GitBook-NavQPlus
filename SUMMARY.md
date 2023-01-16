@@ -34,13 +34,13 @@
   * [Micro-HDMI](dev-guide/hardware-interfaces/micro-hdmi.md)
   * [LVDS](dev-guide/hardware-interfaces/lvds.md)
   * [MIPI DSI](dev-guide/hardware-interfaces/mipi-dsi.md)
+* [Schematics](dev-guide/schematics.md)
 * [Software](dev-guide/software/README.md)
   * [ROS2](dev-guide/software/ros2.md)
   * [AI/ML](dev-guide/software/ai.md)
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
   * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
-* [Schematics](dev-guide/schematics.md)
 * [Simulation](dev-guide/simulation.md)
 
 ## tips and tricks
