@@ -26,3 +26,16 @@ These interfaces support the Linux SocketCAN library. \
 Here is a good link showing some simple SocketCAN example code:
 
 [https://www.beyondlogic.org/example-c-socketcan-code/](https://www.beyondlogic.org/example-c-socketcan-code/)
+
+## Schematic
+
+There are four CAN-FD connectors, they are connected "pass-through" style so that the bus may continue on, or a termination resistor network be plugged in.
+
+* J21 and J22 are connected to CAN1 hardware signals (CAN0 logically in Software)
+* J19 and J20 are connected to CAN2 hardware signals (CAN1 logically in software
+
+![](<../../.gitbook/assets/image (7).png>)
+
+![](<../../.gitbook/assets/image (8).png>)
+
+![](../../.gitbook/assets/image.png)
