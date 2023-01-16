@@ -46,7 +46,9 @@
 
 * [Introduction to Tips-and-Tricks](tips-and-tricks/introduction-to-tips-and-tricks.md)
 * [YouTube Links](tips-and-tricks/youtube-links.md)
-* [3D Printer Files](tips-and-tricks/3d-printer-files.md)
+* [3D Printer Files](tips-and-tricks/3d-printer-files/README.md)
+  * [NavQPlus Drone Mounting Plate](tips-and-tricks/3d-printer-files/navqplus-drone-mounting-plate.md)
+  * [Page 1](tips-and-tricks/3d-printer-files/page-1.md)
 * [AI/ML Links](tips-and-tricks/ai-ml-links.md)
 * [Lightweight GUI](tips-and-tricks/lightweight-gui.md)
 * [Ethernet](tips-and-tricks/ethernet.md)
