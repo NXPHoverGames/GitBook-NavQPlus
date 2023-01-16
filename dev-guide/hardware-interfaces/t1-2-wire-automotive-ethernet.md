@@ -36,7 +36,7 @@ Unlike traditional Ethernet, a heavy coupling transformer is not used. A small c
 This overall lightweight, small size and cost optimized solution lends itself well to mobile robotics appllications\
 ![](<../../.gitbook/assets/image (3) (3).png>)
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (2).png>)
 
 The Ethernet PHY itself is also extremely small
 
@@ -84,14 +84,14 @@ Datasheets and technical documents for TJA1103 are available on request for user
 
 This is a small dongle like board for quickly evaluating T1 Ethernet or to connect a laptop or sensor or companion computer with an RJ45 port into a 100BaseT1 port.
 
-\\![](<../../.gitbook/assets/image (12).png>)
+\\![](<../../.gitbook/assets/image (12) (1).png>)
 
 ### [MR-T1ETH8](https://www.nxp.com/products/security-and-authentication/authentication/sja1110-100base-t1-multi-gig-ethernet-switch-example-board:MR-T1ETH8)
 
 This is an 8 port switch using the automotive [SJA1110 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-switches/multi-gig-safe-and-secure-tsn-ethernet-switch-with-integrated-100base-t1-phys:SJA1110)Safe and Secure 10 port Gigibit ethernet switch component. Two of the interfaces that are typically used for direct bridging to MPUs are not used. Note that this board is for evaluation and not development. A full EVK board is available for development.\
 The IX industrial interface is designed to directly connect with the Gigabit IX connector on NavQPlus.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (12).png>)
 
 
 
