@@ -27,15 +27,54 @@ Here is a good link showing some simple SocketCAN example code:
 
 [https://www.beyondlogic.org/example-c-socketcan-code/](https://www.beyondlogic.org/example-c-socketcan-code/)
 
-## Schematic
+## CAN Bus Locator
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 There are four CAN-FD connectors, they are connected "pass-through" style so that the bus may continue on, or a termination resistor network be plugged in.
 
-* J21 and J22 are connected to CAN1 hardware signals (CAN0 logically in Software)
-* J19 and J20 are connected to CAN2 hardware signals (CAN1 logically in software
+* J21 and J22 are connected to CAN1 hardware signals / CAN0 logically in Software
+* J19 and J20 are connected to CAN2 hardware signals / CAN1 logically in software
 
-![](<../../.gitbook/assets/image (7).png>)
+## CAN Bus Schematic
+
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 ![](<../../.gitbook/assets/image (8).png>)
 
-![](../../.gitbook/assets/image.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### CAN BUS LEDs
+
+These LEDS are connected to the enable signal going to the CAN PHY
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
+
+![](<../../.gitbook/assets/image (2).png>)
+
+
+
+## CAN BUS SIC PHYs
+
+NavQPlus uses TJA1463 CAN SIC PHYs.  These are compatible and drop in replacement for traditional CAN-FD PHYs.
+
+The TJA1463 CAN signal improvement capability (SIC) transceiver with sleep mode is part of the TJA146x transceiver family that implements CAN SIC as defined in CiA 601-4. By meeting the CAN physical layer as defined in ISO11898-2:2016 and SAE J2284-(1-5), the TJA1463 is fully interoperable with high-speed classical CAN and CAN FD.
+
+CAN signal improvement significantly reduces signal ringing on a network, allowing reliable CAN FD communication to function at 5 Mbit/s in larger topologies. In addition, the TJA1462 features a much tighter bit timing symmetry performance to enable CAN FD communication up to 8 Mbit/s.
+
+The TJA1463 is backwards compatible and a drop-in replacement for classical CAN and CAN FD transceivers, such as NXPs TJA1043 and TJA1443
+
+### Potential improvements
+
+Because of their improved reliability handling of bus signals it may be possible to implement:
+
+* Higher bus speeds (Note however that 512kBaud negotiation speed remains the DroneCode standard and is also most common in automotive applications)
+* Unterminated/poorly terminated stubs
+* Central termination of the CAN bus
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Example of a centrally terminated CAN SIC bus</p></figcaption></figure>
+
+## CAN Termination
+
+The&#x20;
+

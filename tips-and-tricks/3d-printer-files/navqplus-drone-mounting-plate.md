@@ -14,6 +14,6 @@ I designed and 3D printed a mounting plate for the NavQPlus for the quadcopter.&
 
 {% embed url="https://www.thingiverse.com/thing:5742189" %}
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (3).png>)
 
 ![](<../../.gitbook/assets/image (3).png>)
