@@ -42,15 +42,15 @@ There are four CAN-FD connectors, they are connected "pass-through" style so tha
 
 ![](<../../.gitbook/assets/image (8).png>)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### CAN BUS LEDs
 
 These LEDS are connected to the enable signal going to the CAN PHY
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (3).png>)
 
 
 
@@ -76,5 +76,9 @@ Because of their improved reliability handling of bus signals it may be possible
 
 ## CAN Termination
 
-The&#x20;
+The preferred split termination method from Automotive applications is applied on board the NavQPLus. These parts may need to be removed if you wish to terminate your CAN bus at a different node. Note that as mentioned above, it may be reasonable to use the NavQPlus as a central termination point in a CAN-SIC metwork.
+
+![](<../../.gitbook/assets/image (1).png>)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

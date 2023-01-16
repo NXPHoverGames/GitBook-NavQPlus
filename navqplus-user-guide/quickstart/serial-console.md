@@ -4,7 +4,7 @@ The NavQPlus kit comes with a USB-C to UART adapter and cables. This adapter is 
 
 * Simply connect the USB-C cable to your computer and the adapter, then plug in the JST-GH connector at the end of the adapter to the UART2 port on NavQPlus.
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 Use your favorite serial console software (PuTTY, Minicom, MobaXTerm, and screen are a few examples) to access the NavQPlus serial console directly. **The baud rate is 115200**.
 
