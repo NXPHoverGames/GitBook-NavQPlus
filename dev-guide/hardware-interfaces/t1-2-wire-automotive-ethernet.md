@@ -6,7 +6,7 @@ description: DRAFT DRAFT
 
 ## Introduction
 
-100BaseT1 2-Wire Automotive Ethernet provides 100MBPS connections over simple twisted 2 wires for a distance of up to 15 meters. The line signaling on the wire is not directly compatible with traditional 100BaseTX (RJ45) connections, but a physcal adapter may be used. Otherwise it is the same as traditional Ethernet.&#x20;
+100BaseT1 2-Wire Automotive Ethernet provides 100MBPS connections over simple twisted 2 wires for a distance of up to 15 meters. The line signaling on the wire is not directly compatible with traditional 100BaseTX (RJ45) connections, but a physical adapter may be used. Otherwise it is the same as traditional Ethernet.&#x20;
 
 T1 is lightweight and reduces the cabling weight. The interface also does not require the use of magnetics, so it also saves weight and cost in that regard. Typically you will find T1 Ethernet used on Radar, Cameras, MR-CANHUBK3 and NXP flight controllers for drones.&#x20;
 
@@ -15,16 +15,25 @@ This interface is compatible with the T1 Adapter for PC or other embedded device
 
 ## NavQPlus uses the TJA1103 T1 Ethernet Phy
 
-TJA1103 is the third-generation product of NXP’s successful family of 100BASE-T1 Automotive Ethernet PHYs. It is perfectly suited to support the rapid expansion of Ethernet to the edge of the network or provide robust connection to domain controllers in the center of the car.
+[TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)is the third-generation product of NXP’s successful family of 100BASE-T1 Automotive Ethernet PHYs. It is perfectly suited to support the rapid expansion of Ethernet to the edge of the network or provide robust connection to domain controllers in the center of the car.
 
-TJA1103 complies with all state-of-the-art conformance test specifications and is designed according to ISO 26262 to meet ASIL B, providing enhanced monitoring and diagnostic features
+[TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)complies with all state-of-the-art conformance test specifications and is designed according to ISO 26262 to meet ASIL B, providing enhanced monitoring and diagnostic features
 
 
 
 ## No magnetics
 
-Unlike traditional Ethernet, a coupling transformer is not used . A small common mode choke and simple passive RC network is used for noise filtering. There is an ESD protection diode used and the communications signals are capacitively coupled. \
+Unlike traditional Ethernet, a heavy coupling transformer is not used. A small common mode choke and simple passive RC network is used for noise filtering. There is an ESD protection diode used and the communications signals are capacitively coupled. \
+This overall lightweight, small size and cost optimized solution lends itself well to mobile robotics appllications\
 ![](<../../.gitbook/assets/image (3).png>)
+
+![](<../../.gitbook/assets/image (1).png>)
+
+The Ethernet PHY itself is also extremely small
+
+
+
+![](<../../.gitbook/assets/image (2).png>)
 
 ## T1 Ethernet LEDs
 
@@ -48,9 +57,12 @@ There are two LEDS that connect directly to the TJA1103 PHY.&#x20;
 
 
 {% hint style="info" %}
-At the time of publication (1/16/2023) TJA1103 pinout information was not allowed to be made public. It is expected this is a very short term restriction
+At the time of publication (1/16/2023) [TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)pinout information was not allowed to be made public. It is expected this is a very short term restriction.
 {% endhint %}
 
+{% hint style="success" %}
+Datasheets and technical documents for TJA1103 are available on request for users with an NXP account\
 
+{% endhint %}
 
-## ![](<../../.gitbook/assets/image (10).png>) 
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
