@@ -9,14 +9,21 @@ Google Coral mount - Long version
 
 As used with MR-Buggy3\
 \
-[https://a360.co/3XfDLYm](https://a360.co/3XfDLYm)
+[https://a360.co/3XfDLYm](https://a360.co/3XfDLYm)\
+
+
+{% embed url="https://a360.co/3XfDLYm" %}
+Follow link to Fusion360 for downloads
+{% endembed %}
 
 
 
 ## Google Coral mount - Short version
 
-As used and shipped with HoverGames Drone.
+As used and shipped with HoverGames Drone.\
+[https://a360.co/3ducgrZ](https://a360.co/3ducgrZ)\
 
-[https://a360.co/3ducgrZ](https://a360.co/3ducgrZ)
 
-{% embed url="https://mynxp9.autodesk360.com/shares/public/SH35dfcQT936092f0e433be91dccc7c0867a?mode=embed" %}
+{% embed url="https://a360.co/3ducgrZ" %}
+Follow link to Fusion360 for downloads
+{% endembed %}
