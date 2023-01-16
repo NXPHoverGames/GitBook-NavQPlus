@@ -1,12 +1,16 @@
 # IX Industrial Ethernet
 
-{% hint style="info" %}
+{% hint style="warning" %}
 NOTE: OCT,2022 - While the board and the SOC support this interface, current chip supply issues means that we are _**unable to procure the Ethernet PHY from a 3rd party semiconductor vendor**_ at this point in time. Your board MAY NOT be populated with this PHY. This is particularly true for _**HOVERGAMES3 participants**_ that are getting the early access edition of the board.&#x20;
 
 \
 These boards will ship with a USB-C to Ethernet adapter that will also give two additional USB-A connectors (which could be used for a keyboard and mouse for example)\
 \
-If you are in dire need of the IX interface, please contact us directly for an update on availability.
+If you are in dire need of the IX interface, please contact us directly for an update on availability.\
+\
+Boards **without** this Ethernet interface typically will have -XE in their part numbering
+
+i.e. 8MPNAVQ-4GB-XE
 {% endhint %}
 
 ## Using IX Industrial Ethernet
