@@ -40,6 +40,7 @@
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
   * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
+* [Schematics](dev-guide/schematics.md)
 * [Simulation](dev-guide/simulation.md)
 
 ## tips and tricks

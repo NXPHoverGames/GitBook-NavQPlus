@@ -1,19 +1,19 @@
 # 3D Printer Files
 
-These are user submitted 3d printer files for use with NavQPlus and  NXPHoverGames, NXPRoverGames, NXP-CUP or other. Note you may also find 3D printer files in other NXP Gitbooks, and by searhing Thingiverse or other 3d printer file repositories with some of the name above.&#x20;
+We welcome user submitted 3d printer files for use with NavQPlus and  NXPHoverGames, NXPRoverGames, NXP-CUP or other. Note you may also find 3D printer files in other NXP Gitbooks, and by searching Thingiverse or other 3d printer file repositories with some of the name above.&#x20;
+
+In addtion on the following pages there are also direct links to Fusion360 files used with NavQPlus, HoverGames drone, and MR-Buggy3
 
 
 
-## NavQPlus Mounting plate on HoverGames Drone
+{% embed url="https://www.thingiverse.com/search?q=hovergames&page=1&type=things&sort=relevant" %}
+Search HoverGames on Thingiverse
+{% endembed %}
 
-#### R.Scott.C _—_ 12/24/2022 10:59 PM
+{% embed url="https://www.thingiverse.com/search?q=BME688&page=1&type=things&sort=relevant" %}
+Search Bosch BME688 on Thingiverse
+{% endembed %}
 
-I designed and 3D printed a mounting plate for the NavQPlus for the quadcopter.&#x20;
-
-. [https://www.thingiverse.com/thing:5742189](https://www.thingiverse.com/thing:5742189)&#x20;
-
-{% embed url="https://www.thingiverse.com/thing:5742189" %}
-
-![](<../.gitbook/assets/image (1).png>)
-
-![](<../.gitbook/assets/image (3).png>)
+{% embed url="https://www.thingiverse.com/search?q=navq&page=1&type=things&sort=relevant" %}
+Search NavQ on Thingiverse
+{% endembed %}
