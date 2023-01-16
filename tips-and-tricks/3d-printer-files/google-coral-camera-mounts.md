@@ -4,7 +4,7 @@ There are both tall and short versions for the Google Coral camera mount used in
 These links or clicking "Open in Fusion360" should take you to Fusion360 webpage where you can download the source files, STEP or STL for 3D printing as well as a variety of other formats:
 
 \
-Google Coral mount - Long version
+Google Coral mount - Tall version
 ---------------------------------
 
 As used with MR-Buggy3\
