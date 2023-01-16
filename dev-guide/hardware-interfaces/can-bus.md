@@ -1,5 +1,5 @@
 ---
-description: Example of using the CAN bus
+description: Using the CAN bus
 ---
 
 # CAN Bus
