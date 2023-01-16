@@ -16,7 +16,14 @@ Also take a look at some of our other Gitbooks:
 {% endhint %}
 
 {% hint style="info" %}
-This gitbook is under construction.
+This gitbook is under construction. Public input is welcome. You can send feedback through this discord channel while HoverGames3 is running:\
+[https://discord.com/channels/1014291298812960913/1027691375770218638](https://discord.com/channels/1014291298812960913/1027691375770218638)
+
+or\
+[https://discord.gg/g6aSSak9NV](https://discord.gg/g6aSSak9NV)[\
+](https://discord.com/channels/1014291298812960913/1027691375770218638)\
+Alternatively you can make documentation pull requests directly to the github mirror repo here:\
+[https://github.com/NXPHoverGames/GitBook-NavQPlus](https://github.com/NXPHoverGames/GitBook-NavQPlus)
 {% endhint %}
 
 ![](.gitbook/assets/navqplus\_image.jpg)
