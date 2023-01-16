@@ -24,7 +24,7 @@ TJA1103 complies with all state-of-the-art conformance test specifications and i
 ## No magnetics
 
 Unlike traditional Ethernet, a coupling transformer is not used . A small common mode choke and simple passive RC network is used for noise filtering. There is an ESD protection diode used and the communications signals are capacitively coupled. \
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 ## T1 Ethernet LEDs
 
@@ -53,4 +53,4 @@ At the time of publication (1/16/2023) TJA1103 pinout information was not allowe
 
 
 
-## ![](../../.gitbook/assets/image.png) 
+## ![](<../../.gitbook/assets/image (10).png>) 

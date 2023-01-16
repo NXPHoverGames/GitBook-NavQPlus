@@ -72,13 +72,23 @@ Because of their improved reliability handling of bus signals it may be possible
 * Unterminated/poorly terminated stubs
 * Central termination of the CAN bus
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Example of a centrally terminated CAN SIC bus</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Example of a centrally terminated CAN SIC bus</p></figcaption></figure>
 
 ## CAN Termination
 
 The preferred split termination method from Automotive applications is applied on board the NavQPLus. These parts may need to be removed if you wish to terminate your CAN bus at a different node. Note that as mentioned above, it may be reasonable to use the NavQPlus as a central termination point in a CAN-SIC metwork.
 
-![](<../../.gitbook/assets/image (1) (4).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+## Additional boards
+
+Shown below is an example of the NavQPlus attached to a [UCANS32K1SIC ](https://nxp.com/UCANS32K1SIC)"CAN Node" board. A small termination network board is included with the UCANS32K1SIC.\
+The CAN Node board can used for generic CAN-SIC (CAN-FD) node development for sensors and actuators. Essentially it is an S32K1 automotive MCU with the UART/SPI/I2C/PWM pinned out for general purpose use.
+
+\
+&#x20;
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
