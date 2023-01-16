@@ -18,9 +18,14 @@ The i.mx 8M Plus has a number of I2C busses on board. Internally they are connec
 ### External I2C #6
 
 \
-I2C bus #6 is pin-muxed to the six pin JST-GH connector and is the external I2C bus is enabled on the AUX port of the NavQ+.
+AUX connector: I2C bus #6 is pin-muxed with UART4 to the six pin JST-GH J12 connector and is the external I2C bus is enabled on the AUX port of the NavQ+.\
+By default these are configured for I2C and not UART4 (internal MCU)&#x20;
 
-A table of the pinout is below. Note that pin 1 is on the left side of the connector:
+{% hint style="info" %}
+Note that UART4 typically is used to connect to the internal Microcontroller of the i.MX 8M Plus, and it is also pinmuxed on J11. The two alternative pinmuxing locations are so a custom Linux DTB could be configured depending on your needs for UART4, SPI2 or I2C. &#x20;
+{% endhint %}
+
+A table of the J12  pinout is below. Note that pin 1 is on the left side of the connector:
 
 | Pin | Function       |
 | --- | -------------- |
