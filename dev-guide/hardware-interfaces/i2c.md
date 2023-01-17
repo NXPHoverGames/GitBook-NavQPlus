@@ -66,4 +66,4 @@ The I2C port is multiplexed with UART4 on the NavQPlus. This is configured in th
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
