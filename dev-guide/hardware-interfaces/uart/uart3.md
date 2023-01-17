@@ -15,7 +15,7 @@ Note from the schematic clip below, that the MPU can multiplex these signals wit
 
 The signaling from the SOM to the NavQPlus carrier board on J9 is at 3V3 but the Murata 1ZM expects 1.8V. The level conversion is done using U26.
 
-### Schematic
+## Schematic
 
 <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>UART3/ SPI 1 interface on J9</p></figcaption></figure>
 
