@@ -80,7 +80,7 @@ The preferred split termination method from Automotive applications is applied o
 
 ![](<../../.gitbook/assets/image (1) (4).png>)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Additional CAN boards
 

@@ -10,4 +10,4 @@ Because of pinmuxing these can sometimes be assigned to different uses and locat
 
 
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>External UARTs on NavQPlus</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (6).png" alt=""><figcaption><p>External UARTs on NavQPlus</p></figcaption></figure>
