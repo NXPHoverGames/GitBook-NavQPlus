@@ -7,8 +7,11 @@ description: UART2 - A53 Debug
 ## Introduction
 
 UART2 by default is the Debug or Console port into the main A53 processors running Linux on NavQPlus. It is possible to reassign its use by modifying the Linux configuration and .dtb files. \
-\
 
+
+## UART2 Locator
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## UART2 interface and voltage
 

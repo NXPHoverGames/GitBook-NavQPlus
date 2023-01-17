@@ -11,6 +11,12 @@ UART4 is available for general use. Hardware flow control is supported.
 Note from the schematic clip below, that the MPU can multiplex these signals with SPI2. This is normally configured in the Linux image, and is not the default configuration.\
 
 
+## UART4 Locator
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ## UART4 interface voltage
 
 The signaling from the SOM to the NavQPlus carrier board on J11 is at 3V3&#x20;
@@ -19,7 +25,7 @@ Alternative output is on the AUX connector at location J12 also at 3V3 signallin
 \
 
 
-### Schematic
+## Schematic
 
 Note that J11/UART4 is the default location for UART4 signals. Also by default UART4 is assigned to the M7 Core on the i.MX8M Plus. An RTOS such as FreeRTOS or Zephyr would normally use it as the default console to the embedded MCU.\
 \

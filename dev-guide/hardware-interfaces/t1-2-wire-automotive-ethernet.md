@@ -76,7 +76,7 @@ Datasheets and technical documents for TJA1103 are available on request for user
 
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Additional T1 Ethernet boards
 
