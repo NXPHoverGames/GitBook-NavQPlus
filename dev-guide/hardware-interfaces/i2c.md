@@ -15,7 +15,7 @@ The i.mx 8M Plus has a number of I2C busses on board. Internally they are connec
   * PD2 I2C ADDR: 1110011X&#x20;
   * SE050 I2C ADDR: 1001000X
 
-### External I2C #6
+### External I2C #6 on AUX Connector
 
 \
 AUX connector: I2C bus #6 is pin-muxed with UART4 to the six pin JST-GH J12 connector and is the external I2C bus is enabled on the AUX port of the NavQ+.\
@@ -27,16 +27,20 @@ Note that UART4 typically is used to connect to the internal Microcontroller of 
 
 A table of the J12  pinout is below. Note that pin 1 is on the left side of the connector:
 
-| Pin | Function       |
-| --- | -------------- |
-| 1   | 5V             |
-| 2   | I2C\_SDA       |
-| 3   | I2C\_SCL       |
-| 4   | GPT1\_CAPTURE1 |
-| 5   | GPT1\_CAPTURE2 |
-| 6   | GND            |
+| Pin | Function        | Voltage |
+| --- | --------------- | ------- |
+| 1   | 5V              | 5V      |
+| 2   | I2C\_SDA        | 3V3     |
+| 3   | I2C\_SCL        | 3V3     |
+| 4   | GPT1\_CAPTURE1  | 3V3     |
+| 5   | GPT1\_CAPTURE2  | 3V3     |
+| 6   | GND             | GND     |
 
-You only need to use pins 1, 2, 3, and 6 for I2C.
+You only need to use pins 1, 2, 3, and 6 for I2C.\
+These GPIO are 3.3 volt tolerant only. \
+
+
+## I2C device detection
 
 To detect that a device is present on the bus, you can run the following command:
 
