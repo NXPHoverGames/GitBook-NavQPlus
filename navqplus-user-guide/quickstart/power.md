@@ -12,7 +12,7 @@ The PWR IN port accepts and input in the 6V-20V range. (Technically should work 
 
 The PWR IN port pinout schematic is as follows: (center pin is unused)
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 With Pin 1 being the top pin in the image above. PWR\_UNREG is just 5-20V power.\
 \

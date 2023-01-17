@@ -29,7 +29,7 @@ Here is a good link showing some simple SocketCAN example code:
 
 ## CAN Bus Locator
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 There are four CAN-FD connectors, they are connected "pass-through" style so that the bus may continue on, or a termination resistor network be plugged in.
 
@@ -80,7 +80,7 @@ The preferred split termination method from Automotive applications is applied o
 
 ![](<../../.gitbook/assets/image (1) (4).png>)
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ## Additional CAN boards
 
