@@ -56,6 +56,10 @@ sudo usermod -a -G i2c user
 
 ## Schematic
 
-The I2C port is multiplexed with UART4 on the NavQPlus. This is configured in the linux DTB files
+{% hint style="warning" %}
+The I2C port is multiplexed with UART4 on the NavQPlus. This is configured in the linux DTB files. Therefore the schematic below shows the UART signal names. The Multiplexed I2C signal names are shown on the far left of the image
+{% endhint %}
+
+
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
