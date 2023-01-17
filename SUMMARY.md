@@ -29,6 +29,7 @@
   * [I2C](dev-guide/hardware-interfaces/i2c.md)
   * [UARTS](dev-guide/hardware-interfaces/uart/README.md)
     * [UART1 (Bluetooth)](dev-guide/hardware-interfaces/uart/uart1-bluetooth.md)
+    * [UART2 (A53 Debug)](dev-guide/hardware-interfaces/uart/uart2-a53-debug.md)
   * [USB-C](dev-guide/hardware-interfaces/usb-c.md)
   * [PCIe](dev-guide/hardware-interfaces/pcie.md)
   * [GPIO](dev-guide/hardware-interfaces/gpio.md)

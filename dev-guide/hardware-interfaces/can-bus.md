@@ -40,9 +40,9 @@ There are four CAN-FD connectors, they are connected "pass-through" style so tha
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### CAN BUS LEDs
 

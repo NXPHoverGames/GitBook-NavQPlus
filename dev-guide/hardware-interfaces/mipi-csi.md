@@ -26,7 +26,7 @@ Depending on your kit, there may be a tall or short camera mount included. The s
 
 The camera mount is provided unassembled.
 
-<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">,
+<img src="../../.gitbook/assets/image (4) (2).png" alt="" data-size="original">,
 
 \
 

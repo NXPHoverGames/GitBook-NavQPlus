@@ -42,7 +42,7 @@ The Ethernet PHY itself is also extremely small
 
 
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 
 

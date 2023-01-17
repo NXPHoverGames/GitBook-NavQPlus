@@ -10,13 +10,13 @@ UART1 is assigned to communicate with the Bluetooth portion of the WiFi/BT Wirel
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>SOM to Baseboard connector</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>SOM to Baseboard connector</p></figcaption></figure>
 
 ## UART1 interface voltage
 
 The signaling from the SOM to the NavQPlus carrier board on J16 is at 3V3 but the Murata 1ZM expects 1.8V. The level conversion is done using U26.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Software
 
