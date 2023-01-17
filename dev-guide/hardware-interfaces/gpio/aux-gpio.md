@@ -32,10 +32,6 @@ Note that J11/UART4 is the default location for UART4 signals. Also by default U
 
 J12 "AUX" is includes two pins for GPIO labelled GPT1\_CAPTURE1 and GPT2\_CAPTURE2
 
-### &#x20;UART NetNames
-
-You may note that the signal names are differed on J11 vs J12. This is only a labelling detail, since the pinmuxing on the chip is used to "move" the UART4 interface from one set of pins on the MPU (and board to board header). In order to route these signals independently on the carrier board, they need their own net names.
-
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### ESD Protection

@@ -11,9 +11,13 @@ UART3 is available for general use. Hardware flow control is supported.
 Note from the schematic clip below, that the MPU can multiplex these signals with SPI1. This is normally configured in the Linux image, and is not the default configuration.\
 
 
-## UART3 interface voltage
+## UART3 Interface voltage
 
 The signaling from the SOM to the NavQPlus carrier board on J9 is at 3V3 but the Murata 1ZM expects 1.8V. The level conversion is done using U26.
+
+## UART3 Locator
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>UART3</p></figcaption></figure>
 
 ## Schematic
 
