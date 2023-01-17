@@ -35,7 +35,7 @@
   * [USB-C](dev-guide/hardware-interfaces/usb-c.md)
   * [PCIe](dev-guide/hardware-interfaces/pcie.md)
   * [GPIO](dev-guide/hardware-interfaces/gpio/README.md)
-    * [AUX GPIO](dev-guide/hardware-interfaces/gpio/aux-gpio.md)
+    * [AUX - GPIO](dev-guide/hardware-interfaces/gpio/aux-gpio.md)
     * [Miscellaneous GPIO pins](dev-guide/hardware-interfaces/gpio/miscellaneous-gpio-pins.md)
   * [Micro-HDMI](dev-guide/hardware-interfaces/micro-hdmi.md)
   * [LVDS](dev-guide/hardware-interfaces/lvds.md)

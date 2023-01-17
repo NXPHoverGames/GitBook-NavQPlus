@@ -15,7 +15,7 @@ UART2 by default is the Debug or Console port into the main A53 processors runni
 The signaling from the SOM to the NavQPlus carrier board on J10 is at 3V3. Full handshaking with CTS RTS lines is provided\
 
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## Console connection
 

@@ -22,6 +22,6 @@ Note that J11/UART4 is the default location for UART4 signals. Also by default U
 \
 You may note that the signal names are differed on J11 vs J12. This is only a labelling detail, since the pinmuxing on the chip is used to "move" the UART4 interface from one set of pins on the MPU (and board to board header). In order to route these signals independently on the carrier board, they need their own net names.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 All the UART signals are protected from ESD using the Nexperia IP4292CZ components. This is part of an optimized BOM as they are also required for the USB interfaces. In additional to its exceptional performance the board layout may be optimized because of being able to route traces straight under the component.&#x20;
