@@ -48,9 +48,9 @@ There are four CAN-FD connectors, they are connected "pass-through" style so tha
 
 These LEDS are connected to the enable signal going to the CAN PHY
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (2) (3).png>)
+![](<../../.gitbook/assets/image (2) (3) (1).png>)
 
 
 

@@ -56,7 +56,7 @@ sudo usermod -a -G i2c user
 
 ## I2C (I2C6) Locator
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Location of I2C #6 on AUX connector</p></figcaption></figure>
 
 ## Schematic
 

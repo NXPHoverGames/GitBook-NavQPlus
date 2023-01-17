@@ -15,7 +15,7 @@ This interface is compatible with the T1 Adapter for PC or other embedded device
 
 ## T1 Ethernet Locator
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Location of T1 Ethernet connector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Location of T1 Ethernet connector</p></figcaption></figure>
 
 J18 is the T1 Ethernet connector and it should not be confused with the similar SE050 Secure-Element NFC connector at the opposite corner of the board.\
 This is a JST-GH 2 pin heade. Technically there is a polarity associated with T1 Ethernet, but the TJA1103 Phy is configured to automatically and transparently swap the polarity as needed. It is still a good idea to attempt to maintain the correct polarity.
