@@ -17,7 +17,7 @@ The signaling from the SOM to the NavQPlus carrier board on J9 is at 3V3 but the
 
 ## UART3 Locator
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>UART3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>UART3</p></figcaption></figure>
 
 ## Schematic
 
@@ -28,7 +28,7 @@ All the UART signals are protected from ESD using the Nexperia IP4292CZ componen
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
 
 ## Software
 

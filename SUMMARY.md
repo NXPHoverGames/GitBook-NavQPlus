@@ -37,6 +37,7 @@
   * [GPIO](dev-guide/hardware-interfaces/gpio/README.md)
     * [AUX - GPIO](dev-guide/hardware-interfaces/gpio/aux-gpio.md)
     * [Miscellaneous GPIO pins](dev-guide/hardware-interfaces/gpio/miscellaneous-gpio-pins.md)
+  * [External RTC - Timestamp inputs](dev-guide/hardware-interfaces/external-rtc-timestamp-inputs.md)
   * [Micro-HDMI](dev-guide/hardware-interfaces/micro-hdmi.md)
   * [LVDS](dev-guide/hardware-interfaces/lvds.md)
   * [MIPI DSI](dev-guide/hardware-interfaces/mipi-dsi.md)

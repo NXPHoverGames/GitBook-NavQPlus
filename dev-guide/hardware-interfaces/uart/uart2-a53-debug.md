@@ -11,7 +11,7 @@ UART2 by default is the Debug or Console port into the main A53 processors runni
 
 ## UART2 Locator
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## UART2 interface and voltage
 

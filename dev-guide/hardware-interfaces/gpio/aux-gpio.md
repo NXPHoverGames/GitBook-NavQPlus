@@ -41,7 +41,7 @@ All the UART signals are protected from ESD using the Nexperia IP4292CZ componen
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
 
 ## Software
 

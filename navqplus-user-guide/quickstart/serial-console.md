@@ -8,7 +8,7 @@ Simply connect the USB-C cable to your computer and the adapter, then plug in th
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>USB to serial cable and adapter board</p></figcaption></figure>
 
-<img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3) (5).png" alt="" data-size="original">
 
 ## Serial Terminal Software
 
