@@ -1,7 +1,5 @@
 # ROS2
 
-
-
 {% hint style="info" %}
 If using an downloaded image, check first that these packages are not already installed.
 {% endhint %}
@@ -36,6 +34,7 @@ If using yocto, you can use the WIP meta package in your recipe.
 ```
 https://github.com/dirksavage88/meta-dds
 ```
+
 Alternatively, you can install micro-ROS through the ubuntu snap store
 
 {% embed url="https://snapcraft.io/install/micro-ros-agent/ubuntu" %}
@@ -47,7 +46,6 @@ Another way to get micro-ROS is through Github as a ROS2 package. You can use th
 {% embed url="https://github.com/micro-ROS/micro_ros_setup.git" %}
 micro-ROS package
 {% endembed %}
-
 
 ```
 colcon build --symlink-install
@@ -64,7 +62,6 @@ Then I start the microdds agent that is installed in my home directory in the Mi
 ```
 
 On the FMUK66, ensure you have flashed to main and enter the following command.
-
 
 ```
 microdds_client start -t udp -h 10.0.0.3 -p 2019
