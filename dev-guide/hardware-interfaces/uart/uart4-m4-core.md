@@ -13,7 +13,7 @@ Note from the schematic clip below, that the MPU can multiplex these signals wit
 
 ## UART4 Locator
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -44,9 +44,9 @@ You may note that the signal names are differed on J11 vs J12. This is only a la
 All the UART signals are protected from ESD using the Nexperia IP4292CZ components. This is part of an optimized BOM as they are also required for the USB interfaces. In additional to its exceptional performance the board layout may be optimized because of being able to route traces straight under the component. \
 
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
 
 ## Software
 

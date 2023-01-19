@@ -11,14 +11,14 @@ UART2 by default is the Debug or Console port into the main A53 processors runni
 
 ## UART2 Locator
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## UART2 interface and voltage
 
 The signaling from the SOM to the NavQPlus carrier board on J10 is at 3V3. Full handshaking with CTS RTS lines is provided\
 
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Console connection
 

@@ -29,7 +29,7 @@ Here is a good link showing some simple SocketCAN example code:
 
 ## CAN Bus Locator
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 There are four CAN-FD connectors, they are connected "pass-through" style so that the bus may continue on, or a termination resistor network be plugged in.
 
@@ -48,7 +48,7 @@ There are four CAN-FD connectors, they are connected "pass-through" style so tha
 
 These LEDS are connected to the enable signal going to the CAN PHY
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
 
 ![](<../../.gitbook/assets/image (2) (3) (1).png>)
 

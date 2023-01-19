@@ -26,7 +26,7 @@ Depending on your kit, there may be a tall or short camera mount included. The s
 
 The camera mount is provided unassembled.
 
-<img src="../../.gitbook/assets/image (4) (2).png" alt="" data-size="original">,
+<img src="../../.gitbook/assets/image (4) (2) (1).png" alt="" data-size="original">,
 
 \
 
@@ -45,7 +45,7 @@ PDF of Camera Mount assembly
 
 
 
-![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1) (2) (1).png>)
+![Image of camera mount for drone/buggy3](<../../.gitbook/assets/image (1) (2).png>)
 
 \
 &#x20;
