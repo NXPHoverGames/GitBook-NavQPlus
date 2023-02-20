@@ -13,7 +13,17 @@ When new images are released, we will provide a link to them. To flash NavQPlus,
 Here are links to images that can be downloaded and used on the NavQPlus. \
 See below for instructions on how to flash the SD card or eMMC.\
 \
-<<\<TODO - LINK to Downloadable pre-compiled images>>>
+<<\<TODO - LINK to permanent downloadable pre-compiled images>>>
+
+\
+<\<Temporary Link>>\
+[https://github.com/rudislabs/navqplus-create3-images/releases/](https://github.com/rudislabs/navqplus-create3-images/releases/)
+
+{% embed url="https://github.com/rudislabs/navqplus-create3-images/releases/" %}
+
+
+
+
 
 
 
