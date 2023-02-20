@@ -13,10 +13,18 @@ The NavQplus firmware is preferably installed on eMMC for reliability reasons sp
 Follow [https://iroboteducation.github.io/create3\_docs/setup/navqplus/](https://iroboteducation.github.io/create3\_docs/setup/navqplus/) \
 (TODO: copy these instructions here.)
 
-&#x20;
 
-1. Download the [pre-built Ubuntu 20.04 with ROS2 Galactic image](https://github.com/rudislabs/navqplus-create3-images/releases), specifically designed for use with the Create® 3.[1](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:1)[3](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:3)&#x20;
+
+1.  Download the [pre-built Ubuntu 20.04 with ROS2 Galactic image](https://github.com/rudislabs/navqplus-create3-images/releases), specifically designed for use with the Create® 3.[1](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:1)[3](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:3) \
+    <<\<TODO - Create permanent link which includes latest builds.>>>
+
+    <<\<TODO - TEMPORARY LINK to latest image>>>\
+    [https://github.com/rudislabs/navqplus-create3-images/releases/](https://github.com/rudislabs/navqplus-create3-images/releases/)
 2. Extract the image navqplus-image-\<version>.wic from the compressed downloaded file navqplus-image-\<version>.wic.bz2 and flash it to an [SD card](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#flashing-the-sd-card) or the [EMMC](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#flashing-the-emmc).&#x20;
+
+{% embed url="https://github.com/rudislabs/navqplus-create3-images/releases/" %}
+
+
 
 ## Flashing the eMMC&#x20;
 
