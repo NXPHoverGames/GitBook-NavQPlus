@@ -33,6 +33,10 @@ _****_
 * CASE Mounting tabs are 72mmx72mm
 * CASE / Heatsink secondary mounting 53mmx53mm&#x20;
 
+{% embed url="https://a360.co/408nS79" %}
+NavQPlus Enclosure and board (may be downloaded through link)
+{% endembed %}
+
 ### Weight
 
 * 98.4grams with heatsink attached\*
