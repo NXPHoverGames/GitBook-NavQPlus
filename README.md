@@ -9,10 +9,10 @@ coverY: 0
 {% hint style="success" %}
 Also take a look at some of our other Gitbooks:
 
-* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
-* [8M Mini NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M-CCnxDe4dTvAz3QmDw/)
-* [NXP Cup](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/)
-* [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
+* [HoverGames](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
+* [MR-CANHUBK3](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/) Which can be used as a vehicle controller.
+* [NXP Cup](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/)
+* [UCANS32K146 UAVCAN/CAN Node](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -23,7 +23,9 @@ or\
 [https://discord.gg/g6aSSak9NV](https://discord.gg/g6aSSak9NV)[\
 ](https://discord.com/channels/1014291298812960913/1027691375770218638)\
 Alternatively you can make documentation pull requests directly to the github mirror repo here:\
-[https://github.com/NXPHoverGames/GitBook-NavQPlus](https://github.com/NXPHoverGames/GitBook-NavQPlus)
+[https://github.com/NXPHoverGames/GitBook-NavQPlus](https://github.com/NXPHoverGames/GitBook-NavQPlus)\
+\
+Also look at the documentation for [TurtleBot4](navqplus-user-guide/turtlebot4-irobot-create3.md)
 {% endhint %}
 
 ![](.gitbook/assets/navqplus\_image.jpg)
