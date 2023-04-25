@@ -83,8 +83,11 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 #### Set Boot Switches for SD Card Boot
 
 * Remember to check that your [boot switches](flashing-with-new-firmware.md#boot-switches) are set to boot from SD.
+*
 
 ## Flashing the eMMC
+
+#### (Using uuu utility)
 
 To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/NXPmicro/mfgtools/releases), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
 
