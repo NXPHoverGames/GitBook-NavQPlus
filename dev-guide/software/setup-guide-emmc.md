@@ -2,18 +2,22 @@
 description: This is work in progress - derived from Gerald's notes
 ---
 
-# Setup guide - eMMC
+# Setup guide - eMMC (DRAFT)
 
 <\<ToDO - compare also with this [pre-existing link](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)   [https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)>>
 
 ## Install ubuntu image &#x20;
 
-The NavQplus firmware is preferably installed on eMMC for reliability reasons specifically when flying a drone. There is some potential for an SDCard to vibrate it's physical connections. However it may be convenient during development to use the SDCard \
+The NavQplus firmware is preferably installed on eMMC for reliability reasons specifically when flying a drone. There is some potential for an SD card to vibrate it's physical connections. However it may be convenient during development to use the SD card \
 \
-Follow [https://iroboteducation.github.io/create3\_docs/setup/navqplus/](https://iroboteducation.github.io/create3\_docs/setup/navqplus/) \
+Follow https://iroboteducation.github.io/create3\_docs/setup/navqplus/ \
 (TODO: copy these instructions here.)
 
+{% hint style="danger" %}
+\<TODO> Fix these instructions to match the other website (missing step 3, 4, 5)
 
+UPDATE IMAGE
+{% endhint %}
 
 1.  Download the [pre-built Ubuntu 20.04 with ROS2 Galactic image](https://github.com/rudislabs/navqplus-create3-images/releases), specifically designed for use with the Create® 3.[1](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:1)[3](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#fn:3) \
     <<\<TODO - Create permanent link which includes latest builds.>>>
@@ -30,11 +34,11 @@ Follow [https://iroboteducation.github.io/create3\_docs/setup/navqplus/](https:/
 
 To flash the eMMC on your NavQ+, you will need to download [UUU](https://github.com/NXPmicro/mfgtools/releases/tag/uuu\_1.4.193), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.&#x20;
 
-Once you have downloaded UUU, find the [boot switches](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#boot-switches) on your NavQ+ and flip them to the "Flash" mode.&#x20;
+Once you have downloaded UUU, find the [boot switches](setup-guide-emmc.md#boot-switches) on your NavQ+ and flip them to the "Flash" mode.&#x20;
 
-Then, connect NavQ+ to your computer using the leftmost (USB 1) USB-C® port and the two flash status light should light up as shown in the image. &#x20;
+Then, connect the NavQ+ to your computer using the leftmost (USB 1) USB-C® port and the two flash status light should light up as shown in the image. &#x20;
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20;
 
@@ -42,7 +46,7 @@ Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20
 ./uuu[.exe] -lsusb 
 ```
 
-``<img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original">``
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 You should see that there is a device detected. If so, you can continue flashing. To flash your board, use the command below:&#x20;
 
@@ -50,7 +54,9 @@ You should see that there is a device detected. If so, you can continue flashing
 .uuu[.exe] -b emmc_all navqplus-image-<version>.wic 
 ```
 
-Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](https://iroboteducation.github.io/create3\_docs/setup/navqplus/#boot-switches) to boot from eMMC.&#x20;
+Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](setup-guide-emmc.md#boot-switches) to boot from eMMC.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Boot Switches&#x20;
 
@@ -73,9 +79,43 @@ Username: user
 Password: user 
 ```
 
+### USB to UART adapter
 
+Connect the included USB to UART adapter to the UART2 port on the NavQPlus, and open your favorite serial console application. Open a serial console with a baud rate of 115200. Press enter if there is no output on the screen to get a log-in prompt.
 
-### Expand Image&#x20;
+<figure><img src="../../.gitbook/assets/MicrosoftTeams-image.png" alt=""><figcaption></figcaption></figure>
+
+### Ethernet <a href="#ethernet" id="ethernet"></a>
+
+Connect the included IX Industrial Ethernet cable to NavQPlus, and connect the RJ45 connector to your computer, switch, or router on your local network. You can log into NavQPlus over SSH. The default hostname for NavQPlus is imx8mpnavq. To SSH into NavQPlus, you can run the following command:
+
+```
+ssh user@imx8mpnavq.local
+```
+
+### USB-C® Gadget Ethernet <a href="#usb-c-gadget-ethernet" id="usb-c-gadget-ethernet"></a>
+
+The IP address of the `usb0` network interface on NavQPlus is statically assigned to 192.168.186.3. If you want to use USB-C® gadget ethernet to connect to NavQPlus, you will need to assign a static IP to your existing gadget ethernet interface on your computer.&#x20;
+
+First go to your network settings and click on the plus icon on the top right.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+The network configuration is as follows:
+
+**IP Address:** 192.168.186.2
+
+**Network Mask:** 255.255.255.0
+
+![Network Manager connection profile.](https://iroboteducation.github.io/create3\_docs/setup/data/navqplus/usb\_network.png)
+
+Once you have set up your USB-C® gadget ethernet interface on your computer, you can SSH by running:
+
+```
+ssh user@imx8mpnavq.local
+```
+
+## Expand Image&#x20;
 
 The flashed images will need expanding to utilize all the available storage. After logging into the NavQ+ open a terminal and run:&#x20;
 
@@ -87,8 +127,6 @@ echo -e "d\n2\nn\np\n2\n196608\n\n\nw" | sudo fdisk /dev/mmcblk1 && sudo resize2
 ```
 {% endcode %}
 
-
-
 * Expand image on the eMMC:&#x20;
 
 {% code overflow="wrap" %}
@@ -97,94 +135,38 @@ echo -e "d\n2\nn\np\n2\n196608\n\n\nw" | sudo fdisk /dev/mmcblk2 && sudo resize2
 ```
 {% endcode %}
 
-### Remove unattended upgrades&#x20;
+## Configuring WiFi, System Username and Password <a href="#configuring-wifi-system-username-and-password" id="configuring-wifi-system-username-and-password"></a>
+
+### Configuring WiFi on NavQPlus <a href="#configuring-wifi-on-navqplus" id="configuring-wifi-on-navqplus"></a>
+
+To connect NavQPlus to your local WiFi network, you can use the `nmtui` command. This command presents a GUI in your terminal to connect to WiFi. The interface is relatively straightforward. To run `nmtui`, run the following command:
 
 ```
-apt remove unattended-upgrades
+sudo nmtui
 ```
 
-
-
-### Install nano&#x20;
+For a non-GUI way to connect to WiFi or manage your network connections, use `nmcli` by running the following command:
 
 ```
-apt install nano
+sudo nmcli device wifi connect <network_name> password "<password>"
 ```
 
-&#x20;
+Once you are finished connecting to your local WiFi network, you can exit the application. Your NavQPlus will continue to connect to this WiFi network even after a reboot.
 
-### Edit hostname&#x20;
+### Configuring System Username and Password <a href="#configuring-system-username-and-password" id="configuring-system-username-and-password"></a>
 
-Assuming you want to use the hostname "compcom42"
+To change the default username and password, use the commands below.
 
-```
-sudo nano /etc/hostname compcom42 
-```
-
-#### Change the hostname in hosts file&#x20;
-
-{% hint style="warning" %}
-(TODO - Clarify all the text below this point)
-{% endhint %}
+Username:
 
 ```
-sudo nano /etc/hosts 
-
-… 
-127.0.1.1 compcom42 
-
-Add the additional entries 
-
-
-
-192.168.42.11   compcom<id> 
-192.168.42.5    navq<id>-d2x 
-192.168.42.2    t1eth8 
-192.168.42.6    d2xmodem 
-192.168.42.21   radar1 
-192.168.42.22   radar2 
-192.168.42.23   radar3 
+usermod -l <new_username> user
+mv /home/user /home/<new_username>
 ```
 
-#### Set static ip configuration&#x20;
-
-Network manager is used for network config. See below&#x20;
-
-&#x20;
-
-#### Figure out the interface to be used &#x20;
+Password:
 
 ```
-nmcli con show 
+passwd
 ```
 
-From <[https://askubuntu.com/questions/246077/how-to-setup-a-static-ip-for-network-manager-in-virtual-box-on-ubuntu-server](https://askubuntu.com/questions/246077/how-to-setup-a-static-ip-for-network-manager-in-virtual-box-on-ubuntu-server)> &#x20;
-
-&#x20;
-
-#### Set static ip&#x20;
-
-Wired connection 2 = 1000base-TX / eth1 \
-Wired connection 1 = 100base-T1 / eth0&#x20;
-
-```
-nmcli con mod "Wired connection 2" 
-  ipv4.addresses "192.168.42.11/24" 
-  ipv4.gateway "IP_GATEWAY" (needs to be blank on static ip) 
-  ipv4.dns "1.1.1.1,8.8.8.8" 
-  ipv4.method "manual"  
-```
-
-From <[https://askubuntu.com/questions/246077/how-to-setup-a-static-ip-for-network-manager-in-virtual-box-on-ubuntu-server](https://askubuntu.com/questions/246077/how-to-setup-a-static-ip-for-network-manager-in-virtual-box-on-ubuntu-server)> &#x20;
-
-### Install ROS&#x20;
-
-_**ROS is already installed**_ on the [pre-built Ubuntu 20.04 with ROS2 Galactic image](https://github.com/rudislabs/navqplus-create3-images/releases)&#x20;
-
-See [ROS2 installation script docs](https://onenote/#ROS2%20installation%20script%20docs\&section-id={7172739F-EEC8-4A2A-A5F8-FCA50716CC65}\&page-id={07109F1C-46AC-4EF5-AF42-327F26CCC296}\&end\&base-path=https://nxp1.sharepoint.com/sites/HoverGamesProgram/Shared%20Documents/Project%20-%20Drones4Bats/Drones4Bats/TechDocs.one)&#x20;
-
-### Install VPN&#x20;
-
-See [20220509 - Openvpn client user](onenote:Developments\VPN%20Client%20setup.one#20220509%20-%20Openvpn%20client%20user\&section-id={34009819-A55B-4195-A7A4-EB518C61E8D8}\&page-id={4518F3A6-DC0B-48FA-B1B2-04F502DBD87A}\&end\&base-path=https://nxp1.sharepoint.com/sites/HoverGamesProgram/Shared%20Documents/Project%20-%20Drones4Bats/Drones4Bats)&#x20;
-
-(TODO - update VPN instructions above - external link)

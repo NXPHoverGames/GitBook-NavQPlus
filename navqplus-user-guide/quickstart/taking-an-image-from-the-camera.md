@@ -1,4 +1,8 @@
-# Take an image using the camera
+---
+description: Take an image using the camera
+---
+
+# Camera Usage
 
 NavQPlus models typically ship with one Google Coral Camera. An additional camera can also be added to the second MIPI port.  Note that other USB or Ethernet cameras can also supply image data to the NavQPlus.\
 \

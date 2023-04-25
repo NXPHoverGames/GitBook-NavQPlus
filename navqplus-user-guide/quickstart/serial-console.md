@@ -1,6 +1,10 @@
+---
+description: Connecting to the serial console
+---
+
 # Serial Console
 
-The NavQPlus kit comes with a USB-C to UART adapter and a TTL to USB cable. This adapter is used to tap into the serial debugging console on NavQPlus.
+The NavQPlus kit comes with a USB-C to UART adapter and a TTL to USB cable. This adapter is used to tap into the serial debugging console on the NavQPlus.
 
 Simply connect the USB-C cable to your computer and the adapter, then plug in the JST-GH connector at the end of the adapter to the UART2 (A53 Debug/Console) port on NavQPlus.
 

@@ -15,7 +15,7 @@
   * [Serial Console](navqplus-user-guide/quickstart/serial-console.md)
   * [Ethernet over USBC Gadget mode](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
   * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware.md)
-  * [Take an image using the camera](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
+  * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
   * [Communication](navqplus-user-guide/quickstart/communication.md)
 * [TurtleBot4 - iRobot Create3](navqplus-user-guide/turtlebot4-irobot-create3.md)
 
@@ -50,7 +50,10 @@
   * [AI/ML](dev-guide/software/ai.md)
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
-  * [Setup guide - eMMC](dev-guide/software/setup-guide-emmc.md)
+  * [Setup guide - eMMC (DRAFT)](dev-guide/software/setup-guide-emmc.md)
+  * [Extra Content (DRAFT)](dev-guide/software/extra-content-draft.md)
+  * [WebServer (DRAFT)](dev-guide/software/webserver-draft.md)
+  * [I2C (DRAFT)](dev-guide/software/i2c-draft.md)
 * [Simulation](dev-guide/simulation.md)
 
 ## tips and tricks

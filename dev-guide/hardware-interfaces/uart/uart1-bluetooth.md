@@ -16,7 +16,7 @@ UART1 is assigned to communicate with the Bluetooth portion of the WiFi/BT Wirel
 
 The signaling from the SOM to the NavQPlus carrier board on J16 is at 3V3 but the Murata 1ZM expects 1.8V. The level conversion is done using U26.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Software
 

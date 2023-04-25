@@ -33,7 +33,7 @@ All the UART signals are protected from ESD using the Nexperia IP4292CZ componen
 ## Software
 
 ~~UART3 may be accessed as a standard `/dev/ttyS_` in Linux.~~\
-~~~~UART3 may be accessed /dav/ttymxc2 in linux\
+UART3 may be accessed /dav/ttymxc2 in linux\
 \<TODO-check wich ttyS number it is>&#x20;
 
 
