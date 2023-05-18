@@ -100,7 +100,7 @@ Clone and extract 'navqplus-image-22.04-230127.wic.bz2' from [here](https://gith
 
 Flash the WIC image on the SD Card, using HxD.
 
-* Set the boot switches on the NavQPlus Board to 'sd mode' (i.e. both switches should be on), then reset the board (by turning it off and on).
+* Set the [boot switches](../navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md) on the NavQPlus Board to 'sdcard mode' (i.e. both switches should be on), then reset the board (by turning it off and on).
 * Credentials:
   * username: user.
   * password: user.
