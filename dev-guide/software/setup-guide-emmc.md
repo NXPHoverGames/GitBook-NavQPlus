@@ -34,7 +34,7 @@ UPDATE IMAGE
 
 To flash the eMMC on your NavQ+, you will need to download [UUU](https://github.com/NXPmicro/mfgtools/releases/tag/uuu\_1.4.193), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.&#x20;
 
-Once you have downloaded UUU, find the [boot switches](setup-guide-emmc.md#boot-switches) on your NavQ+ and flip them to the "Flash" mode.&#x20;
+Once you have downloaded UUU, find the [boot switches](../../navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md) on your NavQ+ and flip them to the "Flash" mode.&#x20;
 
 Then, connect the NavQ+ to your computer using the leftmost (USB 1) USB-C® port and the two flash status light should light up as shown in the image. &#x20;
 

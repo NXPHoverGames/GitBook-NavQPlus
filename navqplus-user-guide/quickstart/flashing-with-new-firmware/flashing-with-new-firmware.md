@@ -19,3 +19,5 @@ See the table below for the boot switch configuration.
 {% hint style="info" %}
 (NOTE: This boot switch table is referenced from several locations in this gitbook)
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
