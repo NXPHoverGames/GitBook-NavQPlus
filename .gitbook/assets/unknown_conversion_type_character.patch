@@ -1,0 +1,13 @@
+diff --git a/drivers/leds/apa102.c b/drivers/leds/apa102.c
+index 41acd59514..13fd2106f7 100644
+--- a/drivers/leds/apa102.c
++++ b/drivers/leds/apa102.c
+@@ -205,7 +205,7 @@ static ssize_t apa102_write(FAR struct file *filep, FAR const char *buffer,
+ 
+   if ((buflen % 4) != 0)
+     {
+-      snerr("ERROR: Each LED uses 4 bytes, so (buflen % 4)"
++      snerr("ERROR: Each LED uses 4 bytes, so (buflen %% 4)"
+             " needs to be 0!\n");
+       return -1;
+     }

@@ -10,7 +10,11 @@ Simply connect the USB-C cable to your computer and the adapter, then plug in th
 
 ![Location of UART2](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
+<div align="center">
+
 <figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>USB to serial cable and adapter board</p></figcaption></figure>
+
+</div>
 
 <img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original">
 

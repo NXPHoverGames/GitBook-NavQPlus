@@ -1,0 +1,53 @@
+{	"setup":{
+		"ros2": {
+			"ros2Repo_1":{
+				"repo": "https://github.com/rudislabs/opencyphal_led.git",
+				"version": "main",
+				"build": {
+					"package": "opencyphal_led",
+					"prefix": "--packages-select",
+					"postfix": "--symlink-install"
+				}
+			},
+			"ros2Repo_2":{
+				"repo": "https://github.com/rudislabs/opencyphal_send.git",
+				"version": "main",
+				"build": {
+					"package": "opencyphal_send",
+					"prefix": "--packages-select",
+					"postfix": "--symlink-install"
+				}
+			},
+			"ros2Repo_3":{
+				"repo": "https://github.com/rudislabs/canfd_msgs.git",
+				"version": "humble",
+				"build": {
+					"package": "canfd_msgs",
+					"prefix": "--packages-select",
+					"postfix": "--symlink-install"
+				}
+			}
+		}
+	},
+	"nodes": {
+		"ros2Node_0":{
+			"package": "opencyphal_led",
+			"executable": "opencyphal_led_node",
+			"name": "opencyphal_led_node_0",
+			"output": "screen",
+			"parameters": [{"led_brightness": 1},
+					{"led_image_topic": "/led_image"},
+					{"joy_topic": "/joy"},
+					{"cyphal_topic": "/CyphalTransmitFrame"},
+					{"max_leds": 3}]
+		},
+		"ros2Node_1":{
+			"package": "opencyphal_send",
+			"executable": "opencyphal_send_node",
+			"name": "opencyphal_send_0",
+			"output": "screen",
+			"parameters": [{"cyphal_input_topic": "/CyphalTransmitFrame"},
+					{"can_channel": "can1"}]
+		}
+	}
+}

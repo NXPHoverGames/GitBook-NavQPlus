@@ -70,3 +70,7 @@
 ## MR-Buggy3 Demo
 
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
+
+## APA102 Demo
+
+* [Operate APA102 LED Board via ROS2 on NavQPlus over UCANS32K1 Board](apa102-demo/mr-buggy3-demo-guide.md)
