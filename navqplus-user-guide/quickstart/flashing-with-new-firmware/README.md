@@ -82,7 +82,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 #### Set Boot Switches for SD Card Boot
 
-* Remember to check that your [boot switches](flashing-with-new-firmware.md#boot-switches) are set to boot from SD.
+* Remember to check that your [boot switches](./#boot-switches) are set to boot from SD.
 *
 
 ## Flashing the eMMC
@@ -91,7 +91,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/NXPmicro/mfgtools/releases), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
 
-* After downloading uuu, find the [boot switches](flashing-with-new-firmware.md#boot-switches) on your NavQ+ and flip them to the "Flash" mode.
+* After downloading uuu, find the [boot switches](./#boot-switches) on your NavQ+ and flip them to the "Flash" mode.
 * Connect NavQ+ to your computer using the centermost USB-C port.&#x20;
 * Run the following command to make sure that the NavQ+ is recognized by uuu:
 
@@ -126,22 +126,6 @@ sudo ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin -flash_evk navqplus-image
 The SDCARD image also has a .wic file extension, so be sure you are using the correct file! You cannot flash this to EMMC without the corresponding .bin file, but you can use the EMMC .wic file to program an SDCARD. it is the same image
 {% endhint %}
 
-* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md#boot-switches) to boot from eMMC.
+* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md) to boot from eMMC.
 
-**TODO: Add image**
-
-## Boot Switches Configuration
-
-NavQPlus can be configured to boot from either SD card or eMMC. It also has a flash mode that allows you to flash either the eMMC or SD card over USB-C®. \
-\
-See the table below for the boot switch configuration.
-
-| Mode  | Switch 1 | Switch 2 |
-| ----- | -------- | -------- |
-| SD    | ON       | ON       |
-| eMMC  | OFF      | ON       |
-| Flash | ON       | OFF      |
-
-{% hint style="info" %}
-(NOTE: This boot switch table is referenced from several locations in this gitbook)
-{% endhint %}
+**TODO: Add image**\
