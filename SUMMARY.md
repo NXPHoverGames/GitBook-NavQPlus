@@ -1,6 +1,6 @@
 # Table of contents
 
-* [NavQPlus](README.md)
+* [NavQ+](README.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
 * [Disclaimers](disclaimers.md)
 * [Revisions and Errata](revisions-and-errata.md)

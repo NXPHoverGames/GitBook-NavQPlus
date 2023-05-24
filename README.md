@@ -1,10 +1,10 @@
 ---
-description: An i.MX 8M Plus companion computer for robotics
+description: An i.MX 8M Plus companion computer for Mobile Robotics
 cover: .gitbook/assets/NavQPlus 20210930_162135.jpg
 coverY: 0
 ---
 
-# NavQPlus
+# NavQ+
 
 {% hint style="success" %}
 Also take a look at some of our other Gitbooks:
