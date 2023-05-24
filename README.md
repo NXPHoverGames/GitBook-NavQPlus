@@ -1,5 +1,7 @@
 ---
-description: An i.MX 8M Plus companion computer for Mobile Robotics
+description: >-
+  A small form factor companion computer for Mobile Robotics applications,
+  featuring NXP i.MX 8M Plus running Ubuntu Linux.
 cover: .gitbook/assets/NavQPlus 20210930_162135.jpg
 coverY: 0
 ---
