@@ -1,3 +1,7 @@
+---
+description: All you need to know about using the USB-C interface
+---
+
 # USB-C
 
 ## Port configuration

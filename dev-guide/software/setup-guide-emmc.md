@@ -28,8 +28,6 @@ UPDATE IMAGE
 
 {% embed url="https://github.com/rudislabs/navqplus-create3-images/releases/" %}
 
-
-
 ## Flashing the eMMC&#x20;
 
 To flash the eMMC on your NavQ+, you will need to download [UUU](https://github.com/NXPmicro/mfgtools/releases/tag/uuu\_1.4.193), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.&#x20;
@@ -38,7 +36,7 @@ Once you have downloaded UUU, find the [boot switches](../../navqplus-user-gui
 
 Then, connect the NavQ+ to your computer using the leftmost (USB 1) USB-C® port and the two flash status light should light up as shown in the image. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20;
 
@@ -56,7 +54,7 @@ You should see that there is a device detected. If so, you can continue flashing
 
 Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](setup-guide-emmc.md#boot-switches) to boot from eMMC.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ## Boot Switches&#x20;
 
@@ -95,7 +93,7 @@ The IP address of the `usb0` network interface on NavQPlus is statically assigne
 
 First go to your network settings and click on the plus icon on the top right.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 The network configuration is as follows:
 

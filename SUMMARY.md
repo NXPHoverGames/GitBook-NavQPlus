@@ -53,9 +53,9 @@
   * [OpenCV](dev-guide/software/opencv.md)
   * [GStreamer](dev-guide/software/gstreamer.md)
   * [Setup guide - eMMC (DRAFT)](dev-guide/software/setup-guide-emmc.md)
-  * [Extra Content (DRAFT)](dev-guide/software/extra-content-draft.md)
-  * [WebServer (DRAFT)](dev-guide/software/webserver-draft.md)
   * [I2C (DRAFT)](dev-guide/software/i2c-draft.md)
+  * [WebServer](dev-guide/software/webserver.md)
+  * [Extra Content (DRAFT)](dev-guide/software/extra-content-draft.md)
 * [Simulation](dev-guide/simulation.md)
 
 ## tips and tricks
