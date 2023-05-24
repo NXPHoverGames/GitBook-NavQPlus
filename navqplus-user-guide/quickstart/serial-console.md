@@ -16,7 +16,7 @@ Simply connect the USB-C cable to your computer and the adapter, then plug in th
 
 </div>
 
-<img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (8) (2).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original">
 
 ## Serial Terminal Software
 

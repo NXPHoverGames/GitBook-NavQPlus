@@ -20,31 +20,25 @@ This interface is compatible with the T1 Adapter for PC or other embedded device
 J18 is the T1 Ethernet connector and it should not be confused with the similar SE050 Secure-Element NFC connector at the opposite corner of the board.\
 This is a JST-GH 2 pin heade. Technically there is a polarity associated with T1 Ethernet, but the TJA1103 Phy is configured to automatically and transparently swap the polarity as needed. It is still a good idea to attempt to maintain the correct polarity.
 
-
-
 ## NavQPlus uses the TJA1103 T1 Ethernet Phy
 
 [TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)is the third-generation product of NXP’s successful family of 100BASE-T1 Automotive Ethernet PHYs. It is perfectly suited to support the rapid expansion of Ethernet to the edge of the network or provide robust connection to domain controllers in the center of the car.
 
 [TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)complies with all state-of-the-art conformance test specifications and is designed according to ISO 26262 to meet ASIL B, providing enhanced monitoring and diagnostic features
 
-
-
 ## No magnetics
 
 Unlike traditional Ethernet, a heavy coupling transformer is not used. A small common mode choke and simple passive RC network is used for noise filtering. There is an ESD protection diode used and the communications signals are capacitively coupled. \
-This overall lightweight, small size and cost optimized solution lends itself well to mobile robotics appllications\
-![](<../../.gitbook/assets/image (3) (3).png>)
-
-![](<../../.gitbook/assets/image (3) (2).png>)
-
-The Ethernet PHY itself is also extremely small
+This overall lightweight, small size and cost optimized solution lends itself well to mobile robotics applications. \
 
 
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (5) (2).png>)
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
+The Ethernet PHY itself is also extremely small:
 
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ## T1 Ethernet LEDs
 
@@ -61,19 +55,14 @@ There are two LEDS that connect directly to the TJA1103 PHY.&#x20;
 
 
 
-
-
 ## T1 Ethernet Schematics
-
-
 
 {% hint style="info" %}
 At the time of publication (1/16/2023) [TJA1103 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/asil-b-compliant-100base-t1-ethernet-phy:TJA1103)pinout information was not allowed to be made public. It is expected this is a very short term restriction.
 {% endhint %}
 
 {% hint style="success" %}
-Datasheets and technical documents for TJA1103 are available on request for users with an NXP account\
-
+Datasheets and technical documents for TJA1103 are available on request for users with an NXP account.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
@@ -84,15 +73,10 @@ Datasheets and technical documents for TJA1103 are available on request for user
 
 This is a small dongle like board for quickly evaluating T1 Ethernet or to connect a laptop or sensor or companion computer with an RJ45 port into a 100BaseT1 port.
 
-\\![](<../../.gitbook/assets/image (12) (1).png>)
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### [MR-T1ETH8](https://www.nxp.com/products/security-and-authentication/authentication/sja1110-100base-t1-multi-gig-ethernet-switch-example-board:MR-T1ETH8)
 
-This is an 8 port switch using the automotive [SJA1110 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-switches/multi-gig-safe-and-secure-tsn-ethernet-switch-with-integrated-100base-t1-phys:SJA1110)Safe and Secure 10 port Gigibit ethernet switch component. Two of the interfaces that are typically used for direct bridging to MPUs are not used. Note that this board is for evaluation and not development. A full EVK board is available for development.\
-The IX industrial interface is designed to directly connect with the Gigabit IX connector on NavQPlus.
+This is an 8-port switch using the automotive [SJA1110 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-switches/multi-gig-safe-and-secure-tsn-ethernet-switch-with-integrated-100base-t1-phys:SJA1110)Safe and Secure 10 port Gigabit ethernet switch component. Two of the interfaces that are typically used for direct bridging to MPUs are not used. Note that this board is for evaluation and not development. A full EVK board is available for development. The IX industrial interface is designed to directly connect with the Gigabit IX connector on NavQPlus.
 
-![](<../../.gitbook/assets/image (12) (2).png>)
-
-
-
-\
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>

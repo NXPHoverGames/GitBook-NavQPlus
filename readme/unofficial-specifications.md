@@ -30,12 +30,12 @@ _**The values below may be used for guidance, but are not guaranteed**_
 ### Voltage input&#x20;
 
 * 5-20V&#x20;
-* Power supplied via High voltagte USB PD power switch&#x20;
+* Power supplied via High voltage USB PD power switch&#x20;
   * Power input and can be from dedicated connector or through USB-C
 
 ### Power consumption
 
-* TBD&#x20;
+* TBD \<todo>
   * Expectation is MAX 5W and typical 3W
   * 5W =\~12V@450mA
 

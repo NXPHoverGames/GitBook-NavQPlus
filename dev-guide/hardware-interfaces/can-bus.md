@@ -38,11 +38,11 @@ There are four CAN-FD connectors, they are connected "pass-through" style so tha
 
 ## CAN Bus Schematic
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>J21 and J22 connectors</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>J19 and J20 connectors</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption><p>CAN bus schematics</p></figcaption></figure>
 
 ### CAN BUS LEDs
 
@@ -50,13 +50,13 @@ These LEDS are connected to the enable signal going to the CAN PHY
 
 <figure><img src="../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption><p>CAN bus Enable LEDs</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (2) (3) (1).png>)
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ## CAN BUS SIC PHYs
 
-NavQPlus uses TJA1463 CAN SIC PHYs.  These are compatible and drop in replacement for traditional CAN-FD PHYs.
+NavQPlus uses TJA1463 CAN SIC PHYs.  These are compatible and drop-in replacement for traditional CAN-FD PHYs.
 
 The TJA1463 CAN signal improvement capability (SIC) transceiver with sleep mode is part of the TJA146x transceiver family that implements CAN SIC as defined in CiA 601-4. By meeting the CAN physical layer as defined in ISO11898-2:2016 and SAE J2284-(1-5), the TJA1463 is fully interoperable with high-speed classical CAN and CAN FD.
 
@@ -66,7 +66,7 @@ The TJA1463 is backwards compatible and a drop-in replacement for classical CAN 
 
 ### Potential improvements
 
-Because of their improved reliability handling of bus signals it may be possible to implement:
+Because of their improved reliability handling of bus signals, it may be possible to implement:
 
 * Higher bus speeds (Note however that 512kBaud negotiation speed remains the DroneCode standard and is also most common in automotive applications)
 * Unterminated/poorly terminated stubs
@@ -76,9 +76,9 @@ Because of their improved reliability handling of bus signals it may be possible
 
 ## CAN Termination
 
-The preferred split termination method from Automotive applications is applied on board the NavQPLus. These parts may need to be removed if you wish to terminate your CAN bus at a different node. Note that as mentioned above, it may be reasonable to use the NavQPlus as a central termination point in a CAN-SIC metwork.
+The preferred split termination method from Automotive applications is applied on board the NavQPlus. These parts may need to be removed if you wish to terminate your CAN bus at a different node. Note that as mentioned above, it may be reasonable to use the NavQPlus as a central termination point in a CAN-SIC network.
 
-![](<../../.gitbook/assets/image (1) (4).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 

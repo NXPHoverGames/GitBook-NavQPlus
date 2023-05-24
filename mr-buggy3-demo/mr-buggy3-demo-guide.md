@@ -86,7 +86,7 @@ $ source ~/.bashrc
 
 Once you have connected everything according to the block diagram shown below, you will be ready to run the demo.
 
-![](<../.gitbook/assets/ROVERDEMO (1).png>)
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 To run the demo, open 4 terminal windows. Start with the battery plugged in and powering everything over the PDB, and make sure that the ESC is turned OFF.
 

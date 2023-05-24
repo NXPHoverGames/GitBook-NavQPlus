@@ -8,8 +8,7 @@ description: UART3 for users
 
 UART3 is available for general use. Hardware flow control is supported.
 
-Note from the schematic clip below, that the MPU can multiplex these signals with SPI1. This is normally configured in the Linux image, and is not the default configuration.\
-
+Note from the schematic clip below, that the MPU can multiplex these signals with SPI1. This is normally configured in the Linux image and is not the default configuration.
 
 ## UART3 Interface voltage
 
@@ -21,14 +20,14 @@ The signaling from the SOM to the NavQPlus carrier board on J9 is at 3V3 but the
 
 ## Schematic
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>UART3/ SPI 1 interface on J9</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>UART3/ SPI 1 interface on J9</p></figcaption></figure>
 
-All the UART signals are protected from ESD using the Nexperia IP4292CZ components. This is part of an optimized BOM as they are also requried for the USB interfaces. In additional to its exceptional performance the board layout may be optimized because of being able to route traces straight under the component. \
+All the UART signals are protected from ESD using the Nexperia IP4292CZ components. This is part of an optimized BOM as they are also required for the USB interfaces. In additional to its exceptional performance the board layout may be optimized because of being able to route traces straight under the component. \
 
 
 <figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>ESD Protection components on UARTS</p></figcaption></figure>
 
 ## Software
 

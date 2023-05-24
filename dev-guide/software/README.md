@@ -1,7 +1,3 @@
----
-description: Software applications with the NavQ+
----
-
 # Software
 
-This chapter is everything related to software while using the NavQ+.&#x20;
+This chapter will explain everything related to the software part of the NavQ+. This guide can be used in any order. Follow whichever software you require for your board.&#x20;

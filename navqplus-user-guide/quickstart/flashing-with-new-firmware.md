@@ -2,11 +2,11 @@
 description: Changing the NavQPlus firmware and booting from SD Card or EMMC flash
 ---
 
-# Flashing new firmware
+# Flashing new firmware (DRAFT)
 
 ## Introduction
 
-When new images are released, we will provide a link to them. To flash NavQPlus, normally there are two options. You can either flash the eMMC chip on-board, or flash the SD card included with the kit. The eMMC runs faster, but is not removable like the SD card. The SD card is easily removeable and can be programmed quickly and directly from a PC. It is up to you to choose which one to use.&#x20;
+When new images are released, we will provide a link to them. To flash NavQPlus, normally there are two options. You can either flash the eMMC chip on-board, or flash the SD card included with the kit. The eMMC runs faster but is not removable like the SD card. The SD card is easily removeable and can be programmed quickly and directly from a PC. It is up to you to choose which one to use.&#x20;
 
 ### Images
 
@@ -23,16 +23,12 @@ See below for instructions on how to flash the SD card or eMMC.\
 
 
 
-
-
-
-
 ## Flashing image to an SDCard
 
-The NavQPlus typically comes with a 16GB SD card or larger that you can flash with the pre-built Ubuntu 20.04 image. See below for instructions to flash your SD card on each platform.
+The NavQPlus typically comes with a 16GB SD card or larger that you can flash with the pre-built Ubuntu 22.04 image. See below for instructions to flash your SD card on each platform.
 
 {% hint style="info" %}
-You must have an SD card reader available on your system to perform these instructions. Low cost USB dongles or hubs with SD Card slots are available.
+You must have an SD card reader available on your system to perform these instructions. Low-cost USB dongles or hubs with SD Card slots are available.
 {% endhint %}
 
 ### Flashing SD card using Windows PC
@@ -82,16 +78,15 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 #### Set Boot Switches for SD Card Boot
 
-* Remember to check that your [boot switches](./#boot-switches) are set to boot from SD.
-*
+* Remember to check that your [boot switches](flashing-with-new-firmware.md#boot-switches-configuration) are set to boot from SD.
 
 ## Flashing the eMMC
 
 #### (Flashing eMMC using uuu utility)
 
-To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/NXPmicro/mfgtools/releases), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
+To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/rudislabs/navqplus-create3-images/releases/), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
 
-* After downloading uuu, find the [boot switches](./#boot-switches) on your NavQ+ and flip them to the "Flash" mode.
+* After downloading uuu, find the[ boot switches](flashing-with-new-firmware.md#boot-switches-configuration) on your NavQ+ and flip them to the "Flash" mode.
 * Connect NavQ+ to your computer using the centermost USB-C port.&#x20;
 * Run the following command to make sure that the NavQ+ is recognized by uuu:
 
@@ -107,7 +102,7 @@ To flash the eMMC on your NavQPlus, you will need to download [uuu](https://gith
 
 
 {% hint style="info" %}
-When flashing the EMMC an additional .bin file is needed in addition to the .wic file. Recently [**the latest** uuu (as of 1.4.243](https://github.com/NXPmicro/mfgtools/releases/tag/uuu\_1.4.243)) was upgraded so these two files can now be included in a single zip, and used without uncompressing. You may be supplied the .zip or the two separate files.&#x20;
+When flashing the EMMC an additional .bin file is needed in addition to the .wic file. Recently [**the latest** uuu](https://github.com/nxp-imx/mfgtools/releases) was upgraded so these two files can now be included in a single zip and used without uncompressing. You may be supplied the .zip or the two separate files.&#x20;
 {% endhint %}
 
 #### &#x20;EMMC image supplied in .zip format then:
@@ -123,9 +118,9 @@ sudo ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin -flash_evk navqplus-image
 ```
 
 {% hint style="success" %}
-The SDCARD image also has a .wic file extension, so be sure you are using the correct file! You cannot flash this to EMMC without the corresponding .bin file, but you can use the EMMC .wic file to program an SDCARD. it is the same image
+The SDCARD image also has a .wic file extension, so be sure you are using the correct file! You cannot flash this to EMMC without the corresponding .bin file, but you can use the EMMC .wic file to program an SDCARD, it is the same image.
 {% endhint %}
 
-* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md) to boot from eMMC.
+* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware/flashing-with-new-firmware.md) to boot from eMMC.
 
 **TODO: Add image**\

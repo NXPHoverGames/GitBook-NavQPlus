@@ -3,7 +3,7 @@
 ## Connecting the Google Coral Camera
 
 {% hint style="danger" %}
-CAUTION IF the Google Coral Camera is connected **backwards**, it will cause a short circuit and burn out both the MIPI-CSI cable and the sensor in the camera. Please see the images below on how to properly connect the Google Coral Camera to the NavQPlus.
+CAUTION! If the Google Coral Camera is connected **backwards**, it will cause a short circuit and burn out both the MIPI-CSI cable and the sensor in the camera. Please see the images below on how to properly connect the Google Coral Camera to the NavQPlus.
 {% endhint %}
 
 {% hint style="success" %}
@@ -26,7 +26,7 @@ Depending on your kit, there may be a tall or short camera mount included. The s
 
 The camera mount is provided unassembled.
 
-<img src="../../.gitbook/assets/image (4) (2) (1).png" alt="" data-size="original">,
+<img src="../../.gitbook/assets/image (4) (2) (1).png" alt="" data-size="original">
 
 \
 

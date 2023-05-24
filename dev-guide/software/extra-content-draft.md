@@ -7,7 +7,7 @@
 ## Remove unattended upgrades&#x20;
 
 {% hint style="danger" %}
-Add a simple explanation on why to remove unattended upgrades
+\<TODO> Add a simple explanation on why to remove unattended upgrades
 {% endhint %}
 
 ```

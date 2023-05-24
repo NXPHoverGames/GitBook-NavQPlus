@@ -30,13 +30,15 @@ NOTE: If powering from USB-C it is possible with some Linux kernel/boot configur
 The boot process starts with U-Boot, loading the device trees in the boot partition and loading the Linux Kernel.
 
 {% hint style="info" %}
-In order to observe the full complete boot process, you will need a serial port adapter connected to the board serial console. A USB-serial port adapter cable assembly is provided for this purpose. However once satisfied low level booting is operating normally, you typically may just wait until a remote SSH connection is able to be established via networking.
+In order to observe the full complete boot process, you will need a serial port adapter connected to the board serial console. A USB-serial port adapter cable assembly is provided for this purpose. Follow the instructions on the [next page](serial-console.md) to know how to use the USB serial port. However normally you may just wait until a remote SSH connection is able to be established via networking.
 {% endhint %}
+
+#### Once the NavQPlus has booted to the shell, the login information is as follows:
 
 ## Shell login
 
 Once the NavQPlus has booted to the shell, the login information is as follows:
 
-Username: user
+Username: _user_
 
-Password: user
+Password: _user_

@@ -3,7 +3,7 @@
 ## Gazebo Ignition
 
 Vehicles using NavQPlus running ROS and other software can be modelled and simulated in Gazebo Ignition. There are several NXP models listed for the Ignition Fuel library here:\
-[https://app.gazebosim.org/search;q=NXP](https://app.gazebosim.org/search;q=NXP)
+
 
 {% embed url="https://app.gazebosim.org/search;q=NXP" %}
 
@@ -11,7 +11,7 @@ These models can be referenced "live" from within Gazebo-Ignition, or downloaded
 
 ## DoBots Asimovo
 
-Asimovo is a cloud based simluation environment that can offload the resource requirements for your local computer, as well as offering guided team collaboration and learning.\
+Asimovo is a cloud based simulation environment that can offload the resource requirements for your local computer, as well as offering guided team collaboration and learning.\
 \
 [https://asimovo.com/](https://asimovo.com/)
 
@@ -19,4 +19,7 @@ Asimovo is a cloud based simluation environment that can offload the resource re
 
 ## Examples
 
-\<ToDo> reference an example applcation. This could be fully simulated, or a HITL example like the [tradeshow demo](../mr-buggy3-demo/mr-buggy3-demo-guide.md)
+\<ToDo> reference an example application. This could be fully simulated, or a HITL example like the [tradeshow demo](../mr-buggy3-demo/mr-buggy3-demo-guide.md)
+
+
+

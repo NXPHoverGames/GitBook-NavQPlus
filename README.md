@@ -36,7 +36,7 @@ The 8MPNAVQ or "NavQPlus" is a small purpose built Linux computer EVK based on t
 
 The entire design is available for companies building their own similar hardware. NavQPlus is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.
 
-Note that the SOM is almost identical to the larger [NXP EVK for i.MX8M Plus](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) with the exception of the IO voltages being changed to 3.3V. This makes NavQPlus an excellent stepping stone or bridge from the large EVK to a system that can be duplicated for testing in-situ, or even copied directly for your application.
+Note that the SOM is almost identical to the larger [NXP EVK for i.MX8M Plus](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK) with the exception of the IO voltages being changed to 3.3V. This makes NavQPlus an excellent stepping stone or bridge from the large EVK to a system that can be duplicated for testing in-site, or even copied directly for your application.
 
 ### Experimental nature
 
@@ -105,4 +105,4 @@ The intent of the 8MPNavQ in HoverGames is to enable participants with a solutio
   * etc
 * And more!
 
-The 8MPNavQ runs linux with a package manager, so you should be able to install the packages that you need to complete your projects successfully and efficiently.
+The 8MPNavQ runs Linux with a package manager, so you should be able to install the packages that you need to complete your projects successfully and efficiently.

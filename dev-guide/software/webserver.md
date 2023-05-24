@@ -28,7 +28,7 @@ sudo lighttpd-enable-mod fastcgi
 
 This is the output you should receive after running all three codes above:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Lighttpd is looking for an **index.html** page at **/var/www/html**. We will change it, so the index.html will be placed under /var/www. For that, we must edit the Lighttpd config file using nano (if you do not have nano see [this chapter](extra-content-draft.md#install-nano)):
 
@@ -54,7 +54,7 @@ I personally did not have to change the file location. Not sure why
 
 It should look something like this:
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Then exit the file and save. For the changes we made just now to take effect, we must reboot the web server. To do that enter both commands in order:
 
@@ -91,6 +91,6 @@ sudo cp  "yourdirectory"/Hover_Games3_E.F/ROBOT_WEB_SERVER/index.html /var/www
 
 Now access the page again using the IP address of your NavQ+, you should get this:
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 You have managed to make a simple webserver. This webpage can be quite useful to use as a GUI for robot controls as displayed in the example page above.&#x20;

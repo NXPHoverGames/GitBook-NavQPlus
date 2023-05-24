@@ -2,7 +2,6 @@
 
 ## Disable onboard Ethernet
 
-\
 Q: I have connected to WiFi . Is there a way to stop the occasional messages regarding eth1: ? The messages are pictured above in my 2:49PM post, The messages show up every 300 seconds\
 \
 A: Ed S 12/28/2022 -  One option is to unbind the driver:

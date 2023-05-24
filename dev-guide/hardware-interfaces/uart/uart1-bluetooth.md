@@ -20,15 +20,13 @@ The signaling from the SOM to the NavQPlus carrier board on J16 is at 3V3 but th
 
 ## Software
 
-[https://ubuntu.com/core/docs/bluez](https://ubuntu.com/core/docs/bluez)
-
 {% embed url="https://ubuntu.com/core/docs/bluez" %}
 
 ## Murata Module&#x20;
 
 The module is [Murata 1ZM](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm) using the NXP 88W8987 chipset.\
 \
-Type 1ZM is a small and very high performance module based on NXP 88W8987 combo chipset which supports Wi-Fi® 802.11a/b/g/n/ac + Bluetooth® 5.1 BR/EDR/LE up to 433Mbps PHY data rate on Wi-Fi® and 3Mbps PHY data rate on Bluetooth®. The WLAN section supports SDIO 3.0 interface and the Bluetooth® section supports high-speed 4-wire UART interface and PCM for audio data.
+Type 1ZM is a small and very high-performance module based on NXP 88W8987 combo chipset which supports Wi-Fi® 802.11a/b/g/n/ac + Bluetooth® 5.1 BR/EDR/LE up to 433Mbps PHY data rate on Wi-Fi® and 3Mbps PHY data rate on Bluetooth®. The WLAN section supports SDIO 3.0 interface and the Bluetooth® section supports high-speed 4-wire UART interface and PCM for audio data.
 
 The 88W8987 implements highly sophisticated enhanced collaborative coexistence hardware mechanisms and algorithms, which ensure that WLAN and Bluetooth® collaboration is optimized for maximum performance.
 
