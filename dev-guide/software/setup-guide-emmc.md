@@ -62,11 +62,7 @@ Once this process has finished, make sure that the flash was successful by compa
 
 NavQ+ can be configured to boot from either SD card or eMMC. It also has a flash mode that allows you to flash either the eMMC or SD card over USB-C®. See the table below for the boot switch configuration.&#x20;
 
-| Mode   | Switch1 | Swtich2 |
-| ------ | ------- | ------- |
-| SD     | ON      | ON      |
-| eMMC   | OFF     | ON      |
-| Flash  | ON      | OFF     |
+<table><thead><tr><th width="120">Mode </th><th width="142">Switch1</th><th>Swtich2</th></tr></thead><tbody><tr><td>SD </td><td>ON </td><td>ON </td></tr><tr><td>eMMC </td><td>OFF </td><td>ON </td></tr><tr><td>Flash </td><td>ON </td><td>OFF </td></tr></tbody></table>
 
 ## Log in for the first time&#x20;
 

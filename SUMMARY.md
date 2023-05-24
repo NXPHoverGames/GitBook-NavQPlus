@@ -19,6 +19,7 @@
   * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
   * [Communication](navqplus-user-guide/quickstart/communication.md)
 * [TurtleBot4 - iRobot Create3](navqplus-user-guide/turtlebot4-irobot-create3.md)
+* [Remote control setup](navqplus-user-guide/remote-control-setup.md)
 
 ## NavQ+ Developer Guide <a href="#dev-guide" id="dev-guide"></a>
 
