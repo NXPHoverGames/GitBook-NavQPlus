@@ -3,7 +3,6 @@
 * [NavQ+](README.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
 * [Disclaimers](disclaimers.md)
-* [Revisions and Errata](revisions-and-errata.md)
 * [NavQPlus add on modules](navqplus-add-on-modules.md)
 * [Ordering Info](ordering-info.md)
 
