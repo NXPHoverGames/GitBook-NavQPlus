@@ -4,7 +4,9 @@ description: How to power the board
 
 # Power
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+\<TODO> Improve page!
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 There are two ways to power the NavQPlus. You can power it through the PWR IN port or through the USB-C port in the middle.
 
@@ -22,6 +24,6 @@ With Pin 1 being the top pin in the image above. PWR\_UNREG is just 5-20V power.
 
 
 {% hint style="info" %}
-&#x20;If you encounter unexpected resets, it could be that your power supply is not able to provide enough current for the board or the board+peripherals resulting in a brownout condition when some block/interface/peripheral turns on and draws additional current.\
-Supplying power with a LiPo battery may help debug if you have a bench or wall adapter power supply limitation.  &#x20;
+&#x20;If you encounter unexpected resets, it could be that your power supply is not able to provide enough current for the board or the board + peripherals resulting in a brownout condition when some block/interface/peripheral turns on and draws additional current.\
+Supplying power with a LiPo battery may help debug if you have a bench or wall adapter power supply limitation.&#x20;
 {% endhint %}

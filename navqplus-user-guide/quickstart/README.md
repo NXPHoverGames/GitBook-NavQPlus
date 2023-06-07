@@ -2,18 +2,6 @@
 
 ## Introduction
 
-\<todo> fill in section
+This chapter will discuss in depth all the features on the NavQ+. You can navigate it with just the pages you need.
 
-## Disclaimer
-
-We expect that as a user of NavQPlus, you will have at least some basic knowledge of how to operate an embedded Linux computer in a headless terminal environment. While NavQPlus supports a desktop environment, it is not a dedicated desktop computer, and therefore many graphical applications may not work due to unsupported libraries and graphics drivers.
-
-If you are not comfortable operating a Linux computer in a terminal environment, we have linked some resources below that may help. If you need help, or have issues with NavQPlus, please create an issue in the GitHub repository for this GitBook at:
-
-{% embed url="https://github.com/NXPHoverGames/GitBook-NavQPlus" %}
-
-**Resources:**
-
-{% embed url="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview" %}
-
-{% embed url="https://microcontrollerslab.com/embedded-linux/" %}
+For a quick setup guide follow the instruction on the [previous chapter](../setup-guide-emmc.md).&#x20;
