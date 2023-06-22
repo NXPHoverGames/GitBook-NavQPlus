@@ -63,6 +63,7 @@
 ## tips and tricks
 
 * [Introduction to Tips-and-Tricks](tips-and-tricks/introduction-to-tips-and-tricks.md)
+* [Linux Host Computer Tips](tips-and-tricks/linux-host-computer-tips.md)
 * [YouTube Links](tips-and-tricks/youtube-links.md)
 * [3D Printer Files](tips-and-tricks/3d-printer-files.md)
   * [NavQPlus Drone Mounting Plate](tips-and-tricks/3d-printer-files/navqplus-drone-mounting-plate.md)
