@@ -59,7 +59,7 @@ It should be noted that Ubuntu PoC is NOT supported by Canonical. They are howev
 
 ### Block Diagram
 
-<figure><img src=".gitbook/assets/image (6) (2).png" alt=""><figcaption><p>NavQPlus Block Diagram</p></figcaption></figure>
+<figure><img src=".gitbook/assets/1279000-CS_Nav Q Plus_BD_2048x1152_blue.jpg" alt=""><figcaption><p>NavQPlus Block Diagram</p></figcaption></figure>
 
 ## Applications
 
