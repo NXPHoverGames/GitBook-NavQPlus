@@ -10,7 +10,9 @@ If you are in dire need of the IX interface, please contact us directly for an u
 \
 Boards **without** this Ethernet interface typically will have -XE in their part numbering
 
-i.e. 8MPNAVQ-4GB-XE
+i.e. **8MPNAVQ-4GB-XE or**&#x20;
+
+**part niumber 8MPNAVQ-8GB-XE**
 {% endhint %}
 
 ## Using IX Industrial Ethernet
