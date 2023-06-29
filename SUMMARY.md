@@ -1,11 +1,11 @@
 # Table of contents
 
 * [NavQPlus](README.md)
+  * [How to order - Part Numbers](readme/ordering-info.md)
   * [Block Diagram](readme/block-diagram.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
 * [Disclaimers](disclaimers.md)
 * [NavQPlus add on modules](navqplus-add-on-modules.md)
-* [How to order](ordering-info.md)
 
 ## NavQPlus User Guide
 
