@@ -15,7 +15,7 @@ This interface is compatible with the T1 Adapter for PC or other embedded device
 
 ## T1 Ethernet Locator
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Location of T1 Ethernet connector</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Location of T1 Ethernet connector</p></figcaption></figure>
 
 J18 is the T1 Ethernet connector and it should not be confused with the similar SE050 Secure-Element NFC connector at the opposite corner of the board.\
 This is a JST-GH 2 pin heade. Technically there is a polarity associated with T1 Ethernet, but the TJA1103 Phy is configured to automatically and transparently swap the polarity as needed. It is still a good idea to attempt to maintain the correct polarity.
@@ -32,13 +32,13 @@ Unlike traditional Ethernet, a heavy coupling transformer is not used. A small c
 This overall lightweight, small size and cost optimized solution lends itself well to mobile robotics applications. \
 
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 The Ethernet PHY itself is also extremely small:
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ## T1 Ethernet LEDs
 
@@ -65,18 +65,4 @@ At the time of publication (1/16/2023) [TJA1103 ](https://www.nxp.com/products/i
 Datasheets and technical documents for TJA1103 are available on request for users with an NXP account.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
-
-## Additional T1 Ethernet boards
-
-### [RDDRONE-T1ADAPT](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phy-transceivers/ethernet-media-converter-for-drones-rovers-mobile-robotics-and-automotive:RDDRONE-T1ADAPT?tid=vanRDDRONE-T1ADAPT)
-
-This is a small dongle like board for quickly evaluating T1 Ethernet or to connect a laptop or sensor or companion computer with an RJ45 port into a 100BaseT1 port.
-
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-
-### [MR-T1ETH8](https://www.nxp.com/products/security-and-authentication/authentication/sja1110-100base-t1-multi-gig-ethernet-switch-example-board:MR-T1ETH8)
-
-This is an 8-port switch using the automotive [SJA1110 ](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-switches/multi-gig-safe-and-secure-tsn-ethernet-switch-with-integrated-100base-t1-phys:SJA1110)Safe and Secure 10 port Gigabit ethernet switch component. Two of the interfaces that are typically used for direct bridging to MPUs are not used. Note that this board is for evaluation and not development. A full EVK board is available for development. The IX industrial interface is designed to directly connect with the Gigabit IX connector on NavQPlus.
-
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
