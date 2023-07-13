@@ -77,6 +77,7 @@
 ## MR-Buggy3 Demo
 
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)](mr-buggy3-demo/mr-buggy3-demo-guide.md)
+* [Operate MR-Buggy 3 using NavQPlus and FMURT6](mr-buggy3-demo/operate-mr-buggy-3-using-navqplus-and-fmurt6.md)
 
 ## APA102 Demo
 
