@@ -76,7 +76,7 @@
 
 ## MR-Buggy3 Demo
 
-* [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide](mr-buggy3-demo/mr-buggy3-demo-guide.md)
+* [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)](mr-buggy3-demo/mr-buggy3-demo-guide.md)
 
 ## APA102 Demo
 
