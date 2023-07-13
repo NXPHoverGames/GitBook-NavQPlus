@@ -1,19 +1,21 @@
-# NavQPlus\_MR-Buggy3 Tradeshow Demo Guide
+# NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)
 
-## escription
+## Description
 
 {% hint style="info" %}
-This section documents a tradeshow demo using both the NavQPlus and The NXP MR-Buggy3 platform. Please note that this demo is subject to ongoing changes and updates and may at some point be "broken". The information here may be useful for similar types of demonstrators.
+This section documents a tradeshow demo from 2022 using both the NavQPlus and The NXP MR-Buggy3 platform. Please note that this demo is subject to ongoing changes and updates and may at some point be "broken". The information here may be useful for similar types of demonstrators.
 {% endhint %}
 
-The NavQPlus\_MR-Buggy3 demo is a demonstration of the capabilities of the NavQPlus, the MR-Buggy3 platform, and NXP's CAN Bus hardware and software support for ROS2. This guide will walk you through setting up the MR-Buggy3 demo on both your laptop and the NavQPlus. This demo consists of:
+The NavQPlus\_MR-Buggy3 demo is a demonstration of the capabilities of the NavQPlus, the MR-Buggy3 platform, and NXP's CAN Bus hardware and software support for ROS2.&#x20;
 
-* A Gazebo Ignition simulation environment with the MR-Buggy3 model running
-* Connection to the actual Buggy3 hardware meaning HITL (hardware in the loop) control of the real life MR-Buggy3
-* A showcase of the NPU (neural accelerator) on the NavQPlus running inference on the real world camera data **as well as** a virtual camera from the simulation environment
-* ROS2 <-> Cyphal\* <-> uORB transport (\*transport layer only)
-* CAN communications from NavQ+ to the UCANS32K146 CAN-FD node driving a PWM and LED
-* PWM control in PX4 using the PCA9685
+This guide will walk you through setting up the MR-Buggy3 demo on both your laptop and the NavQPlus. This demo consists of:
+
+1. A Gazebo Ignition simulation environment with the MR-Buggy3 model running
+2. Connection to the actual Buggy3 hardware meaning HITL (hardware in the loop) control of the real life MR-Buggy3
+3. A showcase of the NPU (neural accelerator) on the NavQPlus running inference on the real world camera data **as well as** a virtual camera from the simulation environment
+4. ROS2 <-> Cyphal\* <-> uORB transport (\*transport layer only)
+5. CAN communications from NavQ+ to the UCANS32K146 CAN-FD node driving a PWM and LED
+6. PWM control in PX4 using the PCA9685
 
 ### Setting up the laptop
 
