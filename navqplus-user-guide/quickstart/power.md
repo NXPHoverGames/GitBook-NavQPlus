@@ -12,15 +12,15 @@ There are two ways to power the NavQPlus. You can power it through the PWR IN po
 
 \
 **It is preferred to power the board through the PWR **_**IN port for highest reliability.**_\
-This is because it is possible that the USB-C logic may be configured in software in a manner that limits current. This leads to unexpected behavior at power up. If you suspect something is "weird" on power up or you see the board rebooting, please try powering through PWR\_IN first.&#x20;
+This is because it is possible that the USB-C logic may be configured in software in a manner that limits current. This leads to unexpected behavior at power up. If you suspect something unusual is occuring on power up or you see the board rebooting, please try powering through PWR\_IN first.&#x20;
 
-The PWR IN port accepts an input in the 6V-20V range. (Technically should work from 5V to 29V, but has not been fully characterized)
+The PWR IN port accepts an input in the 5V-20V range. (Technically should work from 5V to 29V, but has not been fully characterized)
 
-The PWR IN port pinout schematic is as follows: (center pin is unused)
+The PWR IN port pinout schematic is as follows: (center pin is unused). Pin 1, 2 are the power input, Pin 4, 5 are negative (GND).
 
 ![](<../../.gitbook/assets/image (4) (1).png>)
 
-With Pin 1 being the top pin in the image above. PWR\_UNREG is just 5-20V power.
+The input power voltage connection PWR\_UNREG is 5V-20V
 
 ## Unexpected Power Resets
 
