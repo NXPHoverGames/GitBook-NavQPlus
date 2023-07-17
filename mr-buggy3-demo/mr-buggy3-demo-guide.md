@@ -64,6 +64,10 @@ $ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+{% hint style="info" %}
+If you get "CMake Error at CMakeLists.txt:14 (find\_package):" then run "source /opt/ros/\<distro>/setup.bash"
+{% endhint %}
+
 ## Setting up the NavQ+
 
 ### First step: Running the NXP install script
@@ -84,11 +88,22 @@ $ echo "source /home/$USER/git/ros2/install/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+{% hint style="info" %}
+If you get "CMake Error at CMakeLists.txt:14 (find\_package):" then run "source /opt/ros/\<distro>/setup.bash"
+{% endhint %}
+
 ## Running the simulation
 
 Once you have connected everything according to the block diagram shown below, you will be ready to run the demo.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+#### Prerequisites
+
+```
+ros2 launch ros2_orchestrator orchestrate.launch.py
+source /home/$USER/git/ros2/install/setup.bash
+```
 
 To run the demo, open 4 terminal windows. Start with the battery plugged in and powering everything over the PDB, and make sure that the ESC is turned OFF.
 
