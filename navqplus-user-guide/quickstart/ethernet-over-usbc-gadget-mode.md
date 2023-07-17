@@ -2,11 +2,9 @@
 description: Connecting the NavQ+ with ethernet
 ---
 
-# Ethernet connection (DRAFT)
+# Ethernet connection
 
 \<todo> describe connection using firmware that has the USBC configured in Gadget mode and appears as an Ethernet network interface.
-
-\<todo> Check if all information is correct
 
 
 
@@ -32,7 +30,7 @@ After everything is connected correctly a connection can be made through SSH. Th
 ssh user@imx8mpnavq.local
 ```
 
-or you can input the IP adress of your NavQ+:
+or you can input the IP address of your NavQ+:
 
 ```
 ssh user@<NavQ+'s IP address>
@@ -41,6 +39,6 @@ ssh user@<NavQ+'s IP address>
 You will be asked to input the password. The default password is _**user**_.
 
 {% hint style="info" %}
-You can find your IP address using the code: _ifconfig_&#x20;
+You can find your IP address using the command: _ifconfig_&#x20;
 {% endhint %}
 
