@@ -2,7 +2,7 @@
 description: Changing the NavQPlus firmware and booting from SD Card or EMMC flash
 ---
 
-# Flashing new firmware (DRAFT)
+# Flashing new firmware
 
 ## Introduction
 
@@ -10,14 +10,38 @@ When new images are released, we will provide a link to them. To flash NavQPlus,
 
 ### Images
 
-Here are links to images that can be downloaded and used on the NavQPlus. \
-See below for instructions on how to flash the SD card or eMMC.\
+The official source for linux on NavQPlus  \*\*\*will be NXP Linux Factory.\
 \
-<<\<TODO - LINK to permanent downloadable pre-compiled images>>>
+<<\<TODO - LINK to permanent downloadable pre-compiled images>>>\
+<<\<TODO -  link to NXP Linux Factory Yocto image/layers.>>>
 
-\
-<\<Temporary Link>>\
+{% hint style="danger" %}
+This NXP Linux Facotory enablement is a work in progress.\
+Meanwhile, links to images that can be downloaded and used on the NavQPlus are provided below
+{% endhint %}
+
+See below for instructions on how to flash the SD card or eMMC.
+
+## Third party images
+
+The following images are prepared by 3rd parties and support the NavQPlus. \
+Generally they will be aligned, but please check both.
+
+### Voxlbotics Release Images:
+
+[https://staging.voxelbotics.com/releases/](https://staging.voxelbotics.com/releases/)
+
+### Rudis Labs Images:
+
 [https://github.com/rudislabs/navqplus-create3-images/releases/](https://github.com/rudislabs/navqplus-create3-images/releases/)
+
+
+
+###
+
+####
+
+####
 
 {% embed url="https://github.com/rudislabs/navqplus-create3-images/releases/" %}
 
