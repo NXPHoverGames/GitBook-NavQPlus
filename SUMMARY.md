@@ -5,6 +5,7 @@
   * [Block Diagram](readme/block-diagram.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
 * [Disclaimers](disclaimers.md)
+* [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
 * [NavQPlus add on modules](navqplus-add-on-modules.md)
 
 ## NavQPlus User Guide
