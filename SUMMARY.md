@@ -39,6 +39,7 @@
 ## NavQPlus HW Reference <a href="#hardware" id="hardware"></a>
 
 * [Schematics](hardware/schematics.md)
+* [Preface to Hardware interface section](hardware/preface-to-hardware-interface-section.md)
 * [Hardware interfaces](hardware/hardware-interfaces/README.md)
   * [CAN Bus](hardware/hardware-interfaces/can-bus.md)
   * [Network Management](hardware/hardware-interfaces/network-management.md)
