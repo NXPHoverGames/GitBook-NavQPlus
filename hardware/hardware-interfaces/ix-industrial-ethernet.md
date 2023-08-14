@@ -36,4 +36,4 @@ The IX Ethernet interface on NavQPlus is capable of gigabit 1000BaseTX speeds.
 There are two boards from the mobile robotics team that can also convert from T1 Ethernet back to a 100BaseTX:
 
 * [MR-T1ETH8](https://www.nxp.com/design/development-boards/analog-toolbox/sja1110-100base-t1-multi-gig-ethernet-switch-example-board:MR-T1ETH8)
-* [RDDRONE-T1ADAPT](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phys/ethernet-media-converter-for-drones-rovers-mobile-robotics-and-automotive:RDDRONE-T1ADAPT), there is also a [separate gitbook for this board here](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-M9tTGlc2SB\_GfvlG8d4/)
+* [RDDRONE-T1ADAPT](https://www.nxp.com/products/interfaces/ethernet-/automotive-ethernet-phys/ethernet-media-converter-for-drones-rovers-mobile-robotics-and-automotive:RDDRONE-T1ADAPT), there is also a [separate gitbook for this board here](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-M9tTGlc2SB\_GfvlG8d4/)
