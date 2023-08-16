@@ -76,6 +76,7 @@
 * [AI/ML Links](tips-and-tricks/ai-ml-links.md)
 * [Lightweight GUI](tips-and-tricks/lightweight-gui.md)
 * [Ethernet](tips-and-tricks/ethernet.md)
+* [Run a script on startup](tips-and-tricks/run-script-on-startup.md)
 
 ## MR-Buggy3 Demo
 
