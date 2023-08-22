@@ -36,6 +36,10 @@ Connect the NavQPlus to your computer using the leftmost USB-C port (USB 1). The
 
 Open a command line window. Run the following command to check that the NavQPlus is recognized by UUU:&#x20;
 
+{% hint style="info" %}
+Make sure to be in the correct directory where the UUU file is located and the image file. Otherwise, you must add the path to the file.&#x20;
+{% endhint %}
+
 {% code title="For Linux users:" %}
 ```bash
 ./uuu -lsusb
