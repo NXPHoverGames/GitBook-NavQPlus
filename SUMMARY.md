@@ -1,10 +1,12 @@
 # Table of contents
 
 * [NavQPlus](README.md)
-  * [How to order - Part Numbers](readme/ordering-info.md)
+  * [Kit Contents](readme/kit-contents.md)
   * [Block Diagram](readme/block-diagram.md)
+  * [Board Pictures](readme/board-pictures.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
-* [Disclaimers](disclaimers.md)
+  * [How to order - Part Numbers](readme/ordering-info.md)
+  * [Caution and Disclaimers](readme/disclaimers.md)
 * [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
 * [NavQPlus add on modules](navqplus-add-on-modules.md)
 

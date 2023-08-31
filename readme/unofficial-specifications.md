@@ -49,6 +49,6 @@ _**The values below may be used for guidance, but are not guaranteed**_
 
 ### Weight
 
-* 98.4grams with heatsink attached\*
-  * \* production units may use a flat aluminum plate which will be lighter.
+* 98.4grams with Fin type heatsink attached\*
+  * \* production units use a flat aluminum plate which will reduce weight further
 
