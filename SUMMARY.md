@@ -6,9 +6,11 @@
   * [Board Pictures](readme/board-pictures.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
   * [How to order - Part Numbers](readme/ordering-info.md)
-  * [Caution and Disclaimers](readme/disclaimers/README.md)
-    * [Note about the source code in the document](readme/disclaimers/note-about-the-source-code-in-the-document.md)
-* [NavQPlus add on modules](navqplus-add-on-modules.md)
+  * [Caution and Disclaimers](disclaimers.md)
+    * [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
+* [Prerequisites](prerequisites/README.md)
+  * [Supported Hardware](prerequisites/supported-hardware.md)
+  * [NavQPlus add on modules](prerequisites/navqplus-add-on-modules.md)
 
 ## NavQPlus User Guide
 
