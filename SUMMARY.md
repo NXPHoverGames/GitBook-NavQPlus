@@ -9,8 +9,9 @@
   * [Caution and Disclaimers](disclaimers.md)
     * [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
 * [Prerequisites](prerequisites/README.md)
-  * [Supported Hardware](prerequisites/supported-hardware.md)
-  * [NavQPlus add on modules](prerequisites/navqplus-add-on-modules.md)
+  * [Supported Hardware](prerequisites/supported-hardware/README.md)
+    * [NavQPlus add on modules](prerequisites/supported-hardware/navqplus-add-on-modules.md)
+  * [Supported Software](prerequisites/supported-software.md)
   * [Experimental Nature](prerequisites/experimental-nature.md)
   * [Ubuntu Proof of Concept (Ubuntu POC)](prerequisites/ubuntu-proof-of-concept-ubuntu-poc.md)
 

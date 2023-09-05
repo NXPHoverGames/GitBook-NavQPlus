@@ -15,18 +15,6 @@ NavQPlus Enclosure and board (may be downloaded through link)
 \
 _**The values below may be used for guidance, but are not guaranteed**_
 
-### OS/Software
-
-* NXP Yocto Linux 5.15 kernel
-  * Gstreamer
-  * eIQ AI/ML tools
-  * Ethernet over USB-C Gadget mode (SSH connection to laptop using USB cable)
-*   Ubuntu 22.04 built on top of NXP Yocto 5.15
-
-    * ROS2 Humble enabled
-
-
-
 ### Voltage input&#x20;
 
 * 5-20V&#x20;
