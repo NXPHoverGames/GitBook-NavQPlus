@@ -11,6 +11,8 @@
 * [Prerequisites](prerequisites/README.md)
   * [Supported Hardware](prerequisites/supported-hardware.md)
   * [NavQPlus add on modules](prerequisites/navqplus-add-on-modules.md)
+  * [Experimental Nature](prerequisites/experimental-nature.md)
+  * [Ubuntu Proof of Concept (Ubuntu POC)](prerequisites/ubuntu-proof-of-concept-ubuntu-poc.md)
 
 ## NavQPlus User Guide
 
