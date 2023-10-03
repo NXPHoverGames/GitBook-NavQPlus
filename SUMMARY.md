@@ -89,6 +89,7 @@
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)](mr-buggy3-demo/mr-buggy3-demo-guide.md)
 * [Operate MR-Buggy 3 using NavQPlus and FMURT6](mr-buggy3-demo/operate-mr-buggy-3-using-navqplus-and-fmurt6.md)
 
-## APA102 Demo
+## LED & OLED Demo
 
-* [Operate APA102 LED Board via ROS2 on NavQPlus over UCANS32K1 Board](apa102-demo/mr-buggy3-demo-guide.md)
+* [Operate APA102 LED Board via ROS2 on NavQPlus over UCANS32K1 Board](led-and-oled-demo/mr-buggy3-demo-guide.md)
+* [Operate SSD1306 OLED via NavQPlus](led-and-oled-demo/operate-ssd1306-oled-via-navqplus.md)
