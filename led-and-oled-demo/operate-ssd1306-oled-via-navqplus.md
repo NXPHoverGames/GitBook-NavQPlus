@@ -2,6 +2,22 @@
 description: >-
   Connecting a small display to the NavQPlus to show information such as IP
   address and link status.
+cover: ../.gitbook/assets/PXL_20231003_101505083 (3).jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Operate SSD1306 OLED via NavQPlus
