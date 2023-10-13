@@ -132,6 +132,8 @@ sudo systemctl stop  $(systemd-escape --template ssd1306_interface_status@.servi
 
 ## Demonstration
 
+#### Displaying network and system status
+
 Our application prints the link status and ip address of the specified network every one second on the SSD1306 OLED display. To change the link status of the network interface to UP or DOWN, you may use the following ifconfig commands. Note: when the link status is DOWN, the ip address is shown as NULL.
 
 ```
@@ -143,10 +145,18 @@ sudo ifconfig <interface name> down
 If the text is not displayed on the OLED screen, please retry after 5-10 seconds.
 {% endhint %}
 
-\<TODO> Update video below with youtube link
-
-[Demonstration Video](https://nxp1-my.sharepoint.com/:v:/g/personal/mayankmahajan\_x\_nxp\_com/EUtcmK1Y2f9CrAjmbfSkXdgBPfZTOBRwYcHrVgMY26gITQ)
+[Demonstration Video](https://www.youtube.com/watch?v=vxKRv\_we7f4) on YouTube.
 
 <figure><img src="../.gitbook/assets/PXL_20231003_101505083 (3).jpg" alt=""><figcaption><p>Display A: SSD1306 128×32</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/PXL_20231003_101354814.jpg" alt=""><figcaption><p>Display B: SSD1306 128×64</p></figcaption></figure>
+
+#### Displaying GIF and PNG files
+
+Animations and images could be displayed on the SSD1306 OLED module using the [luma.examples](https://github.com/rm-hull/luma.examples) companion repository. Kindly refer the following demonstration video for the same.
+
+{% hint style="info" %}
+In our demonstration we only tested with displaying GIF and PNG files.
+{% endhint %}
+
+[Demonstration Video](https://www.youtube.com/watch?v=daAXo-zxUfs) on YouTube.
