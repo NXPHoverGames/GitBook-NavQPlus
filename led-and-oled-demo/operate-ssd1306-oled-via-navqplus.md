@@ -18,7 +18,7 @@ This tutorial demonstrates how to write text on [SSD1306](https://cdn-shop.adafr
 
 {% hint style="info" %}
 You will need to create a custom cable to connect the OLED 4 pin signals to a JST-GH 6 pin connector to plug into the NavQPlus.\
-An off the shelf cable is not provided, but it is simple to make your own according to the table below.
+NOTE: An off the shelf cable is **not** provided, but it is simple to make your own according to the table below.
 {% endhint %}
 
 ### Connections from SSD1306 OLED to J12 Port on NavQPlus
@@ -27,19 +27,19 @@ An off the shelf cable is not provided, but it is simple to make your own accord
 
 
 
-<figure><img src="../.gitbook/assets/block_diagram (1).svg" alt=""><figcaption><p>Block diagram of the complete setup</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/block_diagram (1).svg" alt=""><figcaption><p>Block diagram of NavQPlus attached to OLED via I2C interface complete setup</p></figcaption></figure>
 
 ## Software procedure
 
 ### Overview
 
-In this example software, a daemon service polls the desired network interface every one second for its link status and ip address and publishes the same on an OLED display.
+In this example software, a daemon service polls the desired network interface every one second for its link status and IP address and publishes the same on an OLED display.
 
 Any of the standard network interfaces may be specified when starting the daemon.
 
 ### Prerequisites
 
-If not already running the standard NavQPlus ubunutu POC image, then flash the following image on the micro sd card of NavQPlus: [Ubuntu 22.04 for NavQPlus](https://github.com/rudislabs/navqplus-create3-images/releases) or greater. Click on the desired image and download the "[.](https://github.com/rudislabs/navqplus-create3-images/releases/download/v22.04.2/navqplus-image-22.04-230127.wic.bz2)wic.bz2" file. Extract it and flash the resultant ".wic" image on the micro sd card. More detailed instructions are [provided elsewhere in this gitbook](../navqplus-user-guide/quickstart/flashing-with-new-firmware.md).
+If not already running the standard NavQPlus Ubuntu POC image, then flash the following image on the micro SDcard of NavQPlus: [Ubuntu 22.04 for NavQPlus](https://github.com/rudislabs/navqplus-create3-images/releases) or greater. Click on the desired image and download the "[.](https://github.com/rudislabs/navqplus-create3-images/releases/download/v22.04.2/navqplus-image-22.04-230127.wic.bz2)wic.bz2" file. Extract it and flash the resultant ".wic" image on the micro SDcard. More detailed instructions are [provided elsewhere in this gitbook](../navqplus-user-guide/quickstart/flashing-with-new-firmware.md).
 
 
 
@@ -72,8 +72,8 @@ Review the python code directly in the Git repo here:\
 
 Create a daemon service that will invoke our application in the background, by running the following steps. The command "systemctl start" starts a new instance of the application in the background,, "systemctl status" returns the running status and latest logs of the said instance of the application and "systemctl stop" terminates the said instance of the daemon service.
 
-{% hint style="danger" %}
-To access the service using "systemctl status" and "systemctl stop" commands, the parameters must be the same as the ones used to start the service. (using "systemctl start"). &#x20;
+{% hint style="warning" %}
+Rememeber, in order to access the service using "systemctl status" and "systemctl stop" commands, the parameters must be the same as the ones used to start the service. (using "systemctl start"). &#x20;
 
 Otherwise a different instance (the one corresponding to the passed parameters) of the service will be accessed.
 {% endhint %}
@@ -90,21 +90,16 @@ sudo systemctl status $(systemd-escape --template ssd1306_interface_status@.serv
 {% endcode %}
 
 {% hint style="success" %}
-This example python code does include a check whereby if the Daemon attempts to write to a non existent OLED, then the write command will fail and the daemon will stop itself automatically.&#x20;
+In the provided example python code, it does include a check whereby if the Daemon attempts to write to a non existent OLED, then the write command will fail and the daemon will stop itself automatically.&#x20;
 {% endhint %}
 
-#### Example 1: 128x64 OLED display
 
-if you want to track the "usb0" interface and the resolution of your OLED module is 128×64 as that of the OLED in the image titled "Display B: SSD1306 128×64" in the demonstration section, then you may run the following command.
 
-<pre data-overflow="wrap" data-line-numbers><code><strong>sudo systemctl start $(systemd-escape --template ssd1306_interface_status@.service "usb0 128 64")
-</strong></code></pre>
+#### Example 1: 128x32 OLED display
 
-####
+Use the command below to track the "usb0" interface and the resolution of your OLED module is 128×32.
 
-#### Example 2: 128x32 OLED display
-
-If you want to track the "usb0" interface and the resolution of your OLED module is 128×32 as that of the OLED in the image titled "Display A: SSD1306 128×32" in the demonstration section, then you may run the following command.
+This is the OLED display shown below in the image ["Display B: SSD1306 128×32"](operate-ssd1306-oled-via-navqplus.md#example-2-128x32-oled-display)&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
@@ -112,14 +107,27 @@ sudo systemctl start $(systemd-escape --template ssd1306_interface_status@.servi
 ```
 {% endcode %}
 
+<figure><img src="../.gitbook/assets/PXL_20231003_101505083 (3).jpg" alt=""><figcaption><p>Display A: SSD1306 128×32</p></figcaption></figure>
+
+#### Example 2: 128x64 OLED display
+
+Use the command below to track the "usb0" interface and the resolution of your OLED module is 128×64.
+
+This is the OLED display shown below in the image ["Display B: SSD1306 128×64" ](operate-ssd1306-oled-via-navqplus.md#example-1-128x64-oled-display)
+
+<pre data-overflow="wrap" data-line-numbers><code><strong>sudo systemctl start $(systemd-escape --template ssd1306_interface_status@.service "usb0 128 64")
+</strong></code></pre>
+
+<figure><img src="../.gitbook/assets/PXL_20231003_101354814.jpg" alt=""><figcaption><p>Display B: SSD1306 128×64</p></figcaption></figure>
+
 #### Stopping the interface
 
 {% hint style="info" %}
 To change interface name, display width and/or display height, or stop the service, run the following "systemctl stop" command,&#x20;
 
-then (optionally) restart the service using the above "systemctl start" command with the new parameters.
+you may then restart the service using "systemctl start" command using new parameters.
 
-This would normally only be required when you want to track a different network interface, or if you want to use an OLED module that has a different resolution than the one you were using before.
+This is relevant to when you want to track a different network interface, or if you want to use an OLED module that has a different resolution than the one you were using before.
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
@@ -130,7 +138,7 @@ sudo systemctl stop  $(systemd-escape --template ssd1306_interface_status@.servi
 
 ##
 
-## Demonstration
+## Demonstration with Videos
 
 #### Displaying network and system status
 
@@ -145,11 +153,11 @@ sudo ifconfig <interface name> down
 If the text is not displayed on the OLED screen, please retry after 5-10 seconds.
 {% endhint %}
 
-[Demonstration Video](https://www.youtube.com/watch?v=vxKRv\_we7f4) on YouTube.
+[Demonstration Video - Displaying System Status](https://www.youtube.com/watch?v=vxKRv\_we7f4) (YouTube)
 
-<figure><img src="../.gitbook/assets/PXL_20231003_101505083 (3).jpg" alt=""><figcaption><p>Display A: SSD1306 128×32</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/PXL_20231003_101354814.jpg" alt=""><figcaption><p>Display B: SSD1306 128×64</p></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=vxKRv_we7f4" %}
+Displaying Network and System Status of NavQPlus on SSD1306 OLED display
+{% endembed %}
 
 #### Displaying GIF and PNG files
 
@@ -159,4 +167,8 @@ Animations and images could be displayed on the SSD1306 OLED module using the [l
 In our demonstration we only tested with displaying GIF and PNG files.
 {% endhint %}
 
-[Demonstration Video](https://www.youtube.com/watch?v=daAXo-zxUfs) on YouTube.
+[Demonstration Video Displaying GIF and PNG, ](https://www.youtube.com/watch?v=daAXo-zxUfs)(YouTube)
+
+{% embed url="https://www.youtube.com/watch?v=daAXo-zxUfs" %}
+Displaying GIF and PNG files on SSD1306 OLED connected to NavQPlus
+{% endembed %}
