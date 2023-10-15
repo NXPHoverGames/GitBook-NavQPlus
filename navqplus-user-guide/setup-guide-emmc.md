@@ -4,7 +4,7 @@ description: Step-by-step instructions on how to quickly set up your NavQPlus
 
 # Quick start guide
 
-Following these 8 steps, you will be able to start playing around with the NavQ+ in no time. When needed, more information is available in the [detailed instructions](quickstart/) chapter. Also checkout the [TurtleBot4 / iRobot Create3 documentation](turtlebot4-irobot-create3.md), and the other parts of this GitBook.
+Following these 8 steps, you will be able to start using the NavQPlus in no time. When needed, more information is available in the [detailed instructions](quickstart/) chapter. Also checkout the [TurtleBot4 / iRobot Create3 documentation](turtlebot4-irobot-create3.md), and the other parts of this GitBook.
 
 ## 1. Download the Ubuntu image
 
@@ -22,7 +22,7 @@ Make sure to download the correct application for your platform. The .exe file i
 
 ## 3. Set the boot switches to flash mode
 
-Before plugging in the board, find the [boot switches](quickstart/additional-interface-details/flashing-with-new-firmware/flashing-with-new-firmware.md) on your NavQPlus and flip them to the "flash" mode. See the table and picture below for reference.
+Before plugging in the board, find the [boot switches](quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md) on your NavQPlus and flip them to the "flash" mode. See the table and picture below for reference.
 
 <table><thead><tr><th width="127">Mode </th><th width="142">Switch 1</th><th>Switch 2</th></tr></thead><tbody><tr><td>SD </td><td>ON </td><td>ON </td></tr><tr><td>eMMC </td><td>OFF </td><td>ON </td></tr><tr><td><em><strong>Flash</strong></em> </td><td><em><strong>ON</strong></em> </td><td><em><strong>OFF</strong></em> </td></tr></tbody></table>
 

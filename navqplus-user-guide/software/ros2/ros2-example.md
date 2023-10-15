@@ -1,12 +1,12 @@
 ---
-description: Making a simple ROS2 example code
+description: A simple ROS2 example
 ---
 
-# ROS2 example (DRAFT)
+# ROS2 example
 
 ## Introduction
 
-This page will go through a simple example using ROS on the NavQ+. More examples and details can be found on the ROS webpage linked bellow. This example is a shortened version of the Publisher Subscriber for Python tutorial. You will need to have ROS2 installed already before trying this example.&#x20;
+This page will go through a simple example using ROS on the NavQPlus.  More examples and details can be found on the ROS webpage linked bellow. This example is a shortened version of the Publisher Subscriber for Python tutorial. You will need to have ROS2 installed already before trying this example.&#x20;
 
 {% embed url="http://docs.ros.org/en/humble/Tutorials.html" %}
 

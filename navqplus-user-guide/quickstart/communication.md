@@ -1,4 +1,4 @@
-# Communication
+# Communication interfaces review
 
 There are several interfaces for communication between boards on NavQPlus. The existing communication protocols are as follows:
 

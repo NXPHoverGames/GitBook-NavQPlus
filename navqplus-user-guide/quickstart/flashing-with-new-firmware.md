@@ -10,13 +10,10 @@ When new images are released, we will provide a link to them. To flash NavQPlus,
 
 ### Images
 
-The official source for linux on NavQPlus  \*\*\*will be NXP Linux Factory.\
-\
-<<\<TODO - LINK to permanent downloadable pre-compiled images>>>\
-<<\<TODO -  link to NXP Linux Factory Yocto image/layers.>>>
+The official source for linux on NavQPlus  \***will be NXP Linux Factory**, however at the time of this writing it is a work in progress.
 
 {% hint style="danger" %}
-This NXP Linux Facotory enablement is a work in progress.\
+This NXP Linux Factory enablement is a work in progress.\
 Meanwhile, links to images that can be downloaded and used on the NavQPlus are provided below
 {% endhint %}
 
@@ -102,7 +99,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 #### Set Boot Switches for SD Card Boot
 
-* Remember to check that your [boot switches](./#boot-switches-configuration) are set to boot from SD.
+* Remember to check that your [boot switches](flashing-with-new-firmware.md#boot-switches-configuration) are set to boot from SD.
 
 ## Flashing the eMMC
 
@@ -110,7 +107,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/rudislabs/navqplus-create3-images/releases/), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
 
-* After downloading uuu, find the[ boot switches](./#boot-switches-configuration) on your NavQ+ and flip them to the "Flash" mode.
+* After downloading uuu, find the[ boot switches](flashing-with-new-firmware.md#boot-switches-configuration) on your NavQ+ and flip them to the "Flash" mode.
 * Connect NavQ+ to your computer using the centermost USB-C port.&#x20;
 * Run the following command to make sure that the NavQ+ is recognized by uuu:
 
@@ -145,6 +142,6 @@ sudo ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin -flash_evk navqplus-image
 The SDCARD image also has a .wic file extension, so be sure you are using the correct file! You cannot flash this to EMMC without the corresponding .bin file, but you can use the EMMC .wic file to program an SDCARD, it is the same image.
 {% endhint %}
 
-* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md) to boot from eMMC.
+* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware/flashing-with-new-firmware.md) to boot from eMMC.
 
 **TODO: Add image**\

@@ -1,14 +1,18 @@
 ---
-description: Controlling a NAVQ+ with an HTML WebServer
+description: Controlling a NavQPlus with an HTML WebServer
 ---
 
 # WebServer
 
-The idea is to control the robot (or anything), using low level commands written with shell scripts commanded straight from a HTML page. Not using higher level languages as Python for example, makes the robot very responsive and quick to act.
+## Introduction
 
-A WebServer is used to control the NAVQ+ using low level commands written with shell scripts commanded straight from a HTML page. This page will explain how to set-up a WebServer and control your NAVQ+.
+This is an example of how to use a Webserver running locally on the NavQPlus. Note that this is one of several methods available.\
+\
+In this example the idea is to control the robot (or anything), using low level commands written with shell scripts commanded from an HTML page. By not using a higher level language such as Python it helps make the robot responsive and quick to act.
 
-The webserver we will use is called Lighttpd, for more information on the Lighttpd read the following link:
+A WebServer is used to control the NavQPlus using low level commands written with shell scripts commanded straight from a HTML page. This page will explain how to set-up a WebServer and control your NAVQ+.
+
+The webserver we will use is called `Lighttpd`, for more information on the Lighttpd read the following link:
 
 {% embed url="https://redmine.lighttpd.net/projects/lighttpd/wiki" %}
 
@@ -30,7 +34,7 @@ This is the output you should receive after running all three codes above:
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-Lighttpd is looking for an **index.html** page at **/var/www/html**. We will change it, so the index.html will be placed under /var/www. For that, we must edit the Lighttpd config file using nano (if you do not have nano see [this chapter](extra-content-draft.md#install-nano)):
+Lighttpd is looking for an **index.html** page at **/var/www/html**. We will change it, so the index.html will be placed under /var/www. For that, we must edit the Lighttpd config file using nano (if you do not have nano see [this chapter](extra-howto-linux-notes.md#install-nano)):
 
 ```
 sudo nano /etc/lighttpd/lighttpd.conf
@@ -89,7 +93,7 @@ sudo cp -r "yourdirectory"/Hover_Games3_E.F/ROBOT_WEB_SERVER/cgi-bin /var/www
 sudo cp  "yourdirectory"/Hover_Games3_E.F/ROBOT_WEB_SERVER/index.html /var/www
 ```
 
-Now access the page again using the IP address of your NavQ+, you should get this:
+Now access the page again using the IP address of your NavQPlus, you should get this:
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

@@ -1,5 +1,5 @@
 ---
-description: How to power the board
+description: Powering NavQPlus
 ---
 
 # Power

@@ -2,7 +2,7 @@
 description: Setting up the NavQ+ to connect to WiFi
 ---
 
-# WiFi (DRAFT)
+# WiFi
 
 ### Configuring WiFi on NavQPlus <a href="#configuring-wifi-on-navqplus" id="configuring-wifi-on-navqplus"></a>
 
