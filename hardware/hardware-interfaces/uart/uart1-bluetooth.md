@@ -10,7 +10,7 @@ UART1 is assigned to communicate with the Bluetooth portion of the WiFi/BT Wirel
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>SOM to Baseboard connector</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>SOM to Baseboard connector</p></figcaption></figure>
 
 ## UART1 interface voltage
 

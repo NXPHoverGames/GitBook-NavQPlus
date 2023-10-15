@@ -1,4 +1,4 @@
-# How to order
+# How to order - Part Numbers
 
 Please refer to the NXP.com landing page https://www.nxp.com/navqplus for NavQPlus for availability, pricing, availability and distribution channels. Note that inventory may be held for special uses such as HoverGames, do not assume that "pending inventory" means it is out of stock when participating in one of these events.&#x20;
 
@@ -25,5 +25,6 @@ Presently the following third party companies are able to provide commercial sup
 
 * [Emcraft](https://emcraft.com/)
 * [VoxelBotics](mailto:info@voxelbotics.com)
-* [Vekatech](https://www.vekatech.com/index.php)
+
+
 

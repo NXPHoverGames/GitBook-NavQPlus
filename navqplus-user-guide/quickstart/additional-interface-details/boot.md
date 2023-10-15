@@ -4,7 +4,7 @@ description: How to boot the board
 
 # Boot
 
-NavQPlus should boot normally after applying power.  While booting, the device will output status information to the serial console, accessible on the [UART2 connector](../../hardware/hardware-interfaces/uart/uart2-a53-debug.md). Once the boot process has completed, the system console is also available by starting an SSH session over (USB-)ethernet or Wi-Fi.
+NavQPlus should boot normally after applying power.  While booting, the device will output status information to the serial console, accessible on the [UART2 connector](../../../hardware/hardware-interfaces/uart/uart2-a53-debug.md). Once the boot process has completed, the system console is also available by starting an SSH session over (USB-)ethernet or Wi-Fi.
 
 {% hint style="info" %}
 There are [DIP switches on board that select the boot source](flashing-with-new-firmware/flashing-with-new-firmware.md) as either SD card or on-board eMMC memory. Ensure their settings match your intentions.
@@ -20,7 +20,7 @@ If powering from USB-C it is possible with some Linux kernel/boot configurations
 
 ## U-Boot - Observe full boot process through the serial console
 
-The boot process starts with U-Boot, loading the device trees in the boot partition and loading the Linux kernel. If you desire to observe the complete boot process, you will need to monitor the [serial console](serial-console.md) output on [UART2](../../hardware/hardware-interfaces/uart/uart2-a53-debug.md) by using the provided USB to serial converter cable.
+The boot process starts with U-Boot, loading the device trees in the boot partition and loading the Linux kernel. If you desire to observe the complete boot process, you will need to monitor the [serial console](../serial-console.md) output on [UART2](../../../hardware/hardware-interfaces/uart/uart2-a53-debug.md) by using the provided USB to serial converter cable.
 
 ## Shell login
 

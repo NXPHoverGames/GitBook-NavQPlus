@@ -4,15 +4,18 @@ description: How to power the board
 
 # Power
 
-\<TODO> Improve page!
+
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 There are two ways to power the NavQPlus. You can power it through the PWR IN port or through the USB-C port in the middle.
 
+{% hint style="info" %}
+**It is  preferred to power the board through the PWR **_**IN port for highest reliability.**_
+{% endhint %}
+
 \
-**It is preferred to power the board through the PWR **_**IN port for highest reliability.**_\
-This is because it is possible that the USB-C logic may be configured in software in a manner that limits current. This leads to unexpected behavior at power up. If you suspect something unusual is occuring on power up or you see the board rebooting, please try powering through PWR\_IN first.&#x20;
+This is because it is possible that the USB-C logic may be configured in software in a manner that limits current. This leads to unexpected behavior at power up. If you suspect something unusual is occurring on power up or you see the board rebooting, please try powering through PWR\_IN first.&#x20;
 
 The PWR IN port accepts an input in the 5V-20V range. (Technically should work from 5V to 29V, but has not been fully characterized)
 
@@ -32,9 +35,9 @@ Supplying power with a LiPo battery may help debug if you have a bench or wall a
 
 
 
-2\) The PWR IN port is connected to a power switch that can be sense to reverse current spikes on the power supply and de-assert a power good signal, causing a reset. This may happen when something is sharing the power supply and powers up on a hot power supply and "glitches" the power line. A reverse blocking diode on a power distribution board or inline with the power cable may be desired.
+2\) The PWR IN port is connected to an onboard power control switch that can sense reverse current spikes on the power supply and de-assert a power good signal, causing a reset. This may happen when another device is sharing the power supply and "glitches" the power supply when plugged in live. A reverse blocking diode and additional bulk capacitors on a power distribution board or inline with the power cable may be desired.
 
 
 
-3\) As mentioned above, when powering from USB-C, the specific linux image should be checked to ensure that the Linux Kernel is not resetting the USB power when it starts up after the bootloader is completed. (i.e the bootloader configures USB-C, then the Linux Kernel may also be set to re-configure/reset the USB-C also and in the process switching it off again.
+3\) As mentioned above, when powering from USB-C, the specific Linux image should be checked to ensure that the Linux Kernel is not resetting the USB power when it starts up after the bootloader is completed. (i.e the bootloader configures USB-C, then the Linux Kernel may also be set to re-configure/reset the USB-C also and in the process switching it off again.
 {% endhint %}

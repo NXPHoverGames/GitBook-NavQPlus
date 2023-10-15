@@ -4,11 +4,14 @@ description: Connecting the NavQ+ with ethernet
 
 # Ethernet connection
 
-\<todo> describe connection using firmware that has the USBC configured in Gadget mode and appears as an Ethernet network interface.
 
 
+The NavQPlus hadas the ability to connect via ethernet in several different ways.&#x20;
 
-The NavQ+ has the possibility to be connected through ethernet in two different ways. Using the USB-C port or through the IX Industrial® Type A port.&#x20;
+* Using the USB-C and an Ethernet adapter dongle
+* Using the USB-C port with "gadget bode" Ethernet over USB
+* Through the IX Industrial® Type A port. An adapter cable will alow connecting to RJ45&#x20;
+* Through the 100 Base T1 automotive ethernet. A media converter such as RDDRONE-T1ADAPT, or a switch such as MR-T1ETH8 would allow connection to a typical RJ45 100Base-T port.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +24,7 @@ To be able to connect to the board through SSH it must be connected to the same 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>The PC and the NavQ+ connected to the same router.</p></figcaption></figure>
 
 {% hint style="warning" %}
-A common issue when booting up the NavQ+, with the USB-C port is used as ethernet, is that the board get stuck on a reboot loop. This is fixed by just unplugging the ethernet and letting it boot. Once it is booted up you can connect the ethernet back.
+Not all USB to Ethernet adapters are supported . You may find that the board reboots when powering up with an unsupported adapter. This may be circumvented fixed by unplugging the ethernet and letting the board boot first. Once it is booted up you can retry attaching the adapter and connecting ethernet.
 {% endhint %}
 
 After everything is connected correctly a connection can be made through SSH. This is done with the following code, on your PC terminal:

@@ -1,6 +1,6 @@
 # Caution and Disclaimers
 
-Please refer to the HoverGames disclaimer when using NavQPlus with a drone or other vehicle.
+Please refer to the HoverGames disclaimer when using NavQPlus with a drone or similar vehicle.
 
 [https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/disclaimer](http://127.0.0.1:5000/s/-L9GLtb-Tz\_XaKbQu-Al/disclaimer)
 

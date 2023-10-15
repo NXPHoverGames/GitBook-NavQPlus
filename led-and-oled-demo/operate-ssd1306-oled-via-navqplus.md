@@ -55,7 +55,7 @@ Any of the standard network interfaces may be specified when starting the daemon
 
 ### Prerequisites
 
-If not already running the standard NavQPlus Ubuntu POC image, then flash the following image on the micro SDcard of NavQPlus: [Ubuntu 22.04 for NavQPlus](https://github.com/rudislabs/navqplus-create3-images/releases) or greater. Click on the desired image and download the "[.](https://github.com/rudislabs/navqplus-create3-images/releases/download/v22.04.2/navqplus-image-22.04-230127.wic.bz2)wic.bz2" file. Extract it and flash the resultant ".wic" image on the micro SDcard. More detailed instructions are [provided elsewhere in this gitbook](../navqplus-user-guide/quickstart/flashing-with-new-firmware.md).
+If not already running the standard NavQPlus Ubuntu POC image, then flash the following image on the micro SDcard of NavQPlus: [Ubuntu 22.04 for NavQPlus](https://github.com/rudislabs/navqplus-create3-images/releases) or greater. Click on the desired image and download the "[.](https://github.com/rudislabs/navqplus-create3-images/releases/download/v22.04.2/navqplus-image-22.04-230127.wic.bz2)wic.bz2" file. Extract it and flash the resultant ".wic" image on the micro SDcard. More detailed instructions are [provided elsewhere in this gitbook](../navqplus-user-guide/quickstart/additional-interface-details/flashing-with-new-firmware/).
 
 
 

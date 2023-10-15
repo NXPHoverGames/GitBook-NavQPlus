@@ -22,7 +22,7 @@ Make sure to download the correct application for your platform. The .exe file i
 
 ## 3. Set the boot switches to flash mode
 
-Before plugging in the board, find the [boot switches](quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md) on your NavQPlus and flip them to the "flash" mode. See the table and picture below for reference.
+Before plugging in the board, find the [boot switches](quickstart/additional-interface-details/flashing-with-new-firmware/flashing-with-new-firmware.md) on your NavQPlus and flip them to the "flash" mode. See the table and picture below for reference.
 
 <table><thead><tr><th width="127">Mode </th><th width="142">Switch 1</th><th>Switch 2</th></tr></thead><tbody><tr><td>SD </td><td>ON </td><td>ON </td></tr><tr><td>eMMC </td><td>OFF </td><td>ON </td></tr><tr><td><em><strong>Flash</strong></em> </td><td><em><strong>ON</strong></em> </td><td><em><strong>OFF</strong></em> </td></tr></tbody></table>
 
@@ -131,9 +131,9 @@ Once you have set up your USB-C gadget ethernet interface on your computer, you 
 ssh user@imx8mpnavq.local
 ```
 
-## 7. Expand Image&#x20;
+## 7. Expand Image (if needed/desired)&#x20;
 
-The flashed images will need expanding to utilize all the available storage. After logging into the NavQPlus, open a terminal and run:
+The flashed images MAY  need expanding to utilize all the available storage. After logging into the NavQPlus, open a terminal and run:
 
 * Expand image on the eMMC memory (if you followed the instructions above):
 
