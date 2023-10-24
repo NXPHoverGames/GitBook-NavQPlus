@@ -7,6 +7,7 @@
   * [Unofficial Specifications](readme/unofficial-specifications.md)
   * [How to order - Part Numbers](readme/ordering-info.md)
   * [Caution and Disclaimers](disclaimers.md)
+    * [FCC / IC information](readme/disclaimers/fcc-ic-information.md)
     * [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
 * [Prerequisites](prerequisites/README.md)
   * [Supported Hardware](prerequisites/supported-hardware/README.md)
