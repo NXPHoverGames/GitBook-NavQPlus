@@ -28,7 +28,6 @@
   * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
   * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware/README.md)
     * [Boot DIP Switches](navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md)
-* [Remote control setup](navqplus-user-guide/remote-control-setup.md)
 * [Software](navqplus-user-guide/software/README.md)
   * [ROS2](navqplus-user-guide/software/ros2/README.md)
     * [MicroDDS Agent/MicroROS](navqplus-user-guide/software/ros2/microdds.md)
@@ -73,6 +72,7 @@
 
 ## tips and tricks
 
+* [Remote control setup](tips-and-tricks/remote-control-setup.md)
 * [Introduction to Tips-and-Tricks](tips-and-tricks/introduction-to-tips-and-tricks.md)
 * [Linux Host Computer Tips](tips-and-tricks/linux-host-computer-tips.md)
 * [YouTube Links](tips-and-tricks/youtube-links.md)

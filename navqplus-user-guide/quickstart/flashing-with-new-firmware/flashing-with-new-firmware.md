@@ -16,8 +16,8 @@ See the table below for the boot switch configuration.
 | eMMC  | OFF      | ON       |
 | Flash | ON       | OFF      |
 
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 (NOTE: This boot switch table is referenced from several locations in this gitbook)
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
