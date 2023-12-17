@@ -2,7 +2,7 @@
 
 This image uses **Netplan** to configure **t**he network manager which is "_Networkmanager_".
 
-Setting the IP address using ifconfig will NOT be applied persistently, and can/will be overidden periodically by _Networkmanager_ \
+Setting the IP address using ifconfig will NOT be applied persistently, and can/will be overridden periodically by _Networkmanager_ \
 \
 This manages  network conflicts for controlling IP networks like Ethernet and WiFi.\
 \
@@ -17,7 +17,7 @@ Network Manger has several command line utilities
 
 
 
-\<ToDo?> add additional demonstration steps to configure wifi connection?
+Examples are provided in the [quickstart ](../../navqplus-user-guide/setup-guide-emmc.md)and [typical interface usage](../../navqplus-user-guide/quickstart/) sections.
 
 
 

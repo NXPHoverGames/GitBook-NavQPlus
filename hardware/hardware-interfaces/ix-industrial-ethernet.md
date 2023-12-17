@@ -1,21 +1,11 @@
 # IX Industrial Ethernet
 
 {% hint style="warning" %}
-NOTE: OCT,2022 - The board and the i.MX 8M Plus SOC support this interface, however current chip supply issues means that we are _**supply constrained in procure the Ethernet PHY from a 3rd party semiconductor vendor**_ . \
-\
-Your board MAY NOT be populated with this PHY. This is particularly true for _**HOVERGAMES3 participants**_ that are getting the early access edition of the board.&#x20;
-
-\
-These boards can be used with a USB-C to Ethernet adapter.\
-Ethernet OVER USB connection (Gadget Mode) may also be supported.\
-\
-If you are in dire need of the IX interface, please contact us directly for an update on availability.\
-\
-Boards **without** this Ethernet interface typically will have -XE in their part numbering
+Some versions of the NavQPlus do not include the IX Ethernet interface typically will have -XE in their part numbering
 
 i.e. **8MPNAVQ-4GB-XE or**&#x20;
 
-**part niumber 8MPNAVQ-8GB-XE**
+**part number 8MPNAVQ-8GB-XE**
 {% endhint %}
 
 ## Using IX Industrial Ethernet

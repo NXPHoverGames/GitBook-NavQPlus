@@ -45,7 +45,7 @@ All the UART signals are protected from ESD using the Nexperia IP4292CZ componen
 
 ## Software
 
-\<TODO- determine how to access these GPT pins in software>&#x20;
+\<TODO- describe how to access these GPT pins in software>&#x20;
 
 
 

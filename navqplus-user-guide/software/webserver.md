@@ -34,7 +34,7 @@ This is the output you should receive after running all three codes above:
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-Lighttpd is looking for an **index.html** page at **/var/www/html**. We will change it, so the index.html will be placed under /var/www. For that, we must edit the Lighttpd config file using nano (if you do not have nano see [this chapter](extra-howto-linux-notes.md#install-nano)):
+Lighttpd is looking for an **index.html** page at **/var/www/html**. We will change it, so the index.html will be placed under /var/www. For that, we must edit the Lighttpd config file using nano (if you do not have nano see [this chapter](../../tips-and-tricks/extra-howto-linux-notes.md#install-nano)):
 
 ```
 sudo nano /etc/lighttpd/lighttpd.conf

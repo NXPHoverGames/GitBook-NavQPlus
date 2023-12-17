@@ -54,6 +54,12 @@ You may need to add the 'user' user to the i2c group to access the bus. To do th
 sudo usermod -a -G i2c user
 ```
 
+### Secure Element and i2ddetect
+
+The SE050 or SE05x secure element will not respond to an `i2cdetect` command. "Plug and Trust" software library should be used to interface with the external Secure Element.
+
+
+
 ## I2C (I2C6) Locator
 
 <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Location of I2C #6 on AUX connector</p></figcaption></figure>
@@ -61,7 +67,7 @@ sudo usermod -a -G i2c user
 ## Schematic
 
 {% hint style="warning" %}
-The I2C port is multiplexed with UART4 on the NavQPlus. This is configured in the linux DTB files. Therefore the schematic below shows the UART signal names. The Multiplexed I2C signal names are shown on the far left of the image
+The I2C port is multiplexed with UART4 on the NavQPlus. This is configured in the Linux DTB files. Therefore the schematic below shows the UART signal names. The Multiplexed I2C signal names are shown on the far left of the image
 {% endhint %}
 
 

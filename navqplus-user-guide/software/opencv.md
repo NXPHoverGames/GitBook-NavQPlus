@@ -6,7 +6,13 @@ If using an downloaded image, check first that these packages are not already in
 
 ## Accessing the cameras using OpenCV in Python
 
-### Getting started
+Below are short examples of using openCV. Refer to NXP.com or other guides for more detail.
+
+{% hint style="success" %}
+You may find more complete application examples in the [MR-B3RB documentation](https://nxp.gitbook.io/mr-b3rb)
+{% endhint %}
+
+## Getting started
 
 To install OpenCV for Python to the image, run the following command:
 
@@ -14,7 +20,7 @@ To install OpenCV for Python to the image, run the following command:
 sudo apt install python3-opencv
 ```
 
-### Getting images from the camera using Gstreamer pipelines
+## Getting images from the camera using gstreamer pipelines
 
 To access the Google Coral Camera(s) on NavQ+ in OpenCV, you may use the following VideoCapture instantiation:
 

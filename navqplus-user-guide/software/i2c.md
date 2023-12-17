@@ -4,10 +4,6 @@ description: I2C configuration and setup
 
 # I2C
 
-{% hint style="danger" %}
-This page is a work in progress 10/14/2023
-{% endhint %}
-
 ## Install I2C tools
 
 If not already present, the first step is to install the I2C tools to be able to use the I2C ports.&#x20;
@@ -42,7 +38,7 @@ echo 'KERNEL=="i2c-[0-9]*", GROUP="i2c"' >> /etc/udev/rules.d/10-local_i2c_group
 
 ## Check the I2C connection
 
-Now to check the connection and confirm that the port is working correctly. Connect something to the I2C JST-GH port, then run this command:
+Now to check the connection and confirm that the port is working correctly. Connect something to the I2C JST-GH port, then run the command below. It shoudl show you raw output from  most devices connected on the I2C bus(es). Note that the onboard NXP secure element SE05x will not respond to this command.
 
 ```
 i2cdetect -y 5

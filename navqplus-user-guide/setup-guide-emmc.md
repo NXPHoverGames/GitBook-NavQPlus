@@ -184,4 +184,4 @@ passwd
 
 ## What's Next?
 
-Now with the NavQPlus setup complete, you can start to install other software packages and run your own code. For example, [ROS2](software/ros2/) (Robot Operating System) is commonly used as a framework for controlling robotic systems, with plenty of compatible packages being available.
+Now with the NavQPlus setup complete, you can start to install other software packages and run your own code. For example, [ROS2](../user-contributed-content/ros2/) (Robot Operating System) is commonly used as a framework for controlling robotic systems, with plenty of compatible packages being available.

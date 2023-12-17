@@ -28,32 +28,25 @@
   * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
   * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware/README.md)
     * [Boot DIP Switches](navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md)
-* [Software](navqplus-user-guide/software/README.md)
-  * [ROS2](navqplus-user-guide/software/ros2/README.md)
-    * [MicroDDS Agent/MicroROS](navqplus-user-guide/software/ros2/microdds.md)
-    * [ROS2 example](navqplus-user-guide/software/ros2/ros2-example.md)
-  * [AI/ML](navqplus-user-guide/software/ai.md)
+* [Application Software](navqplus-user-guide/software/README.md)
   * [OpenCV](navqplus-user-guide/software/opencv.md)
   * [GStreamer](navqplus-user-guide/software/gstreamer.md)
   * [I2C](navqplus-user-guide/software/i2c.md)
   * [WebServer](navqplus-user-guide/software/webserver.md)
-  * [Extra - HowTo Linux notes](navqplus-user-guide/software/extra-howto-linux-notes.md)
 * [TurtleBot4 - iRobot Create3](navqplus-user-guide/turtlebot4-irobot-create3.md)
 * [Simulation](navqplus-user-guide/simulation.md)
 
 ## NavQPlus HW Reference <a href="#hardware" id="hardware"></a>
 
 * [Schematics](hardware/schematics.md)
-* [Preface to Hardware interface section](hardware/preface-to-hardware-interface-section.md)
-* [Hardware interfaces](hardware/hardware-interfaces/README.md)
+* [Hardware interfaces usage](hardware/hardware-interfaces/README.md)
   * [CAN Bus](hardware/hardware-interfaces/can-bus.md)
   * [Network Management](hardware/hardware-interfaces/network-management.md)
   * [IX Industrial Ethernet](hardware/hardware-interfaces/ix-industrial-ethernet.md)
   * [MIPI CSI (Camera)](hardware/hardware-interfaces/mipi-csi/README.md)
     * [MIPI-CSI interface RevA vs RevB rework](hardware/hardware-interfaces/mipi-csi/mipi-csi-interface-reva-vs-revb-rework.md)
-  * [T1 2-Wire Ethernet](hardware/hardware-interfaces/t1-2-wire-automotive-ethernet/README.md)
-    * [Additional T1 boards](hardware/hardware-interfaces/t1-2-wire-automotive-ethernet/t1-2-wire-automotive-ethernet.md)
-  * [WiFi](hardware/hardware-interfaces/wifi.md)
+  * [100BaseT1 "2-Wire" Ethernet](hardware/hardware-interfaces/t1-2-wire-automotive-ethernet/README.md)
+    * [Available 100BaseT1 hardware](hardware/hardware-interfaces/t1-2-wire-automotive-ethernet/t1-2-wire-automotive-ethernet.md)
   * [I2C](hardware/hardware-interfaces/i2c.md)
   * [UARTS](hardware/hardware-interfaces/uart/README.md)
     * [UART1 (Bluetooth)](hardware/hardware-interfaces/uart/uart1-bluetooth.md)
@@ -72,6 +65,7 @@
 
 ## tips and tricks
 
+* [Extra - HowTo Linux notes](tips-and-tricks/extra-howto-linux-notes.md)
 * [Remote control setup](tips-and-tricks/remote-control-setup.md)
 * [Introduction to Tips-and-Tricks](tips-and-tricks/introduction-to-tips-and-tricks.md)
 * [Linux Host Computer Tips](tips-and-tricks/linux-host-computer-tips.md)
@@ -85,6 +79,11 @@
 
 ## 👥 User Contributed Content
 
+* [WiFi](user-contributed-content/wifi.md)
+* [AI/ML](user-contributed-content/ai.md)
+* [ROS2](user-contributed-content/ros2/README.md)
+  * [MicroDDS Agent/MicroROS](user-contributed-content/ros2/microdds.md)
+  * [ROS2 example](user-contributed-content/ros2/ros2-example.md)
 * [Page 1](user-contributed-content/page-1.md)
 * [Communication interfaces review](user-contributed-content/communication.md)
 
