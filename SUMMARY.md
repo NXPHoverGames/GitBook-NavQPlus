@@ -19,9 +19,10 @@
 
 * [Quick start guide](navqplus-user-guide/setup-guide-emmc.md)
 * [Typical NavQPlus Interface usage](navqplus-user-guide/quickstart/README.md)
+  * [Power supply options](navqplus-user-guide/quickstart/power.md)
   * [Serial Console](navqplus-user-guide/quickstart/serial-console.md)
-  * [Network connections](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
-  * [Power](navqplus-user-guide/quickstart/power.md)
+  * [Wired Network connections](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
+  * [Wireless Networking](navqplus-user-guide/quickstart/wireless-networking.md)
   * [Additional interface details](navqplus-user-guide/quickstart/additional-interface-details/README.md)
     * [Boot Details](navqplus-user-guide/quickstart/boot.md)
     * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware.md)
