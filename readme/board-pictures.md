@@ -1,3 +1,0 @@
-# Board Pictures
-
-\[TODO]

@@ -3,12 +3,11 @@
 * [NavQPlus](README.md)
   * [Kit Contents](readme/kit-contents.md)
   * [Block Diagram](readme/block-diagram.md)
-  * [Board Pictures](readme/board-pictures.md)
   * [Unofficial Specifications](readme/unofficial-specifications.md)
   * [How to order - Part Numbers](readme/ordering-info.md)
   * [Caution and Disclaimers](disclaimers.md)
     * [FCC / IC information](readme/disclaimers/fcc-ic-information.md)
-    * [Note about the source code in the document](note-about-the-source-code-in-the-document.md)
+    * [Note about the source code provided here in this document](readme/disclaimers/note-about-the-source-code-provided-here-in-this-document.md)
 * [Prerequisites](prerequisites/README.md)
   * [Supported Hardware](prerequisites/supported-hardware/README.md)
     * [NavQPlus add on modules](prerequisites/supported-hardware/navqplus-add-on-modules.md)
@@ -95,3 +94,7 @@
 
 * [Operate APA102 LED Board via ROS2 on NavQPlus over UCANS32K1 Board](led-and-oled-demo/mr-buggy3-demo-guide.md)
 * [Operate SSD1306 OLED via NavQPlus](led-and-oled-demo/operate-ssd1306-oled-via-navqplus.md)
+
+## 👥 User Contributed Content
+
+* [Page 1](user-contributed-content/page-1.md)

@@ -11,11 +11,11 @@ coverY: 0
 {% hint style="success" %}
 Also take a look at some of our other GitBooks:
 
-* [NXP Mobile Robotics](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-M8v3AGPa-j5DtYx8zqd/): Quick reference and index for all our mobile robotics solutions.
-* [HoverGames](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/): Drone & rover dev. kits, with FMUK66 vehicle management unit.&#x20;
-* [NXP Cup](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/): Autonomous model car competition for students.
-* [MR-CANHUBK344](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/): Small form factor CAN-FD to 100BASE-T1 ethernet bridge.
-* [UCANS32K146](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/):  CAN-FD node for mobile robotics applications.
+* [NXP Mobile Robotics](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M8v3AGPa-j5DtYx8zqd/): Quick reference and index for all our mobile robotics solutions.
+* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/): Drone & rover dev. kits, with FMUK66 vehicle management unit.&#x20;
+* [NXP Cup](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/): Autonomous model car competition for students.
+* [MR-CANHUBK344](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/): Small form factor CAN-FD to 100BASE-T1 ethernet bridge.
+* [UCANS32K146](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/):  CAN-FD node for mobile robotics applications.
 * [RDDRONE-BMS772](https://nxp.gitbook.io/rddrone-bms772/): Battery management system (3-6 cells).
 * [RDDRONE-T1ADAPT](https://nxp.gitbook.io/rddrone-t1adapt): 100BASE-T1 ethernet adapter.
 {% endhint %}
@@ -73,7 +73,7 @@ The NavQPlus is suitable for many purposes, including generic robots, various vi
 * Vision systems in other applications
   * e.g. a hospital bed monitor that detects if a patient is sitting up or at risk of falling out of bed.
 
-Two specific complete developer tool examples are the [NXP HoverGames drone](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/), and the [NXP Cup car](http://127.0.0.1:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/).
+Two specific complete developer tool examples are the [NXP HoverGames drone](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/), and the [NXP Cup car](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/).
 
 ## Software
 

@@ -1,6 +1,6 @@
-# Note about the source code in the document
+# Note about the source code provided here in this document
 
-
+## BSD-3 License&#x20;
 
 Example code shown in this document has the following copyright and BSD-3-Clause license:
 

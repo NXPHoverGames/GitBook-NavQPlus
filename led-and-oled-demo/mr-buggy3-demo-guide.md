@@ -31,7 +31,7 @@ This tutorial explains how to operate APA102 LED Board via NavQPlus with ROS2 ov
 
 ### APA102 LED Board
 
-Refer the 'connections' and 'network' for 3-LED APA102 Board [here](http://127.0.0.1:5000/s/-M7FJ\_hQKd8L0MNgduui/ucans32k1sic-demo-application/demo-apa102-rgb-led-control-via-ucans32k146-with-px4-autopilot#apa102-led-board).
+Refer the 'connections' and 'network' for 3-LED APA102 Board [here](https://app.gitbook.com/s/-M7FJ\_hQKd8L0MNgduui/ucans32k1sic-demo-application/demo-apa102-rgb-led-control-via-ucans32k146-with-px4-autopilot#apa102-led-board).
 
 Note: we will be using three 3-LED APA102 Boards in this tutorial, each containing three RGB LEDs. The boards will be connected in daisy-chain network.
 

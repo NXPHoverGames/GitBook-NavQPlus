@@ -4,7 +4,7 @@
 
 ## Ubuntu PoC
 
-The software available for the NavQPlus includes an Ubuntu Desktop environment based on Ubuntu opensoure distribuion as a Proof of Concept (PoC). \
+The software available for the NavQPlus includes an Ubuntu Desktop environment based on Ubuntu opensource distribution as a Proof of Concept (PoC). \
 _**It should be clearly noted that this Ubuntu PoC is NOT an official Canonical distribution.**_&#x20;
 
 Canonical outlines this mission philosophy of supporting free and opens software here:
