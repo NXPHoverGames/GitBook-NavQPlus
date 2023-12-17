@@ -20,16 +20,14 @@
 * [Quick start guide](navqplus-user-guide/setup-guide-emmc.md)
 * [Typical NavQPlus Interface usage](navqplus-user-guide/quickstart/README.md)
   * [Power supply options](navqplus-user-guide/quickstart/power.md)
-  * [Serial Console](navqplus-user-guide/quickstart/serial-console.md)
+  * [Serial Console](navqplus-user-guide/quickstart/serial-console/README.md)
+    * [Additional Boot Details](navqplus-user-guide/quickstart/serial-console/boot.md)
   * [Wired Network connections](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
-  * [Wireless Networking](navqplus-user-guide/quickstart/wireless-networking.md)
-  * [Additional interface details](navqplus-user-guide/quickstart/additional-interface-details/README.md)
-    * [Boot Details](navqplus-user-guide/quickstart/boot.md)
-    * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware.md)
-      * [Boot DIP Switches](navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md)
-    * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
-    * [WiFi](navqplus-user-guide/quickstart/wifi.md)
-    * [Communication interfaces review](navqplus-user-guide/quickstart/communication.md)
+  * [Wireless Networking](navqplus-user-guide/quickstart/wireless-networking/README.md)
+    * [WiFi - nmtui](navqplus-user-guide/quickstart/wireless-networking/wifi-nmtui.md)
+  * [Camera Usage](navqplus-user-guide/quickstart/taking-an-image-from-the-camera.md)
+  * [Flashing new firmware](navqplus-user-guide/quickstart/flashing-with-new-firmware/README.md)
+    * [Boot DIP Switches](navqplus-user-guide/quickstart/flashing-with-new-firmware/flashing-with-new-firmware.md)
 * [Remote control setup](navqplus-user-guide/remote-control-setup.md)
 * [Software](navqplus-user-guide/software/README.md)
   * [ROS2](navqplus-user-guide/software/ros2/README.md)
@@ -85,6 +83,11 @@
 * [Lightweight GUI](tips-and-tricks/lightweight-gui.md)
 * [Ethernet](tips-and-tricks/ethernet.md)
 
+## 👥 User Contributed Content
+
+* [Page 1](user-contributed-content/page-1.md)
+* [Communication interfaces review](user-contributed-content/communication.md)
+
 ## MR-Buggy3 Demo
 
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)](mr-buggy3-demo/mr-buggy3-demo-guide.md)
@@ -94,7 +97,3 @@
 
 * [Operate APA102 LED Board via ROS2 on NavQPlus over UCANS32K1 Board](led-and-oled-demo/mr-buggy3-demo-guide.md)
 * [Operate SSD1306 OLED via NavQPlus](led-and-oled-demo/operate-ssd1306-oled-via-navqplus.md)
-
-## 👥 User Contributed Content
-
-* [Page 1](user-contributed-content/page-1.md)

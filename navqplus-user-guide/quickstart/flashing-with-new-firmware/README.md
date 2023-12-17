@@ -8,13 +8,13 @@ description: Changing the NavQPlus firmware and booting from SD Card or EMMC fla
 
 When new images are released, we will provide a link to them. To flash NavQPlus, normally there are two options. You can either flash the eMMC chip on-board, or flash the SD card included with the kit. The eMMC runs faster but is not removable like the SD card. The SD card is easily removeable and can be programmed quickly and directly from a PC. It is up to you to choose which one to use.&#x20;
 
-### Images
+### NXP Images
 
-The official source for linux on NavQPlus  \***will be NXP Linux Factory**, however at the time of this writing it is a work in progress.
+The official source for linux on NavQPlus  \***will eventually be NXP Linux Factory**, however at the time of this writing it is a work in progress.
 
 {% hint style="danger" %}
 This NXP Linux Factory enablement is a work in progress.\
-Meanwhile, links to images that can be downloaded and used on the NavQPlus are provided below
+Meanwhile, links to images that can be downloaded and used on the NavQPlus are provided below. Building from scratch using NXP Linux Factory and Yocto requires some advanced knowledge and is not documented at this time. NavQPlus is similar to the 8MPlus EVK, but with some minor changes to the memory type, and the dtb files describing the board interfaces.
 {% endhint %}
 
 See below for instructions on how to flash the SD card or eMMC.
@@ -22,9 +22,23 @@ See below for instructions on how to flash the SD card or eMMC.
 ## Third party images
 
 The following images are prepared by 3rd parties and support the NavQPlus. \
-Generally they will be aligned, but please check both.
 
-### Voxlbotics Release Images:
+
+* For use with iRobot Create3 (AKA Turtlebot4)
+
+{% embed url="https://github.com/rudislabs/navqplus-create3-images/releases" %}
+
+* For use with NXP MR-B3RB
+
+{% embed url="https://github.com/rudislabs/meta-navqplus-apt-ros" %}
+
+
+
+### Emcraft Release Images
+
+[https://www.emcraft.com/products/1222#releases](https://www.emcraft.com/products/1222#releases)
+
+### Voxelbotics Release Images:
 
 [https://staging.voxelbotics.com/releases/](https://staging.voxelbotics.com/releases/)
 
@@ -99,7 +113,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 #### Set Boot Switches for SD Card Boot
 
-* Remember to check that your [boot switches](flashing-with-new-firmware.md#boot-switches-configuration) are set to boot from SD.
+* Remember to check that your [boot switches](./#boot-switches-configuration) are set to boot from SD.
 
 ## Flashing the eMMC
 
@@ -107,7 +121,7 @@ Once this is done, your SD card will be flashed with the image.&#x20;
 
 To flash the eMMC on your NavQPlus, you will need to download [uuu](https://github.com/rudislabs/navqplus-create3-images/releases/), a tool created by NXP to flash NXP boards. Make sure to download the correct application for your platform. The file titled "uuu" with no file extension is a binary file for use on x86/64 Linux.
 
-* After downloading uuu, find the[ boot switches](flashing-with-new-firmware.md#boot-switches-configuration) on your NavQ+ and flip them to the "Flash" mode.
+* After downloading uuu, find the[ boot switches](./#boot-switches-configuration) on your NavQ+ and flip them to the "Flash" mode.
 * Connect NavQ+ to your computer using the centermost USB-C port.&#x20;
 * Run the following command to make sure that the NavQ+ is recognized by uuu:
 
@@ -142,6 +156,6 @@ sudo ./uuu[.exe] -b emmc_all navqplus-image-{vX.X}.bin -flash_evk navqplus-image
 The SDCARD image also has a .wic file extension, so be sure you are using the correct file! You cannot flash this to EMMC without the corresponding .bin file, but you can use the EMMC .wic file to program an SDCARD, it is the same image.
 {% endhint %}
 
-* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware/flashing-with-new-firmware.md) to boot from eMMC.
+* Once this process has finished, make sure that the flash was successful by comparing to the image below. If so, configure your [boot switches](flashing-with-new-firmware.md) to boot from eMMC.
 
 **TODO: Add image**\

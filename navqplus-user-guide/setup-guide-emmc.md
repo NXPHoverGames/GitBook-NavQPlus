@@ -6,7 +6,7 @@ description: Step-by-step instructions on how to quickly set up your NavQPlus
 
 Following these 8 steps, you will be able to start using the NavQPlus in no time. When needed, more information is available in the [detailed instructions](quickstart/) chapter. Also checkout the [TurtleBot4 / iRobot Create3 documentation](turtlebot4-irobot-create3.md), and the other parts of this GitBook.
 
-## 1. Download the Ubuntu image
+## 1. Download an Ubuntu image
 
 Download the latest Ubuntu image for NavQPlus (in .wic file format) from GitHub:
 

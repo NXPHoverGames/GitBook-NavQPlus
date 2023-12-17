@@ -12,17 +12,17 @@ Executive Summary: Connect the included USB to UART adapter to the UART2 port on
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>USB to serial cable and adapter board (Not exactly as shown)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>USB to serial cable and adapter board (Not exactly as shown)</p></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Connect USB cable+ adapter to your computer. Then plug in the JST-GH connector from the adapter into  UART2 (A53 Debug/Console) port on NavQPlus.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Serial Terminal Software
 

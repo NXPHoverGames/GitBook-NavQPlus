@@ -1,6 +1,6 @@
 # Communication interfaces review
 
-There are several interfaces for communication between boards on NavQPlus. The existing communication protocols are as follows:
+There are numerous interfaces for communication between boards on NavQPlus. The existing communication protocols are as follows:
 
 1. <mark style="color:green;">UART (UART3, /dev/ttymxc2)</mark>
 2. <mark style="color:green;">100BaseT1 "2-wire" Automotive Ethernet</mark>
