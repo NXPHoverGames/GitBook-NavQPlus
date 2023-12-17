@@ -6,17 +6,23 @@ description: Connecting to the serial console
 
 The NavQPlus kit comes with an FTDI type USB-C to UART adapter cable and a small adapter board for this cable to the serial port JST-GH connector . This adapter is used for a serial debugging console on the NavQPlus.
 
-Simply connect the USB-C cable to your computer and the adapter, then plug in the JST-GH connector at the end of the adapter to the UART2 (A53 Debug/Console) port on NavQPlus.
+## USB to UART adapter
 
-![Location of UART2](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+Executive Summary: Connect the included USB to UART adapter to the UART2 port on the NavQPlus, and open your favorite serial console application (e.g. PuTTy for Windows users, Minicom on Linux). Open a serial console and set the baud rate to 115200. If there is no output on the screen, try to press enter to get a log-in prompt.
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>USB to serial cable and adapter board</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>USB to serial cable and adapter board (Not exactly as shown)</p></figcaption></figure>
 
 </div>
 
-<img src="../../.gitbook/assets/image (8) (2).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Connect USB cable+ adapter to your computer. Then plug in the JST-GH connector from the adapter into  UART2 (A53 Debug/Console) port on NavQPlus.
+
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Serial Terminal Software
 
@@ -32,3 +38,17 @@ The serial console may be used to observe the full boot sequence including uboot
 BONUS!: The terminal program on your PC should not disconnect on reboot or reset of the NavQPlus since the connection at the PC is really to the USB-UART adapter board (inside the TTL-232R-USB cable).
 {% endhint %}
 
+## Successful Boot?
+
+If correct code was loaded, and the boot switches also set back to the correct boot source (SDCARD vs EMMC), then in the terminal software you should see the Linux boot details printing out.&#x20;
+
+### Default username and default password
+
+The system will ask for the username and then the password. The default username/password is as follows:&#x20;
+
+```
+Username: user 
+Password: user 
+```
+
+At this point you can start using Linux on the NavQPlus.

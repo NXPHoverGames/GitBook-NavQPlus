@@ -10,11 +10,21 @@ Following these 8 steps, you will be able to start using the NavQPlus in no time
 
 Download the latest Ubuntu image for NavQPlus (in .wic file format) from GitHub:
 
+* For use with iRobot Create3 (AKA Turtlebot4)
+
 {% embed url="https://github.com/rudislabs/navqplus-create3-images/releases" %}
+
+* For use with NXP MR-B3RB
+
+{% embed url="https://github.com/rudislabs/meta-navqplus-apt-ros" %}
+
+##
 
 ## 2. Download the UUU tool
 
-To flash the eMMC memory on your NavQPlus (next step), you will also need to download the UUU tool ("Universal Update Utility"). Download the latest release from GitHub:&#x20;
+uuu is an NXP command line tool that runs on a PC and can commnicate directly with the MPU on the NavQPlus. To flash the eMMC memory on your NavQPlus (next step), you will also need to download the uuu tool ("Universal Update Utility"). \
+\
+Download the latest release from GitHub:&#x20;
 
 {% embed url="https://github.com/nxp-imx/mfgtools/releases" %}
 
@@ -133,7 +143,11 @@ ssh user@imx8mpnavq.local
 
 ## 7. Expand Image (if needed/desired)&#x20;
 
-The flashed images MAY  need expanding to utilize all the available storage. After logging into the NavQPlus, open a terminal and run:
+{% hint style="info" %}
+Note that this step of expanding the image  is currently not used with MR-B3RB image version
+{% endhint %}
+
+The flashed images MAY need expanding to utilize all the available storage. After logging into the NavQPlus, open a terminal and run:
 
 * Expand image on the eMMC memory (if you followed the instructions above):
 

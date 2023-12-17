@@ -2,16 +2,16 @@
 description: Connecting the NavQ+ with ethernet
 ---
 
-# Ethernet connection
+# Network connections
 
 
 
-The NavQPlus hadas the ability to connect via ethernet in several different ways.&#x20;
+The NavQPlus has the ability to connect via ethernet in several different ways.&#x20;
 
-* Using the USB-C and an Ethernet adapter dongle
+* Through the IX Industrial® Type A port. The provided IX to RJ45 adapter cable will allow connecting to RJ45&#x20;
 * Using the USB-C port with "gadget bode" Ethernet over USB
-* Through the IX Industrial® Type A port. An adapter cable will alow connecting to RJ45&#x20;
 * Through the 100 Base T1 automotive ethernet. A media converter such as RDDRONE-T1ADAPT, or a switch such as MR-T1ETH8 would allow connection to a typical RJ45 100Base-T port.
+* Using a USB-C Ethernet adapter dongle
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 

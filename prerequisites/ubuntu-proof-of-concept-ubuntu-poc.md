@@ -15,9 +15,11 @@ Canonical outlines this mission philosophy of supporting free and opens software
 
 ### Canonical Ubuntu commercial support
 
-Canonical does independently support commercial development on NXP i.MX processors and they are available on a contractual basis to provide commercial support for Canonical Ubuntu on NXP processors.t
+Canonical does independently support commercial development on NXP i.MX processors and they are available on a contractual basis to provide commercial support for Canonical Ubuntu on NXP processors.
 
-### 3rd Party Commercial Support
+
+
+## 3rd Party Commercial Support
 
 The NavQPlus was prepared in cooperation with one of our Gold partners Emcraft. It should be noted that various NXP partner program partners are available for commercial support including hardware and software support. Please refer to the NXP partner program webpages for further details:\
 \

@@ -18,10 +18,9 @@
 ## NavQPlus User Guide
 
 * [Quick start guide](navqplus-user-guide/setup-guide-emmc.md)
-* [Using the Interfaces](navqplus-user-guide/quickstart/README.md)
+* [Typical NavQPlus Interface usage](navqplus-user-guide/quickstart/README.md)
   * [Serial Console](navqplus-user-guide/quickstart/serial-console.md)
-  * [Connect the included USB to UART adapter](navqplus-user-guide/quickstart/connect-the-included-usb-to-uart-adapter.md)
-  * [Ethernet connection](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
+  * [Network connections](navqplus-user-guide/quickstart/ethernet-over-usbc-gadget-mode.md)
   * [Power](navqplus-user-guide/quickstart/power.md)
   * [Additional interface details](navqplus-user-guide/quickstart/additional-interface-details/README.md)
     * [Boot Details](navqplus-user-guide/quickstart/boot.md)
