@@ -12,6 +12,7 @@ coverY: 0
 Also take a look at some of our other GitBooks:
 
 * [NXP Mobile Robotics](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M8v3AGPa-j5DtYx8zqd/): Quick reference and index for all our mobile robotics solutions.
+* [MR-B3RB](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/U93yDWZcgjXGgsC1Duqv/): NXP Buggy3 Rev B platform using NavQPlus and MR-CANHUBK344
 * [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/): Drone & rover dev. kits, with FMUK66 vehicle management unit.&#x20;
 * [NXP Cup](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/): Autonomous model car competition for students.
 * [MR-CANHUBK344](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/twBzyvivLuBKj9SMDwV9/): Small form factor CAN-FD to 100BASE-T1 ethernet bridge.
