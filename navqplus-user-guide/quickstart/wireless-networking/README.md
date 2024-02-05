@@ -16,7 +16,16 @@ If struggling to connect to a network, see if it is visible by running:
 sudo nmcli device wifi list
 ```
 
-Once connected to the WiFi network the NavQPlus will continue to connect to that network even after a reboot.
+Once connected to the WiFi network the NavQPlus will continue to connect to that network even after a reboot.\
+\
+
+
+## About nmcli
+
+The netowork connections will be saved and NavQPlus will automotically connect to these networks when they are present. Note that the priority of connections can be set as well as removing connections. For more information see the nmcli linux command.\
+[https://manpages.ubuntu.com/manpages/noble/en/man1/nmcli.1.html](https://manpages.ubuntu.com/manpages/noble/en/man1/nmcli.1.html)
+
+
 
 
 

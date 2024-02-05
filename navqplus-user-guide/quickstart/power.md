@@ -8,6 +8,10 @@ description: Powering NavQPlus
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="danger" %}
+NEVER use USB-C to USB-A cables without a hub or blocking device. In this embedded platform software has complete control over USB-PD and it is POSSIBLE to provide power >5V on the USB-C connector without handshaking. USB-A is only 5V tolerant and this can damage certain devices.
+{% endhint %}
+
 There are two ways to power the NavQPlus. You can power it through the `PWR IN` port or through the middle\*  USB-C port (\*dependent on software image loaded)
 
 {% hint style="info" %}

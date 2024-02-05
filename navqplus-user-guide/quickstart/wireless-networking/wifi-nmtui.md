@@ -6,7 +6,7 @@ description: Setting up the NavQ+ to connect to WiFi
 
 ### Configuring WiFi on NavQPlus <a href="#configuring-wifi-on-navqplus" id="configuring-wifi-on-navqplus"></a>
 
-An alternative tool to connect NavQPlus to your local Wi-Fi network is the `nmtui` command. This command presents a GUI in your terminal to connect to Wi-Fi. The interface is relatively straightforward. To run `nmtui`, run the following command:
+An _**alternative**_ tool to connect NavQPlus to your local Wi-Fi network is the `nmtui` command. This command presents a GUI in your terminal to connect to Wi-Fi. The interface is relatively straightforward. To run `nmtui`, run the following command:
 
 ```
 sudo nmtui

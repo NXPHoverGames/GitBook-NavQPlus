@@ -6,6 +6,12 @@ description: Connecting the NavQ+ with ethernet
 
 The NavQPlus has the ability to connect via ethernet in several different ways.&#x20;
 
+
+
+{% hint style="danger" %}
+NEVER use USB-C to USB-A cables without a hub or blocking device. In this embedded platform software has complete control over USB-PD and it is POSSIBLE to provide power >5V on the USB-C connector without handshaking. USB-A is only 5V tolerant and this can damage certain devices.
+{% endhint %}
+
 * Through the IX Industrial® Type A port. The provided IX to RJ45 adapter cable will allow connecting to RJ45  \*Preferred
 * Using the USB-C port with "gadget bode" Ethernet over USB
 * Through the 100 Base T1 automotive ethernet. A media converter such as RDDRONE-T1ADAPT, or a switch such as MR-T1ETH8 would allow connection to a typical RJ45 100Base-T port.
