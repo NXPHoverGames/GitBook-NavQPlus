@@ -34,6 +34,7 @@
   * [I2C](navqplus-user-guide/software/i2c.md)
   * [WebServer](navqplus-user-guide/software/webserver.md)
 * [TurtleBot4 - iRobot Create3](navqplus-user-guide/turtlebot4-irobot-create3.md)
+* [MR-B3RB](navqplus-user-guide/mr-b3rb.md)
 * [Simulation](navqplus-user-guide/simulation.md)
 
 ## NavQPlus HW Reference <a href="#hardware" id="hardware"></a>
