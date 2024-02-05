@@ -15,6 +15,8 @@ We often communicate, and have debug sessions using Microsoft Teams, (or Zoom). 
 
 Current Ubuntu distributions (22.04) may only enable Wayland graphics by default. However X is required in order for screensharing to work with TEAMs and ZOOM (possibly others).
 
+_Depending on your LInux distribution you may be able to switch to X simply by logging out. Use the small gear icon in the lower right of the screen to then select Ubuntu using X._
+
 Follow this guide to enabling  X on Ubuntu Linux to allow screen sharing:\
 [https://askubuntu.com/questions/1405195/how-to-share-a-screen-in-ms-teams-or-zoom-from-ubuntu-22-04](https://askubuntu.com/questions/1405195/how-to-share-a-screen-in-ms-teams-or-zoom-from-ubuntu-22-04)
 

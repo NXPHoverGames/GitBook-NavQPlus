@@ -21,7 +21,7 @@ The signaling from the SOM to the NavQPlus carrier board on J10 is at 3V3. Full 
 
 ## Console connection
 
-Normal usage of UART2 is a console for bootup and Linux. The benefit of using the debug/console is that you can observe all details from powerup.
+Normal configuration and usage of UART2 is a console for bootup and Linux. The benefit of using the debug/console is that you can observe all details from powerup.
 
 \
 Details of the console connection including the Baud rate are provided under "Serial Console" in the Quickstart section of this gitbook. See the link below:

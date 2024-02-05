@@ -22,7 +22,7 @@ The signaling from the SOM to the NavQPlus carrier board on J16 is at 3V3 but th
 
 {% embed url="https://ubuntu.com/core/docs/bluez" %}
 
-## Murata Module&#x20;
+## Murata WiFi BT Module&#x20;
 
 The module is [Murata 1ZM](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm) using the NXP 88W8987 chipset.\
 \
