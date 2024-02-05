@@ -4,6 +4,10 @@
 If using an downloaded image, check first that these packages are not already installed.
 {% endhint %}
 
+{% hint style="success" %}
+See MR-B3RB for an already pre-configures ROS2 installation. This is the preferred method.
+{% endhint %}
+
 ## Installing ROS2 on the NavQPlus
 
 We have prepared an install script that will install ROS2 and all necessary packages on the NavQPlus.

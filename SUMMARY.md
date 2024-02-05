@@ -85,11 +85,10 @@
 * [ROS2](user-contributed-content/ros2/README.md)
   * [MicroDDS Agent/MicroROS](user-contributed-content/ros2/microdds.md)
   * [ROS2 example](user-contributed-content/ros2/ros2-example.md)
-* [Page 1](user-contributed-content/page-1.md)
-* [Communication interfaces review](user-contributed-content/communication.md)
 
 ## MR-Buggy3 Demo
 
+* [MR-B3RB Demo](mr-buggy3-demo/mr-b3rb-demo.md)
 * [NavQPlus\_MR-Buggy3 Tradeshow Demo Guide (2022)](mr-buggy3-demo/mr-buggy3-demo-guide.md)
 * [Operate MR-Buggy 3 using NavQPlus and FMURT6](mr-buggy3-demo/operate-mr-buggy-3-using-navqplus-and-fmurt6.md)
 
