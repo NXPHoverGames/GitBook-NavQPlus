@@ -1,9 +1,17 @@
 # MIPI CSI (Camera)
 
+## Connecting the Innowave OV5647 Camera
+
+\<todo> add more detail
+
+The innowave camera comes pre-installed with the latest revision (2024) of the NavQPlus. It is a fixed focus camera unlike the autofocus google coral camera. The installation and removal is very similar to the the instructions below for the Google coral camera.
+
+The flex cable has marking on it "this side up" that should be visible when looking at the connector side of the board. i.e you can read "this side up" and also read the silkscreen "CSI 1"on the bottom of the board at the same time.
+
 ## Connecting the Google Coral Camera
 
 {% hint style="danger" %}
-CAUTION! If the Google Coral Camera is connected **backwards**, it will cause a short circuit and burn out both the MIPI-CSI cable and the sensor in the camera. Please see the images below on how to properly connect the Google Coral Camera to the NavQPlus.
+CAUTION! If the Google Coral Camera is connected **backwards**, <mark style="color:yellow;">**it will cause a short circui**</mark><mark style="color:yellow;">t</mark> and burn out both the MIPI-CSI cable and the sensor in the camera. Please see the images below on how to properly connect the Google Coral Camera to the NavQPlus.
 {% endhint %}
 
 {% hint style="success" %}

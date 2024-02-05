@@ -1,7 +1,7 @@
 # IX Industrial Ethernet
 
 {% hint style="warning" %}
-Some versions of the NavQPlus do not include the IX Ethernet interface typically will have -XE in their part numbering
+Some versions of the NavQPlus do not include the IX Ethernet interface . They will have part numbers that  have -XE in their part numbering indicating "no ethernet"
 
 i.e. **8MPNAVQ-4GB-XE or**&#x20;
 
