@@ -1,6 +1,6 @@
 # MIPI CSI (Camera)
 
-## Connecting the Innowave OV5647 Camera
+## Connecting the Innowave OV5645 Camera
 
 \<todo> add more detail
 
