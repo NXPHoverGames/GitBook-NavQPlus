@@ -11,7 +11,8 @@
 * [Prerequisites](prerequisites/README.md)
   * [Supported Hardware](prerequisites/supported-hardware/README.md)
     * [NavQPlus add on modules](prerequisites/supported-hardware/navqplus-add-on-modules.md)
-  * [Supported Software](prerequisites/supported-software.md)
+  * [Supported Software](prerequisites/supported-software/README.md)
+    * [Build from Source (Docker Image)](prerequisites/supported-software/build-from-source-docker-image.md)
   * [Experimental Nature](prerequisites/experimental-nature.md)
   * [Ubuntu Proof of Concept (Ubuntu POC)](prerequisites/ubuntu-proof-of-concept-ubuntu-poc.md)
 

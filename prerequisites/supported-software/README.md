@@ -6,7 +6,9 @@ description: Software available for NavQPlus
 
 ## NavQPlus Enablement
 
-NavQPlus has specific enablement that is not typically found in generic EVK's from NXP. [The Ubuntu POC](ubuntu-proof-of-concept-ubuntu-poc.md) , [ROS2 ](https://www.ros.org/)and other software has been enabled in order to work with robotics development systems.&#x20;
+NavQPlus has specific enablement that is not typically found in generic EVK's from NXP. [The Ubuntu POC](../ubuntu-proof-of-concept-ubuntu-poc.md) , [ROS2 ](https://www.ros.org/)and other software has been enabled in order to work with robotics development systems. \
+\
+Consider using the a pre-built binary or following the 3rd party reference on [building from source using a Docker image.](build-from-source-docker-image.md)
 
 ## Opensource Community
 
