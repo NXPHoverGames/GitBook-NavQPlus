@@ -54,7 +54,7 @@
     * [UART1 (Bluetooth)](hardware/hardware-interfaces/uart/uart1-bluetooth.md)
     * [UART2 (A53 Debug)](hardware/hardware-interfaces/uart/uart2-a53-debug.md)
     * [UART3 (SPI)](hardware/hardware-interfaces/uart/uart3.md)
-    * [UART4 (M7 MCU Core)](hardware/hardware-interfaces/uart/uart4-m4-core.md)
+    * [UART4 (M7 MCU Core)](hardware/hardware-interfaces/uart/uart4-m7-core.md)
   * [USB-C](hardware/hardware-interfaces/usb-c.md)
   * [PCIe](hardware/hardware-interfaces/pcie.md)
   * [GPIO](hardware/hardware-interfaces/gpio/README.md)
