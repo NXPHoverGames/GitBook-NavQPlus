@@ -2,7 +2,7 @@
 description: UART3 for users
 ---
 
-# UART4 (M4 Core)
+# UART4 (M7 MCU Core)
 
 ## Introduction
 
@@ -13,7 +13,7 @@ Note from the schematic clip below, that the MPU can multiplex these signals wit
 
 ## UART4 Locator
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>UART connectors</p></figcaption></figure>
 
 
 
@@ -27,15 +27,14 @@ Alternative output is on the AUX connector at location J12 also at 3V3 signallin
 
 ## Schematic
 
-Note that J11/UART4 is the default location for UART4 signals. Also by default UART4 is assigned to the M7 Core on the i.MX8M Plus. An RTOS such as FreeRTOS or Zephyr would normally use it as the default console to the embedded MCU.\
-\
-You may note that the signal names are differed on J11 vs J12. This is only a labelling detail, since the pinmuxing on the chip is used to "move" the UART4 interface from one set of pins on the MPU (and board to board header). In order to route these signals independently on the carrier board, they need their own net names.
+J11/UART4 is the default location for UART4 signals. Also by default UART4 is assigned to the M7 Core on the i.MX8M Plus. An RTOS such as FreeRTOS or Zephyr would normally use it as the default console to the embedded MCU.\
+
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### UART NetNames
 
-You may note that the signal names are differed on J11 vs J12. This is only a labelling detail, since the pinmuxing on the chip is used to "move" the UART4 interface from one set of pins on the MPU (and board to board header). In order to route these signals independently on the carrier board, they need their own net names.
+Note  signal names are differed on J11 vs J12. This is only a labelling detail, since the pinmuxing on the chip is used to "move" the UART4 interface from one set of pins on the MPU (and board to board header). In order to route these signals independently on the carrier board, they need their own net names.
 
 ### UART ESD
 

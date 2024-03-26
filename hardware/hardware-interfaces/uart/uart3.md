@@ -16,7 +16,7 @@ The signaling from the SOM to the NavQPlus carrier board on J9 is at 3V3 but the
 
 ## UART3 Locator
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>UART3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>UART3</p></figcaption></figure>
 
 ## Schematic
 

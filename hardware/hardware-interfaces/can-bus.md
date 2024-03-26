@@ -78,7 +78,7 @@ Because of their improved reliability handling of bus signals, it may be possibl
 
 The preferred split termination method from Automotive applications is applied on board the NavQPlus. These parts may need to be removed if you wish to terminate your CAN bus at a different node. Note that as mentioned above, it may be reasonable to use the NavQPlus as a central termination point in a CAN-SIC network.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 

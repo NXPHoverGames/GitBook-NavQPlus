@@ -62,7 +62,7 @@ Make sure to be in the correct directory where the UUU file is located and the i
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see that there is a device detected. To flash your board, use the command below (adapt the filename/version to match the image file that you downloaded in step 1):&#x20;
 

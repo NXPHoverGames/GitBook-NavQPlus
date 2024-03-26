@@ -25,7 +25,7 @@ The PWR IN port accepts an input in the 5V-20V\* range. (Technically higher (24V
 
 The PWR IN port pinout schematic is as follows: (center pin is unused). Pin 1, 2 are the power input, Pin 4, 5 are negative (GND).
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 The input power voltage connection PWR\_UNREG is 5V-20V
 
